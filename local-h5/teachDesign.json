@@ -3,14 +3,14 @@
     "h2": "教学设计"
   },
   "mapping": {
-  "unit_step": "教学单元简介",
-  "outline_step": "内容概要",
-  "stu_particular_step": "学习者特征",
-  "teach_Target_Step": "教学目标",
-  "difficult": "教学重难点",
-  "teach_flow_step": "教学活动流程",
-  "evaluate_step": "学习评价"
-},
+    "unit_step": "教学单元简介",
+    "outline_step": "内容概要",
+    "stu_particular_step": "学习者特征",
+    "teach_Target_Step": "教学目标",
+    "difficult": "教学重难点",
+    "teach_flow_step": "教学活动流程",
+    "evaluate_step": "学习评价"
+  },
   "common": {
     "flow_list": {
       "flow_item": {

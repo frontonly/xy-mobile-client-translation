@@ -237,16 +237,8 @@
     "question_answer_sheet": {
       "title": "答题卡",
       "diagram": {
-        "answer_result": [
-          "答对",
-          "答错",
-          "不完全正确"
-        ],
-        "answer_state": [
-          "已做",
-          "未做",
-          "当前"
-        ]
+        "answer_result": ["答对", "答错", "不完全正确"],
+        "answer_state": ["已做", "未做", "当前"]
       }
     },
     "question_bottom_group": {
@@ -263,12 +255,7 @@
           "placeholder": "请输入得分"
         },
         "grade_type_cn": {
-          "grade_type": [
-            "优",
-            "良",
-            "中",
-            "差"
-          ]
+          "grade_type": ["优", "良", "中", "差"]
         },
         "return": {
           "click_final_score": "计算总分",
@@ -283,10 +270,7 @@
             "is_checking": "*本卷批阅已提交，任何修改均即时保存",
             "is_teacher_recheck": "*当前为复核模式，教师修改题目的得分会覆盖学生的批阅并固化最终成绩",
             "punishment_Value": "未完成{{mark_mode}}扣分: {{punishmentValue}}",
-            "mark_mode": [
-              "自评",
-              "互评"
-            ]
+            "mark_mode": ["自评", "互评"]
           }
         }
       },
@@ -630,12 +614,7 @@
         "2": "提交中",
         "3": "已批阅"
       },
-      "textTemp": [
-        "学生自评",
-        "学生互评",
-        "教师批阅",
-        "自动批阅"
-      ]
+      "textTemp": ["学生自评", "学生互评", "教师批阅", "自动批阅"]
     },
     "judge_answer_can_exam": {
       "content": {
@@ -659,7 +638,7 @@
       "title": "已经提交{{submit_limit}}次，无法继续提交"
     },
     "get_check_result_text": {
-      "level":  "评级：{{level}}",
+      "level": "评级：{{level}}",
       "score": "评分：{{score}}"
     }
   }

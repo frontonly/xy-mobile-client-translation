@@ -2,17 +2,8 @@
   "utils": {
     "fetch_util": {
       "get_course_members_data": {
-        "tag": [
-          "教师",
-          "助教",
-          "学生",
-          "访客访问",
-          "课程空间访问"
-        ],
-        "unit": [
-          "人",
-          "次"
-        ]
+        "tag": ["教师", "助教", "学生", "访客访问", "课程空间访问"],
+        "unit": ["人", "次"]
       },
       "get_course_prepare_data": {
         "resource_distribution": {
@@ -39,10 +30,7 @@
     }
   },
   "board_type_bar": {
-    "handle_get_source": [
-      "课程成员",
-      "课程备课"
-    ]
+    "handle_get_source": ["课程成员", "课程备课"]
   },
   "index": {
     "render_header": {

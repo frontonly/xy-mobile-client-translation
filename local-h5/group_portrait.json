@@ -9,16 +9,8 @@
         "答题任务",
         "讨论任务"
       ],
-      "discuss_theme": [
-        "自建讨论",
-        "讨论任务"
-      ],
-      "discuss_partake": [
-        "主帖数",
-        "回帖数",
-        "回复数",
-        "点赞数"
-      ]
+      "discuss_theme": ["自建讨论", "讨论任务"],
+      "discuss_partake": ["主帖数", "回帖数", "回复数", "点赞数"]
     }
   },
   "statistics": {
@@ -34,11 +26,7 @@
         "member_count": "成员人数：{{member_count}}",
         "node_count": "资源数：{{node_count}}"
       },
-      "group_item_title": [
-        "观看任务",
-        "答题任务",
-        "讨论"
-      ],
+      "group_item_title": ["观看任务", "答题任务", "讨论"],
       "group_item_row": {
         "discuss_sum_count": "讨论主题：{{discuss_sum_count}}",
         "watch_task_count": "数量：{{watch_task_count}}",
@@ -68,12 +56,6 @@
     }
   },
   "portrait_type_bar": {
-    "source": [
-      "成员&资源",
-      "任务完成度",
-      "讨论主题数",
-      "讨论参与",
-      "小组统计"
-    ]
+    "source": ["成员&资源", "任务完成度", "讨论主题数", "讨论参与", "小组统计"]
   }
 }

@@ -11,7 +11,7 @@
     "main_point_list": {
       "active": {
         "true": "点赞",
-        "false":  "取消点赞"
+        "false": "取消点赞"
       },
       "info": "讨论已截止，无法{{active}}",
       "info2": "你没有被分配该任务，无法{{active}}",
@@ -21,7 +21,7 @@
       "handle_like_comment": {
         "active": {
           "true": "点赞",
-          "false":  "取消点赞"
+          "false": "取消点赞"
         },
         "info1": "督导禁止操作",
         "info2": "访客禁止操作",
@@ -109,8 +109,8 @@
             "span": "匿名发帖"
           },
           "remind": {
-            "text1":"*学生发帖、回帖、回复行为，均算作参与并完成讨论任务",
-            "text2":"*本主帖归属{{text}}"
+            "text1": "*学生发帖、回帖、回复行为，均算作参与并完成讨论任务",
+            "text2": "*本主帖归属{{text}}"
           }
         }
       }
@@ -235,7 +235,7 @@
     "handle_like": {
       "active": {
         "true": "点赞",
-        "false":  "取消点赞"
+        "false": "取消点赞"
       },
       "info1": "此帖已封帖，无法{{active}}",
       "info2": "你没有被分配该任务，无法{{active}}",
@@ -251,7 +251,7 @@
       },
       "active": {
         "true": "点赞",
-        "false":  "取消点赞"
+        "false": "取消点赞"
       },
       "operation": "点赞",
       "info": "你没有被分配该任务，不能点赞",
@@ -308,7 +308,7 @@
     "handle_like": {
       "active": {
         "true": "点赞",
-        "false":  "取消点赞"
+        "false": "取消点赞"
       },
       "info": "讨论已截止，无法{{active}}",
       "info2": "你没有被分配该任务，无法{{active}}",
@@ -618,9 +618,7 @@
   },
   "statistics": {
     "state": {
-      "currText": {
-
-      },
+      "currText": {},
       "curr_text": {
         "point": "主帖数",
         "common": "回复数",

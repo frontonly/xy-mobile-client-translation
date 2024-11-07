@@ -1,513 +1,513 @@
 {
-    "render": {
-        "MineHeaderBar": {
-            "renderUserInfo": {
-                "text": ["加载中...","加载失败"]
-            }
-        },
-        "items": [
-            {
-                "title": "个人数据看板"
-            },
-            {
-                "title": "小雅助手"
-            },
-            {
-                "title": "反馈&建议"
-            },
-            {
-                "title": "关于小雅"
-            }
-        ],
-        "btns": [
-            {
-                "title": "退出小雅"
-            }
-        ],
-        "mine_func_list": {
-            "items": [
-                {
-                    "title": "草稿箱"
-                },
-                {
-                    "title": "回收站"
-                },
-                {
-                    "title": "账户管理"
-                },
-                {
-                    "title": "设置"
-                }
-            ]
-        }
+  "render": {
+    "MineHeaderBar": {
+      "renderUserInfo": {
+        "text": ["加载中...", "加载失败"]
+      }
     },
-    "handle_logout": {
-        "toast": "退出登录中..."
-    },
-    "onRefresh": {
-        "toast": ["数据加载中...","用户信息加载失败，请下拉再次刷新"]
-    },
-    "handle_user_portrait": {
+    "items": [
+      {
         "title": "个人数据看板"
-    },
-    "handle_assistant_robot": {
+      },
+      {
         "title": "小雅助手"
-    },
-    "handle_user_reflect": {
+      },
+      {
         "title": "反馈&建议"
-    },
-    "handle_user_edit": {
-        "title": "账号设置"
-    },
-    "handle_enter_about": {
+      },
+      {
         "title": "关于小雅"
-    },
-    "handle_show_agreement": {
-        "title": "小雅教育用户服务协议"
-    },
-
-    "sub_page": {
-        "user_edit": {
-            "header": {
-                "title": "账号设置"
-            },
-            "content": {
-                "items": [
-                    {
-                        "title": "头像"
-                    },
-                    {
-                        "title": "昵称"
-                    },
-                    {
-                        "title": "手机号码",
-                        "extra": "去绑定"
-                    },
-                    {
-                        "title": "邮箱"
-                    },
-                    {
-                        "title": "登录密码",
-                        "extra": "******"
-                    },
-                    {
-                        "title": "阅读密码",
-                        "extra": {
-                            "is_set": {
-                                "false": "未设置阅读密码",
-                                "true": "******"
-                            }
-                        }
-                    },
-                    {
-                        "title": "所在学校",
-                        "extra": "申请加入学校 +"
-                    },
-                    {
-                        "title": "用户级别"
-                    }
-                ]
-            },
-            "handle_enter_avatar_update": {
-                "title": "修改头像"
-            },
-            "handle_enter_nickname_update": {
-                "title": "设置昵称"
-            },
-            "handle_enter_mobile_update": {
-                "is_exist": {
-                    "true": "编辑手机",
-                    "false": "绑定手机号"
-                }
-            },
-            "handle_enter_email_update": {
-                "title": "更换邮箱",
-                "toast": "账号未绑定手机，绑定手机后才支持更换邮箱"
-            },
-            "handle_enter_password_update": {
-                "title": "更新密码"
-            },
-            "handle_enter_doc_pw_update": {
-                "title": "设置阅读密码"
-            },
-            "handle_enter_user_level": {
-                "title": "用户级别"
-            },
-            "handle_enter_join_school": {
-                "title": "申请加入学校"
-            },
-            "handle_enter_school_set": {
-                "title": "所在学校-{{school_name}}"
-            },
-
-            "sub_page": {
-                "avatar_update": {
-                    "render": {
-                        "header": "修改头像"
-                    },
-                    "render_content": {
-                        "btns": [
-                            {
-                                "title": "从相册中选择"
-                            },
-                            {
-                                "title": "拍照上传"
-                            }
-                        ],
-                        "avatar_selector": {
-                            "header":{
-                                "title": "使用小雅系列头像"
-                            }
-                        }
-                    },
-                    "handle_open_picker": {
-                        "cancel": "取消",
-                        "choose": "确定",
-                        "toolbar": "图片裁剪"
-                    },
-                    "handle_open_camera": {
-                        "cancel": "取消",
-                        "choose": "确定",
-                        "toolbar": "图片裁剪"
-                    },
-                    "handle_upload_avatar": {
-                        "toast": "上传文件大小限制为{{size}}}M"
-                    }
-                },
-                "doc_pw_update": {
-                    "render_header": {
-                        "title": "阅读密码",
-                        "btn": "移除密码"
-                    },
-                    "render_content": {
-                        "placeholder": "请输入手机号",
-                        "set": "设置密码",
-                        "change": "修改密码",
-                        "rest": "密码找回"
-                    },
-                    "handle_remove_pw": {
-                        "title": "移除密码",
-                        "placeholder": "阅读密码"
-                    },
-                    "handle_set_pw": {
-                        "title": "设置密码",
-                        "placeholder": "阅读密码"
-                    },
-                    "handle_change_pw": {
-                        "title": "修改密码"
-                    },
-                    "handle_rest_pw": {
-                        "toast1": "未绑定手机号码，无法找回密码，请先绑定手机号码"
-                    },
-                    "sub_page": {
-                        "change_pw": {
-                            "render": {
-                                "header_title": "修改阅读密码",
-                                "placeholder1": "请输入旧密码",
-                                "placeholder2": "请输入新密码",
-                                "placeholder3": "请再次输入新密码",
-                                "submit": "确定"
-                            },
-                            "handle_submit": {
-                                "rules1": "旧密码",
-                                "rules2": "新密码",
-                                "rules3": "新密码",
-                                "toast": "提供的新、旧密码重复"
-                            },
-                            "handle_pw_rule": {
-                                "toast": "{{placeholder}}不能为空"
-                            }
-                        }
-                    }
-                },
-                "mobile_update": {
-                    "render_header": {
-                        "title": "手机号码",
-                        "btn": "移除手机"
-                    },
-                    "render_content": {
-                        "title": "你的手机号: ",
-                        "btn": "更换手机号",
-                        "remind": "更换手机号后，登录手机号将改变"
-                    },
-                    "handle_change_phone": {
-                        "title": "更换手机"
-                    },
-                    "handle_remove_phone": {
-                        "title": "移除手机"
-                    },
-                    "sub_page": {
-                        "bind_phone": {
-                            "render": {
-                                "header_title": "绑定手机号",
-                                "placeholder": "请输入手机号",
-                                "submit": "确定"
-                            },
-                            "handle_get_code": {
-                                "toast1": "请输入手机号",
-                                "toast2": "该手机号无效，请核查",
-                                "modal": {
-                                    "title": "提示：",
-                                    "cancel": "取消",
-                                    "ok": "继续"
-                                }
-                            },
-                            "handle_submit": {
-                                "toast": "该手机号无效，请核查"
-                            }
-                        },
-                        "change_phone": {
-                            "render": {
-                                "header_title": "更换手机号",
-                                "placeholder1": "请输入账号密码",
-                                "placeholder2": "请输入手机号",
-                                "submit": "确定"
-                            },
-                            "handle_get_code": {
-                                "toast1": "请输入手机号",
-                                "toast2": "该手机号无效，请核查",
-                                "modal": {
-                                    "title": "提示：",
-                                    "cancel": "取消",
-                                    "ok": "继续"
-                                }
-                            },
-                            "handle_submit": {
-                                "toast1": "请输入手机号",
-                                "toast2": "该手机号无效，请核查"
-                            }
-                        },
-                        "remove_phone": {
-                            "render": {
-                                "header_title": "移除手机",
-                                "placeholder": "请输入账号密码",
-                                "text": "注意：移除后，已绑定账号将不再支持手机密码登录",
-                                "submit": "确定"
-                            },
-                            "handle_submit": {
-                                "modal": {
-                                    "title": "注意",
-                                    "desc": "移除后，已绑定账号将不再支持手机密码登录",
-                                    "cancel": "取消",
-                                    "ok": "确定"
-                                }
-                            }
-                        }
-                    }
-                },
-                "nike_name_update": {
-                    "render_header": {
-                        "title": "设置昵称",
-                        "btn": "完成"
-                    },
-                    "render_content": {
-                        "placeholder": "请输入昵称"
-                    },
-                    "handle_nickname_update": {
-                        "toast1": "昵称不能为空",
-                        "toast2": "昵称最长为16位"
-                    }
-                },
-                "password_update": {
-                    "render": {
-                        "placeholder1": "请输入{{platform}}旧密码",
-                        "placeholder2": "请输入{{platform}}新密码",
-                        "placeholder3": "请再次输入{{platform}}新密码",
-                        "text": "注意：修改后，已绑定账号需要使用新密码登录",
-                        "btn": "确定"
-                    },
-                    "render_header": {
-                        "title": "更新密码",
-                        "btn": "找回密码"
-                    },
-                    "handle_back_pw": {
-                        "title": "找回密码"
-                    },
-                    "handle_submit": {
-                        "placeholder1": "旧密码",
-                        "placeholder2": "新密码"
-                    }
-                },
-                "school_update": {
-                    "render": {
-                        "header_title": "所在学校"
-                    },
-                    "render_content": {
-                        "pick_title": "请选择所在院系",
-                        "pick_item": {
-                            "placeholder": "请选择所在院系"
-                        },
-                        "btn": "退出学校"
-                    },
-                    "handle_leave_school": {
-                        "modal": {
-                            "title": "是否确认退出{{schoolName}}？",
-                            "cancel": "否",
-                            "ok": "是"
-                        },
-                        "toast": "退出成功"
-                    },
-                    "handle_picker_change": {
-                        "toast": "修改成功"
-                    },
-                    "handle_blur": {
-                        "toast": "修改成功"
-                    },
-
-                    "sub_page": {
-                        "apply_school": {
-                            "render": {
-                                "header_title": "申请加入新学校"
-                            },
-                            "render_content": {
-                                "items": [
-                                    {
-                                        "title": "学校名称"
-                                    },
-                                    {
-                                        "title": "角色"
-                                    },
-                                    {
-                                        "title": "一卡通号",
-                                        "placeholder": "请输入一卡通号"
-                                    },
-                                    {
-                                        "title": "学段"
-                                    },
-                                    {
-                                        "title": "申请说明",
-                                        "placeholder": "请输入申请说明，最多500字"
-                                    },
-                                    {
-                                        "title": "上传图片{{desc}}"
-                                    }
-                                ],
-                                "btn": "确定"
-                            },
-                            "handle_input_change": {
-                                "toast": "申请说明不能超过500字"
-                            },
-                            "handle_apply_school": {
-                                "toast1": "请选择学校",
-                                "toast2": "申请说明不能为空",
-                                "modal": {
-                                    "title": "提示",
-                                    "content": "你在{{applyTime}}发起的加入{{schoolName}}申请尚未处理，无法发起新的申请，请耐心等待，或者联系学校管理员处理申请。",
-                                    "btn": "知道了"
-                                }
-                            }
-                        }
-                    }
-                },
-                "level_info": {
-                    "render_content": {
-                        "items": [
-                            {
-                                "title": "自主创建课程数量"
-                            },
-                            {
-                                "title": "单个文件上限"
-                            },
-                            {
-                                "title": "文件上限"
-                            },
-                            {
-                                "title": "单个视频上限"
-                            },
-                            {
-                                "title": "视频上限"
-                            },
-                            {
-                                "title": "我的文档资源上限"
-                            },
-                            {
-                                "title": "单个课程资源上限"
-                            }
-                        ]
-                    }
-                }
-            }
+      }
+    ],
+    "btns": [
+      {
+        "title": "退出小雅"
+      }
+    ],
+    "mine_func_list": {
+      "items": [
+        {
+          "title": "草稿箱"
         },
-        "user_portrait": {
-            "render": {
-                "header_title": "个人数据看板"
-            },
-            "render_portrait_resources_header": {
-                "text1": "我的资源",
-                "text2": "最大资源总量2000个",
-                "text3": "资源总数"
-            },
-            "render_content": {
-                "portrait_course_item": {
-                    "text1": "进行中"
-                },
-                "portrait_disk_item": {
-                    "text1": "已使用{{percent}}%"
-                }
-            }
+        {
+          "title": "回收站"
         },
-        "user_reflect": {
-            "render": {
-                "header_title": "反馈&建议",
-                "btn": "提交"
-            },
-            "render_content": {
-                "items": [
-                    {
-                        "title": "标题",
-                        "placeholder": "请输入标题"
-                    },
-                    {
-                        "title": "问题说明",
-                        "extra": "{{length}}/500",
-                        "placeholder": "请输入详细的问题描述，最多500字"
-                    },
-                    {
-                        "title": "联系方式",
-                        "placeholder": "请留下您的联系方式"
-                    },
-                    {
-                        "title": "上传附件"
-                    }
-                ]
-            },
-            "handle_input_change": {
-                "toast1": "问题描述不能超过500字",
-                "toast2": "标题不能超过255字",
-                "toast3": "联系方式不能超过255字"
-            },
-            "handle_file_upload_change": {
-                "toast1": "可上传一个任意格式的附件，最大支持200M",
-                "toast2": "正在上传文件..."
-            },
-            "handle_submit_reflect": {
-                "toast1": "标题不能为空",
-                "toast2": "问题说明不能为空",
-                "toast4": "问题说明中含有敏感信息，无法提交。",
-                "toast5": "标题中含有敏感信息，无法提交。"
-            }
+        {
+          "title": "账户管理"
         },
-        "about": {
-            "render": {
-                "header_title": "关于小雅"
-            },
-            "render_content": {
-                "version": "小雅版本 {{version}}",
-                "items": [
-                    {
-                        "title": "检查版本更新"
-                    },
-                    {
-                        "title": "小雅用户服务协议"
-                    },
-                    {
-                        "title": "小雅智能助手隐私政策"
-                    }
-                ]
-            },
-            "handle_push_web": {
-                "title": "小雅教育用户服务协议"
-            }
+        {
+          "title": "设置"
         }
+      ]
     }
+  },
+  "handle_logout": {
+    "toast": "退出登录中..."
+  },
+  "onRefresh": {
+    "toast": ["数据加载中...", "用户信息加载失败，请下拉再次刷新"]
+  },
+  "handle_user_portrait": {
+    "title": "个人数据看板"
+  },
+  "handle_assistant_robot": {
+    "title": "小雅助手"
+  },
+  "handle_user_reflect": {
+    "title": "反馈&建议"
+  },
+  "handle_user_edit": {
+    "title": "账号设置"
+  },
+  "handle_enter_about": {
+    "title": "关于小雅"
+  },
+  "handle_show_agreement": {
+    "title": "小雅教育用户服务协议"
+  },
+
+  "sub_page": {
+    "user_edit": {
+      "header": {
+        "title": "账号设置"
+      },
+      "content": {
+        "items": [
+          {
+            "title": "头像"
+          },
+          {
+            "title": "昵称"
+          },
+          {
+            "title": "手机号码",
+            "extra": "去绑定"
+          },
+          {
+            "title": "邮箱"
+          },
+          {
+            "title": "登录密码",
+            "extra": "******"
+          },
+          {
+            "title": "阅读密码",
+            "extra": {
+              "is_set": {
+                "false": "未设置阅读密码",
+                "true": "******"
+              }
+            }
+          },
+          {
+            "title": "所在学校",
+            "extra": "申请加入学校 +"
+          },
+          {
+            "title": "用户级别"
+          }
+        ]
+      },
+      "handle_enter_avatar_update": {
+        "title": "修改头像"
+      },
+      "handle_enter_nickname_update": {
+        "title": "设置昵称"
+      },
+      "handle_enter_mobile_update": {
+        "is_exist": {
+          "true": "编辑手机",
+          "false": "绑定手机号"
+        }
+      },
+      "handle_enter_email_update": {
+        "title": "更换邮箱",
+        "toast": "账号未绑定手机，绑定手机后才支持更换邮箱"
+      },
+      "handle_enter_password_update": {
+        "title": "更新密码"
+      },
+      "handle_enter_doc_pw_update": {
+        "title": "设置阅读密码"
+      },
+      "handle_enter_user_level": {
+        "title": "用户级别"
+      },
+      "handle_enter_join_school": {
+        "title": "申请加入学校"
+      },
+      "handle_enter_school_set": {
+        "title": "所在学校-{{school_name}}"
+      },
+
+      "sub_page": {
+        "avatar_update": {
+          "render": {
+            "header": "修改头像"
+          },
+          "render_content": {
+            "btns": [
+              {
+                "title": "从相册中选择"
+              },
+              {
+                "title": "拍照上传"
+              }
+            ],
+            "avatar_selector": {
+              "header": {
+                "title": "使用小雅系列头像"
+              }
+            }
+          },
+          "handle_open_picker": {
+            "cancel": "取消",
+            "choose": "确定",
+            "toolbar": "图片裁剪"
+          },
+          "handle_open_camera": {
+            "cancel": "取消",
+            "choose": "确定",
+            "toolbar": "图片裁剪"
+          },
+          "handle_upload_avatar": {
+            "toast": "上传文件大小限制为{{size}}}M"
+          }
+        },
+        "doc_pw_update": {
+          "render_header": {
+            "title": "阅读密码",
+            "btn": "移除密码"
+          },
+          "render_content": {
+            "placeholder": "请输入手机号",
+            "set": "设置密码",
+            "change": "修改密码",
+            "rest": "密码找回"
+          },
+          "handle_remove_pw": {
+            "title": "移除密码",
+            "placeholder": "阅读密码"
+          },
+          "handle_set_pw": {
+            "title": "设置密码",
+            "placeholder": "阅读密码"
+          },
+          "handle_change_pw": {
+            "title": "修改密码"
+          },
+          "handle_rest_pw": {
+            "toast1": "未绑定手机号码，无法找回密码，请先绑定手机号码"
+          },
+          "sub_page": {
+            "change_pw": {
+              "render": {
+                "header_title": "修改阅读密码",
+                "placeholder1": "请输入旧密码",
+                "placeholder2": "请输入新密码",
+                "placeholder3": "请再次输入新密码",
+                "submit": "确定"
+              },
+              "handle_submit": {
+                "rules1": "旧密码",
+                "rules2": "新密码",
+                "rules3": "新密码",
+                "toast": "提供的新、旧密码重复"
+              },
+              "handle_pw_rule": {
+                "toast": "{{placeholder}}不能为空"
+              }
+            }
+          }
+        },
+        "mobile_update": {
+          "render_header": {
+            "title": "手机号码",
+            "btn": "移除手机"
+          },
+          "render_content": {
+            "title": "你的手机号: ",
+            "btn": "更换手机号",
+            "remind": "更换手机号后，登录手机号将改变"
+          },
+          "handle_change_phone": {
+            "title": "更换手机"
+          },
+          "handle_remove_phone": {
+            "title": "移除手机"
+          },
+          "sub_page": {
+            "bind_phone": {
+              "render": {
+                "header_title": "绑定手机号",
+                "placeholder": "请输入手机号",
+                "submit": "确定"
+              },
+              "handle_get_code": {
+                "toast1": "请输入手机号",
+                "toast2": "该手机号无效，请核查",
+                "modal": {
+                  "title": "提示：",
+                  "cancel": "取消",
+                  "ok": "继续"
+                }
+              },
+              "handle_submit": {
+                "toast": "该手机号无效，请核查"
+              }
+            },
+            "change_phone": {
+              "render": {
+                "header_title": "更换手机号",
+                "placeholder1": "请输入账号密码",
+                "placeholder2": "请输入手机号",
+                "submit": "确定"
+              },
+              "handle_get_code": {
+                "toast1": "请输入手机号",
+                "toast2": "该手机号无效，请核查",
+                "modal": {
+                  "title": "提示：",
+                  "cancel": "取消",
+                  "ok": "继续"
+                }
+              },
+              "handle_submit": {
+                "toast1": "请输入手机号",
+                "toast2": "该手机号无效，请核查"
+              }
+            },
+            "remove_phone": {
+              "render": {
+                "header_title": "移除手机",
+                "placeholder": "请输入账号密码",
+                "text": "注意：移除后，已绑定账号将不再支持手机密码登录",
+                "submit": "确定"
+              },
+              "handle_submit": {
+                "modal": {
+                  "title": "注意",
+                  "desc": "移除后，已绑定账号将不再支持手机密码登录",
+                  "cancel": "取消",
+                  "ok": "确定"
+                }
+              }
+            }
+          }
+        },
+        "nike_name_update": {
+          "render_header": {
+            "title": "设置昵称",
+            "btn": "完成"
+          },
+          "render_content": {
+            "placeholder": "请输入昵称"
+          },
+          "handle_nickname_update": {
+            "toast1": "昵称不能为空",
+            "toast2": "昵称最长为16位"
+          }
+        },
+        "password_update": {
+          "render": {
+            "placeholder1": "请输入{{platform}}旧密码",
+            "placeholder2": "请输入{{platform}}新密码",
+            "placeholder3": "请再次输入{{platform}}新密码",
+            "text": "注意：修改后，已绑定账号需要使用新密码登录",
+            "btn": "确定"
+          },
+          "render_header": {
+            "title": "更新密码",
+            "btn": "找回密码"
+          },
+          "handle_back_pw": {
+            "title": "找回密码"
+          },
+          "handle_submit": {
+            "placeholder1": "旧密码",
+            "placeholder2": "新密码"
+          }
+        },
+        "school_update": {
+          "render": {
+            "header_title": "所在学校"
+          },
+          "render_content": {
+            "pick_title": "请选择所在院系",
+            "pick_item": {
+              "placeholder": "请选择所在院系"
+            },
+            "btn": "退出学校"
+          },
+          "handle_leave_school": {
+            "modal": {
+              "title": "是否确认退出{{schoolName}}？",
+              "cancel": "否",
+              "ok": "是"
+            },
+            "toast": "退出成功"
+          },
+          "handle_picker_change": {
+            "toast": "修改成功"
+          },
+          "handle_blur": {
+            "toast": "修改成功"
+          },
+
+          "sub_page": {
+            "apply_school": {
+              "render": {
+                "header_title": "申请加入新学校"
+              },
+              "render_content": {
+                "items": [
+                  {
+                    "title": "学校名称"
+                  },
+                  {
+                    "title": "角色"
+                  },
+                  {
+                    "title": "一卡通号",
+                    "placeholder": "请输入一卡通号"
+                  },
+                  {
+                    "title": "学段"
+                  },
+                  {
+                    "title": "申请说明",
+                    "placeholder": "请输入申请说明，最多500字"
+                  },
+                  {
+                    "title": "上传图片{{desc}}"
+                  }
+                ],
+                "btn": "确定"
+              },
+              "handle_input_change": {
+                "toast": "申请说明不能超过500字"
+              },
+              "handle_apply_school": {
+                "toast1": "请选择学校",
+                "toast2": "申请说明不能为空",
+                "modal": {
+                  "title": "提示",
+                  "content": "你在{{applyTime}}发起的加入{{schoolName}}申请尚未处理，无法发起新的申请，请耐心等待，或者联系学校管理员处理申请。",
+                  "btn": "知道了"
+                }
+              }
+            }
+          }
+        },
+        "level_info": {
+          "render_content": {
+            "items": [
+              {
+                "title": "自主创建课程数量"
+              },
+              {
+                "title": "单个文件上限"
+              },
+              {
+                "title": "文件上限"
+              },
+              {
+                "title": "单个视频上限"
+              },
+              {
+                "title": "视频上限"
+              },
+              {
+                "title": "我的文档资源上限"
+              },
+              {
+                "title": "单个课程资源上限"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "user_portrait": {
+      "render": {
+        "header_title": "个人数据看板"
+      },
+      "render_portrait_resources_header": {
+        "text1": "我的资源",
+        "text2": "最大资源总量2000个",
+        "text3": "资源总数"
+      },
+      "render_content": {
+        "portrait_course_item": {
+          "text1": "进行中"
+        },
+        "portrait_disk_item": {
+          "text1": "已使用{{percent}}%"
+        }
+      }
+    },
+    "user_reflect": {
+      "render": {
+        "header_title": "反馈&建议",
+        "btn": "提交"
+      },
+      "render_content": {
+        "items": [
+          {
+            "title": "标题",
+            "placeholder": "请输入标题"
+          },
+          {
+            "title": "问题说明",
+            "extra": "{{length}}/500",
+            "placeholder": "请输入详细的问题描述，最多500字"
+          },
+          {
+            "title": "联系方式",
+            "placeholder": "请留下您的联系方式"
+          },
+          {
+            "title": "上传附件"
+          }
+        ]
+      },
+      "handle_input_change": {
+        "toast1": "问题描述不能超过500字",
+        "toast2": "标题不能超过255字",
+        "toast3": "联系方式不能超过255字"
+      },
+      "handle_file_upload_change": {
+        "toast1": "可上传一个任意格式的附件，最大支持200M",
+        "toast2": "正在上传文件..."
+      },
+      "handle_submit_reflect": {
+        "toast1": "标题不能为空",
+        "toast2": "问题说明不能为空",
+        "toast4": "问题说明中含有敏感信息，无法提交。",
+        "toast5": "标题中含有敏感信息，无法提交。"
+      }
+    },
+    "about": {
+      "render": {
+        "header_title": "关于小雅"
+      },
+      "render_content": {
+        "version": "小雅版本 {{version}}",
+        "items": [
+          {
+            "title": "检查版本更新"
+          },
+          {
+            "title": "小雅用户服务协议"
+          },
+          {
+            "title": "小雅智能助手隐私政策"
+          }
+        ]
+      },
+      "handle_push_web": {
+        "title": "小雅教育用户服务协议"
+      }
+    }
+  }
 }
