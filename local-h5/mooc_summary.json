@@ -1,0 +1,179 @@
+{
+  "answer_records": {
+    "answer_records": {
+      "on_review_record": {
+        "modal1": {
+          "title": "提示",
+          "message": "{{nickname}}的答卷已发回，无法进行批阅",
+          "ok": "确定"
+        },
+        "modal2": {
+          "title": "提示",
+          "message": "{{nickname}}的答卷正在提交中，无法进行批阅，请稍后再尝试",
+          "ok": "确定"
+        },
+        "modal3": {
+          "title": "是否继续批阅或仅浏览学生答卷？",
+          "preview": "浏览",
+          "check": "批阅",
+          "cancel": "取消"
+        }
+      },
+      "on_preview_record": {
+        "modal": {
+          "title": "提示",
+          "message": "{{nickname}}的答卷已发回，无法进行浏览",
+          "ok": "确定"
+        }
+      },
+      "render_content": {
+        "empty": "暂无数据",
+        "list_footer": "—— 我是有底线的 ——"
+      },
+      "render_sort": {
+        "sort": {
+          "1": "应参与",
+          "2": "已参与（已提交）",
+          "3": "已参与（未提交）",
+          "4": "未参与"
+        },
+        "picker": {
+          "title": "排序"
+        },
+        "search_bar": {
+          "placeholder": "请输入姓名",
+          "cancel_text": "取消"
+        }
+      }
+    },
+    "records": {
+      "record_status": "批阅状态：",
+      "record_time": {
+        "submit_time": "提交时间：{{submit_time}}",
+        "answer_time_text": "答题时长：{{answer_time_text}}"
+      },
+      "record_operation": {
+        "can_check": {
+          "true": "批阅",
+          "false": "复核"
+        },
+        "div": "浏览"
+      }
+    },
+    "utils": {
+      "answer_record_status_meta": {
+        "1": "答题中",
+        "2": "已提交",
+        "3": "已删除",
+        "5": "被发回",
+        "6": "提交中"
+      },
+      "answer_record_to_status": {
+        "is_empty": "未参与",
+        "reject_submit": "已补交"
+      },
+      "get_check_score_text": {
+        "level": "卷面评级：{{level}}",
+        "score": "卷面得分：{{score}}"
+      },
+      "get_recheck_end_score_text": {
+        "level": "最终成绩：{{level}}",
+        "end_score": "最终成绩：{{end_score}}"
+      }
+    }
+  },
+  "answer_statistics": {
+    "answer_statistics": {
+      "render_statistics_chart": {
+        "create_survey_chart": {
+          "unit": "人"
+        }
+      },
+      "render_summary_bar": {
+        "answer_student_num": "已参与",
+        "assign_count": "应参与",
+        "ques_total_score": "卷面总分",
+        "sampling_score": "抽题总分",
+        "score_type": {
+          "max_score": "最高分",
+          "min_score": "最低分",
+          "avg": "平均分"
+        },
+        "grade_type": {
+          "max_score": "最高评级",
+          "min_score": "最低评级",
+          "avg": "平均评级"
+        },
+        "pass_rate": "及格率"
+      },
+      "render_score_detail_table": {
+        "tab_pane": {
+          "1": {
+            "tab": "成绩概况"
+          },
+          "2": {
+            "tab": "成绩详情"
+          }
+        }
+      }
+    },
+    "columns": {
+      "get_score_survey_columns": {
+        "text": "成绩",
+        "name": {
+          "true": "小组名单",
+          "false": "名单"
+        },
+        "number": {
+          "1": "组数",
+          "2": "班数",
+          "3": "人数"
+        },
+        "scale": "比例"
+      },
+      "get_score_detail_columns": {
+        "columns": {
+          "1": {
+            "title": {
+              "1": "组名",
+              "2": "班名",
+              "3": "姓名"
+            },
+            "filter_dropdown": {
+              "input": {
+                "placeholder": "关键字"
+              },
+              "button_confirm": "搜索",
+              "button_clear_filters": "重置"
+            }
+          },
+          "2": {
+            "title": {
+              "true": "总成绩",
+              "false": "总评级"
+            }
+          }
+        }
+      }
+    },
+    "utils": {
+      "get_score_survey_data": {
+        "info": "{{name}} 的答题记录没有纳入统计，其分数为 {{rec_score}}"
+      }
+    }
+  },
+  "saga": {
+    "del_one_answer_record_saga": {
+      "info": "课程问答中的答题记录不能被删除"
+    },
+    "re_distribute_mark_saga": {
+      "success": {
+        "text": "重新分配{{mark_mode}}成功",
+        "true": "自评",
+        "false": "互评"
+
+      },
+      "error": "重新分配批阅方案失败"
+    }
+  }
+}

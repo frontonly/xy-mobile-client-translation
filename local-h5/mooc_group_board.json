@@ -1,0 +1,52 @@
+{
+  "utils": {
+    "fetch_util": {
+      "get_course_members_data": {
+        "tag": [
+          "教师",
+          "助教",
+          "学生",
+          "访客访问",
+          "课程空间访问"
+        ],
+        "unit": [
+          "人",
+          "次"
+        ]
+      },
+      "get_course_prepare_data": {
+        "resource_distribution": {
+          "title": "课程资源分布",
+          "tooltip_title": "课程内容中的课件，各种类型资源所占比例"
+        },
+        "task_distribution": {
+          "title": "课程任务分布",
+          "tooltip_title": "课程中各类型任务所占比例"
+        }
+      }
+    },
+    "learning_task_helper": {
+      "typeMapperArr": [
+        "自主观看",
+        "作业",
+        "课堂练习",
+        "测验",
+        "问卷",
+        "讨论",
+        "互动"
+      ],
+      "map_resource_type_to": "未知"
+    }
+  },
+  "board_type_bar": {
+    "handle_get_source": [
+      "课程成员",
+      "课程备课"
+    ]
+  },
+  "index": {
+    "render_header": {
+      "div": "课程画像"
+    }
+  }
+}

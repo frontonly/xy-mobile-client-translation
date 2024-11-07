@@ -1,0 +1,79 @@
+{
+  "saga": {
+    "get_group_portrait_statistics_saga": {
+      "task_archive": [
+        "观看任务",
+        "答题任务",
+        "讨论任务",
+        "观看任务",
+        "答题任务",
+        "讨论任务"
+      ],
+      "discuss_theme": [
+        "自建讨论",
+        "讨论任务"
+      ],
+      "discuss_partake": [
+        "主帖数",
+        "回帖数",
+        "回复数",
+        "点赞数"
+      ]
+    }
+  },
+  "statistics": {
+    "discuss_theme": {
+      "render": {
+        "discuss": "自建讨论",
+        "discuss_tasks": "讨论任务",
+        "empty": "暂无数据"
+      }
+    },
+    "group": {
+      "group_item_header": {
+        "member_count": "成员人数：{{member_count}}",
+        "node_count": "资源数：{{node_count}}"
+      },
+      "group_item_title": [
+        "观看任务",
+        "答题任务",
+        "讨论"
+      ],
+      "group_item_row": {
+        "discuss_sum_count": "讨论主题：{{discuss_sum_count}}",
+        "watch_task_count": "数量：{{watch_task_count}}",
+        "survey_task_count": "数量：{{survey_task_count}}",
+        "discuss_point_count": "主帖数：{{discuss_point_count}}",
+        "watch_task_finished_rate": "完成率：{{watch_task_finished_rate}}%",
+        "survey_task_finished_rate": "完成率：{{survey_task_finished_rate}}%",
+        "discuss_comment_reply_count": "回复数：{{discuss_comment_reply_count}}",
+        "discuss_comment_point_count": "回帖数：{{discuss_comment_point_count}}"
+      }
+    },
+    "node_member": {
+      "member": "成员",
+      "node": "资源"
+    },
+    "task_archive": {
+      "chart_legend_mapper": {
+        "a": "观看任务",
+        "b": "答题任务",
+        "c": "讨论任务",
+        "z": "未完成"
+      },
+      "origin_status": {
+        "true": "未完成",
+        "false": "完成"
+      }
+    }
+  },
+  "portrait_type_bar": {
+    "source": [
+      "成员&资源",
+      "任务完成度",
+      "讨论主题数",
+      "讨论参与",
+      "小组统计"
+    ]
+  }
+}

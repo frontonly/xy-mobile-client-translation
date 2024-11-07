@@ -1,0 +1,118 @@
+{
+  "utils": {
+    "fetch_util": {
+      "get_course_teach_data": {
+        "classroom": {
+          "title": "开启授课",
+          "tooltip_title": "开启授课的次数,用于授课的资源占备课总资源比例",
+          "unit": "次",
+          "left_content": "已用于授课资源  {{teaching_percent}}%"
+        },
+        "courseware": {
+          "title": "授课资源",
+          "tooltip_title": "在线授课过程中使用过的课件总和",
+          "unit": "个次",
+          "left_content": "课均使用  {{file_per_course}}个次",
+          "right_content": "最高  {{high_file_in_course}}个次"
+        },
+        "interaction": {
+          "title": "课堂互动",
+          "tooltip_title": "显示开始上课后使用的互动活动次数，包括选人（随机选人/选组、指定选人/选组、击鼓传花、随机排位）、抢一抢（抢答/抢任务）、举手",
+          "unit": "次",
+          "left_content": "课均使用  {{interaction_per_course}}次",
+          "right_content": "最高  {{high_interaction}}次"
+        },
+        "classroom_time_len": {
+          "title": "开启授课时长",
+          "tooltip_title": "在线授课总时长",
+          "left_content": "课均时长  {{value}}/次",
+          "right_content": "最高  {{value}}/次"
+        },
+        "courseware_distribution": {
+          "title": "课堂活动资源",
+          "tooltip_title": "课堂上使用过的课件资源中，各类资源所占比例",
+          "unit": "个"
+        },
+        "interaction_distribution": {
+          "title": "课堂互动分布",
+          "tooltip_title": "课堂上发起的互动中，各类互动所占比例",
+          "unit": "个"
+        },
+        "type": [
+          "随机选人",
+          "指定选人",
+          "抢答",
+          "击鼓传花",
+          "随机排位",
+          "抢任务",
+          "举手"
+        ]
+      },
+      "get_course_members_data": {
+        "tag": [
+          "教师",
+          "助教",
+          "学生",
+          "访客人数",
+          "访客访问",
+          "课程空间访问"
+        ],
+        "unit": [
+          "人",
+          "次",
+          "人次"
+        ]
+      },
+      "get_subgroup_learn_data": {
+        "tag": [
+          "小组方案",
+          "小组任务",
+          "小组资源",
+          "小组讨论主题",
+          "小组发帖"
+        ],
+        "unit": [
+          "个"
+        ]
+      },
+      "get_course_prepare_data": {
+        "resource_distribution": {
+          "title": "课程资源",
+          "tooltip_title": "课程内容中的课件，各种类型资源所占比例",
+          "unit": "个"
+        },
+        "task_distribution": {
+          "title": "课程任务",
+          "tooltip_title": "课程中各类型任务所占比例",
+          "unit": "个"
+        }
+      }
+    },
+    "learning_task_helper": {
+      "typeMapperArr": [
+        "自主观看",
+        "作业",
+        "课堂练习",
+        "测验",
+        "问卷",
+        "讨论",
+        "互动"
+      ],
+      "map_resource_type_to": "未知"
+    }
+  },
+  "board_type_bar": {
+    "handle_get_source": [
+      "课程成员",
+      "课程备课",
+      "课堂授课",
+      "学生参与",
+      "小组合作学习"
+    ]
+  },
+  "index": {
+    "render_header": {
+      "div": "课程画像"
+    }
+  }
+}

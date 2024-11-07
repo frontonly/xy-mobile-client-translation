@@ -1,0 +1,44 @@
+{
+    "containers": {
+        "AppActionsModal": {
+            "onOrientationCheck": {
+                "alert": {
+                    "title": "提示：",
+                    "content": "检测到App进入时为横屏访问，当前模式下部分界面可能会出现异常，建议关闭App，在竖屏下重新进行访问！",
+                    "btn": "知道了"
+                }
+            }
+        },
+        "sub_page": {
+            "helper": {
+                "render": {
+                    "title": "AI助手"
+                }
+            },
+            "navigator": {
+                "TabNavigator": {
+                    "Home": {
+                        "title": "首页"
+                    },
+                    "Message": {
+                        "title": "消息"
+                    },
+                    "Mine": {
+                        "title": "我的"
+                    },
+                    "Helper": {
+                        "title": "小雅助手"
+                    }
+                }
+            },
+            "startup": {
+                "judgeAppStatus": {
+                    "toast": "检测本地服务异常，请重新选择学校登录"
+                },
+                "jumpToRoot": {
+                    "title": "我的小雅空间"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+{
+  "list": {
+    "search_placeholder": "根据教学资源搜索",
+    "select_group": {
+      "label1": "发布时间",
+      "label2": "点赞量",
+      "label3": "回答量",
+      "label4": "全部",
+      "label5": "已解决",
+      "label6": "未解决"
+    },
+    "filter_group": {
+      "text1": "全部提问({{num}})",
+      "text2": "我的提问({{num}})",
+      "text3": "我的回答({{num}})",
+      "text4": "我的关注({{num}})"
+    },
+    "add_btn": {
+      "Toast1": "课程已结束，您只能查看答疑区内容",
+      "Toast2": "没有相关权限，只能查看答疑区",
+      "text": "提问"
+    },
+    "list_view": {
+      "empty": "暂无数据",
+      "footer": "—— 我是有底线的 ——"
+    }
+  },
+  "qheader": {
+    "cList0": "全部班级",
+    "title": "答疑区"
+  },
+  "qcard": {
+    "handle_select": {
+      "toast1": "课程已结束，您只能查看答疑区内容",
+      "toast2": "没有相关权限，只能查看答疑区",
+      "toast3_t": "取消置顶成功",
+      "toast3_f": "置顶成功",
+      "toast4_t": "取消关注成功",
+      "toast4_f": "关注成功",
+      "modal_alert": {
+        "title": "请确认",
+        "message": "删除的问题无法找回，是否删除？",
+        "t": "是",
+        "f": "否",
+        "toast": "删除成功！"
+      }
+    },
+    "row1": {
+      "time": "发布于 {{time}}",
+      "role1": {
+        "item1_t": "取消关注",
+        "item1_f": "关注",
+        "item2": "编辑提问"
+      },
+      "role2": {
+        "item1_t": "取消置顶",
+        "item1_f": "设置置顶",
+        "item2_t": "取消关注",
+        "item2_f": "关注",
+        "item3": "编辑提问",
+        "item4": "删除提问"
+      }
+    },
+    "row_2": {
+      "is_top": "顶",
+      "is_teacher_partake": "教师参与"
+    },
+    "row_5": {
+      "toast1": "课程已结束，您只能查看答疑区内容",
+      "toast2": "没有相关权限，只能查看答疑区"
+    }
+  },
+  "resourcechoose": {
+    "search_bar": "根据教学资源搜索",
+    "btn_text": "确定"
+  },
+  "acard": {
+    "row_1": {
+      "time": "发布于 {{time}}",
+      "toast1": "课程已结束，您只能查看答疑区内容",
+      "toast2": "没有相关权限，只能查看答疑区",
+      "toast3_t": "取消关注成功",
+      "toast3_f": "关注成功",
+      "is_my_care": {
+        "t": "取消关注",
+        "f": "关注"
+      }
+    }
+  },
+  "aheader": {
+    "handle_select": {
+      "toast1": "课程已结束，您只能查看答疑区内容",
+      "toast2": "没有相关权限，只能查看答疑区",
+      "toast3_t": "取消置顶成功",
+      "toast3_f": "置顶成功",
+      "toast4_t": "取消关注成功",
+      "toast4_f": "关注成功",
+      "modal_alert": {
+        "title": "请确认",
+        "message": "删除的问题无法找回，是否删除？",
+        "t": "是",
+        "f": "否",
+        "toast": "删除成功！"
+      }
+    },
+    "role1": {
+      "item": "编辑提问"
+    },
+    "role2": {
+      "item1_t": "取消置顶",
+      "item1_f": "设置置顶",
+      "item2": "编辑提问",
+      "item3": "删除提问"
+    }
+  },
+  "openresource": {
+    "message1": "未找到资源，可能已被删除或未发布",
+    "message2": "视频转码中，可稍后尝试点击进入播放！",
+    "message3": "暂不支持文件预览",
+    "message4_t": "未找到资源，可能已被删除或未发布",
+    "message4_f": "资源已被删除"
+  },
+  "fetchcourseresources": {
+    "str1": "课程目录>",
+    "str2": "无",
+    "str3": "全部"
+  },
+  "details": {
+    "toast1": "没有相关权限，只能查看答疑区",
+    "toast2": "课程已结束，您只能查看答疑区内容",
+    "toast3": "内容不能为空",
+    "toast4": "最多可输入1万字",
+    "toast5": "课程已结束，您只能查看答疑区内容",
+    "toast6": "没有相关权限，只能查看答疑区",
+    "title": "回答 ",
+    "placeholder": "写下您的回答",
+    "btn_text": "发表"
+  },
+  "add": {
+    "handle_ok": {
+      "toast1": "课程已结束，您只能查看答疑区内容",
+      "toast2": "请输入标题",
+      "toast3": "请输入内容",
+      "toast4": "最多可输入1万字",
+      "modal_alert": {
+        "title": "请确认",
+        "message": "是否跳转到答疑区？",
+        "f": "否",
+        "t": "是"
+      }
+    },
+    "header_title": "提问",
+    "position": "位置：第{{position}}题",
+    "title": {
+      "text": "提问标题（必填）",
+      "placeholder": "请输入标题"
+    },
+    "content": {
+      "text": "提问内容（必填）",
+      "placeholder": "请输入提问内容"
+    },
+    "search_text": "根据教学资源搜索",
+    "btn_text": "提问"
+  },
+  "r": {
+    "toast1": "内容不能为空",
+    "toast2": "最多可输入1万字",
+    "toast_end": "课程已结束，您只能查看答疑区内容",
+    "toast_role": "没有相关权限，只能查看答疑区",
+    "modal_alert": {
+      "title": "请确认",
+      "message": "删除的问题无法找回，是否删除？",
+      "f": "否",
+      "t": "是",
+      "toast": "删除成功！"
+    },
+    "answer_modal": {
+      "creator_name": "编辑回复 {{creator_name}}",
+      "placeholder": "请输入标题",
+      "btn": "发表"
+    }
+  },
+  "comment": {
+    "toast_end": "课程已结束，您只能查看答疑区内容",
+    "toast_role": "没有相关权限，只能查看答疑区",
+    "toast1": "内容不能为空",
+    "toast2": "最多可输入1万字",
+    "toast_is_accept_t": "取消采纳成功！",
+    "toast_is_accept_f": "已采纳此回答！",
+    "is_accept_t": "已采纳",
+    "is_accept_f": "采纳",
+    "zd_t": "收起回复",
+    "zd_f": "展开回复",
+    "zd_more": "更多回复",
+    "modal_alert": {
+      "title": "请确认",
+      "message": "删除的问题无法找回，是否删除？",
+      "f": "否",
+      "t": "是",
+      "toast": "删除成功！"
+    },
+    "answer_modal": {
+      "creator_name1": "回复 {{creator_name}}",
+      "creator_name2": "编辑回复 {{creator_name}}",
+      "placeholder": "写下您的回复",
+      "btn": "发表"
+    }
+  },
+  "acomment": {
+    "bar": "回答 {{num}}",
+    "select": {
+      "label1": "发布时间",
+      "label2": "点赞量"
+    },
+    "list_view": {
+      "footer": "—— 我是有底线的 ——",
+      "empty": "暂无数据"
+    }
+  }
+}

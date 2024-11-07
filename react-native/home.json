@@ -1,0 +1,1009 @@
+{
+    "onRefresh": {
+        "toast": "数据加载中..."
+    },
+    "onInitData": {
+        "toast": "用户信息加载失败，请下拉再次刷新"
+    },
+    "renderContent": {
+        "TeachingSpace": {
+            "onUserEdit": {
+                "title": "个人中心"
+            },
+            "onEnterScan": {
+                "title": "扫一扫"
+            },
+            "onShowSpaces": {
+                "title": "我的小雅空间"
+            },
+            "onFuncClick": [
+                "我的课程",
+                "我的文档",
+                "发现",
+                "任务提醒"
+            ],
+            "onShowAIHelper": {
+                "title": "AI助手"
+            },
+            "onShowAIService": {
+                "title": "系统帮助"
+            },
+            "renderContent": {
+                "HomeHeaderBar": {
+                    "renderUserInfo": {
+                        "text": ["加载中...","加载失败","你目前正以校友身份使用小雅平台，部分功能权限将会受限"]
+                    },
+                    "renderClassInfo": {
+                        "text1": "学习课程",
+                        "text2": "授课课程"
+                    }
+                },
+                "HomeFuncBar": {
+                    "funcItem": [
+                        "我的课程",
+                        "我的文档",
+                        "任务提醒",
+                        "发现"
+                    ]
+                }
+            },
+            "sub_page": {
+                "CoursePage": {
+                    "constructor": {
+                        "selectTerm": "不限学期",
+                        "selectSchool": "所有课程",
+                        "selectDomain": "不限学段"
+                    },
+                    "onEnterSearch": {
+                        "title": "搜索课程"
+                    },
+                    "onShowMenu": {
+                        "options": ["创建课程","加入课程","取消"]
+                    },
+                    "onJoinCourse": {
+                        "toast": "校友可以直接访问课程进行学习，不必加入课程",
+                        "title": "加入课程"
+                    },
+                    "onCreateCourse": {
+                        "title": "创建课程"
+                    },
+                    "onEnterCourse": {
+                        "toast": "该课程未公开，无法访问"
+                    },
+                    "onCourseOperation": {
+                        "options": ["查看课程","删除课程","退出课程","取消"]
+                    },
+                    "onDeleteCourse": {
+                        "toasts": ["本课程已结束，暂不支持退出课程","本课程已锁定，暂不支持退出课程","该课程为教务中心开课，不允许删除","不可以删除mooc课程"],
+                        "alert": {
+                            "title": "提示",
+                            "content": ["删除课程后不可恢复，确定要删除课程《{{name}}》吗？","是否退出课程《{{name}}》"],
+                            "btns": ["确认","取消"]
+                        }
+                    },
+                    "renderTeachList": {
+                        "listFilterSource": [
+                            "正在进行({{count}})",
+                            "即将开课({{count}})",
+                            "已结课({{count}})"
+                        ]
+                    },
+                    "renderContent": {
+                        "placeholders": ["暂无数据","暂无课程，可通过点击“创建课程”按钮自主创建课程，或者点击“加入课程”按钮加入课程的学习"],
+                        "CourseEmptyView": {
+                            "render": {
+                                "title": "暂无课程",
+                                "remind": "你可以通过点击{{text}}“加入课程”按钮加入课程的学习。",
+                                "text": "“创建课程”按钮自主创建课程， 或者点击",
+                                "btns": ["创建课程","加入课程"]
+                            }
+                        },
+                        "CourseExtraListView": {
+                            "placeholder": "暂无数据"
+                        },
+                        "CourseListView": {
+                            "placeholder": "暂无数据"
+                        }
+                    },
+                    "renderHeader": {
+                        "title": "课程"
+                    },
+                    "sub_page": {
+                        "CourseSearchPage": {
+                            "render": {
+                                "title": "课程搜索",
+                                "placeholder": "搜索"
+                            }
+                        },
+                        "CourseJoinPage": {
+                            "onJoinCourse": {
+                                "toasts": ["课程已归档","你已经是课程成员了~","课程已锁定","禁止加入","该课程未公开，无法加入"],
+                                "alert": {
+                                    "title": "提示",
+                                    "content": "是否加入课程",
+                                    "btns": ["否","是"]
+                                }
+                            },
+                            "onSelectClass": {
+                                "alert": {
+                                    "title": "提示",
+                                    "btns": ["确认"]
+                                }
+                            },
+                            "onEnterScan": {
+                                "title": "扫一扫"
+                            },
+                            "renderContent": {
+                                "EmptyView": {
+                                    "title": "未找到",
+                                    "subTitle": "未找到符合条件的课程，试试搜索别的吧！"
+                                },
+                                "JoinListItem": {
+                                    "render": {
+                                        "texts": ["自由课程（无学校）","课程介绍","暂无简介内容"]
+                                    }
+                                }
+                            },
+                            "renderSearchBar": {
+                                "placeholder": "请输入课程空间编号",
+                                "text": "*仅搜索校内公开与全网公开的课程"
+                            },
+                            "renderHeader": {
+                                "title": "加入课程"
+                            }
+                        },
+                        "CourseCreatePage": {
+                            "onInputChange": {
+                                "toast": "课程名称不能超过255字"
+                            },
+                            "onCreateCourse": {
+                                "toasts": ["课程名称为空，无法创建课程","课程介绍不能超过500字"]
+                            },
+                            "onDateChange": {
+                                "toasts": ["开始时间应小于结束时间!","结束时间应大于开始时间!"]
+                            },
+                            "renderContent": {
+                                "items": [{
+                                    "title": "课程名称(必填)",
+                                    "placeholder": "请输入课程名称"
+                                },{
+                                    "title": "课程简介"
+                                },{
+                                    "title": "开课学校",
+                                    "placeholder": "无"
+                                },{
+                                    "title": "课程学段",
+                                    "placeholder": "无"
+                                },{
+                                    "title": "课程学期",
+                                    "placeholder": "无"
+                                },{
+                                    "title": "开始时间"
+                                },{
+                                    "title": "结束时间"
+                                },{
+                                    "title": "加入方式(必填)",
+                                    "selects": ["验证加入","自由加入","禁止加入"],
+                                    "placeholder": "无"
+                                },{
+                                    "title": "公开范围(必填)",
+                                    "selects": ["私有","课内","校内","全网"],
+                                    "placeholder": "无"
+                                },{
+                                    "title": "锁定状态",
+                                    "placeholder": "*课程锁定后，用户无法加入课程；\n教师无法删除课程；学生无法修改群名片"
+                                }]
+                            },
+                            "renderBottom": {
+                                "btn": "确定"
+                            },
+                            "render": {
+                                "title": "创建课程"
+                            },
+                            "sub_page": {
+                                "CourseDescriptionPage": {
+                                    "componentDidMount": {
+                                        "toast": "页面加载中..."
+                                    },
+                                    "renderContent": {
+                                        "remind": "课程介绍不能超过500字"
+                                    },
+                                    "renderHeader": {
+                                        "title": "课程简介"
+                                    }
+                                }
+                            }
+                        },
+                        "CourseDetails": {
+                            "CourseVisitDetailPage": {
+                                "onCollectPress": {
+                                    "toast": ["取消收藏成功!","收藏成功!"]
+                                },
+                                "onShowResourceHistory": {
+                                    "title": "查看记录"
+                                },
+                                "onJoinCourse": {
+                                    "toast": ["课程已归档","课程已锁定","禁止加入","校友可以直接访问课程进行学习，不必加入课程"]
+                                },
+                                "onShowQAArea": {
+                                    "title": "答疑区"
+                                },
+                                "onClickFile": {
+                                    "title": "文件夹-{{name}}"
+                                },
+                                "onEnterNotice": {
+                                    "title": "课程公告"
+                                },
+                                "renderCourseContent": {
+                                    "title": ["课程公告","课程简介"],
+                                    "btn": "申请加入"
+                                },
+                                "renderContent": {
+                                    "title": ["课程概况","课程内容"],
+                                    "CourseVisitFileList": {
+                                        "render": {
+                                            "title": "课程内容"
+                                        }
+                                    }
+                                },
+                                "renderHeader": {
+                                    "CourseVisitHeaderBar": {
+                                        "renderContent": {
+                                            "title": "查看记录"
+                                        }
+                                    }
+                                },
+                                "sub_page": {
+                                    "CourseVisitFolderPage": {
+                                        "onClickFile": {
+                                            "title": "文件夹-{{name}}"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "courseTaskRemind": {
+                    "getListData": {
+                        "text": "学习任务"
+                    },
+                    "getSections": {
+                        "sections": [
+                            "学习任务（{{count}}）",
+                            "批阅提醒（{{count}}）",
+                            "自评/互评任务（{{count}}）"
+                        ]
+                    },
+                    "renderBar": {
+                        "tabs": [
+                            "待批阅任务",
+                            "待完成学习任务",
+                            "待完成自评/互评任务"
+                        ]
+                    },
+                    "renderFilter": {
+                        "titles": ["截止时间早于:","任务截止时间","请选择时间","仅显示可完成任务"]
+                    },
+                    "renderHeader": {
+                        "title": "任务提醒（{{count}}）",
+                        "popover": "待批阅任务仅统计SPOC课程，MOOC课程任务暂未参与待批阅统计"
+                    },
+                    "renderContent": {
+                        "TaskRemindListView": {
+                            "renderItem": {
+                                "text1": "来自",
+                                "text2": "截止时间：{{time}}"
+                            }
+                        }
+                    }
+                },
+                "courseDiscover": {
+                    "renderContent": {
+                        "tabs": [
+                            "好课推荐（{{count}}）",
+                            "课程（{{count}}）"
+                        ],
+                        "DiscoverListView": {
+                            "footer": {
+                                "text": "查看更多"
+                            },
+                            "renderItem": {
+                                "DiscoverListItem": {
+                                    "render": {
+                                        "text1": "学院：{{name}}",
+                                        "text2": "访问量：{{count}}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "render": {
+                        "title": "发现",
+                        "MoreRemindModal": {
+                            "title": "请您到web端查看更多课程"
+                        }
+                    },
+                    "sub_page": {
+                        "DiscoverMorePage": {
+                            "renderFilterBar": {
+                                "placeholder": "请输入课程名称"
+                            },
+                            "renderHeader": {
+                                "title": "课程（{{count}}）"
+                            },
+                            "render": {
+                                "CourseFilterModal": {
+                                    "getThemePickData": {
+                                        "text": "全部课程专题"
+                                    },
+                                    "getInsertTypeList": {
+                                        "text": ["全部","教务课程","自建课程"]
+                                    },
+                                    "getCoursePropertyList": {
+                                        "text": "全部"
+                                    },
+                                    "render": {
+                                        "title": "全部筛选",
+                                        "items": [{
+                                            "title": "课程属性"
+                                        },{
+                                            "title": "学段"
+                                        },{
+                                            "title": "学期"
+                                        },{
+                                            "title": "课程专题"
+                                        },{
+                                            "title": "课程来源"
+                                        },{
+                                            "title": "开课单位",
+                                            "placeholder": "全部开课单位"
+                                        }],
+                                        "btns": ["重置","查看{{count}}个课程"]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "document": {
+                    "common": {
+                        "SharedModal": {
+                            "onPasteDocument": {
+                                "toast": "复制分享链接成功"
+                            },
+                            "render": {
+                                "title": "分享设置",
+                                "select": {
+                                    "title": "有效时间:",
+                                    "datas": ["10天","30天","100天","365天","永久"]
+                                },
+                                "btns": ["复制链接","开始分享","取消分享"],
+                                "checks": ["仅好友可见","允许保存"]
+                            }
+                        },
+                        "SetPasswordModal": {
+                            "onUpdate": {
+                                "toasts": ["{{placeholder}}不能为空","确认{{placeholder}}不能为空","两次密码不一致","您输入的密码不对"]
+                            },
+                            "render": {
+                                "placeholders": ["请输入{{placeholder}}","请输入确认{{placeholder}}"],
+                                "btns": ["取消","确定"]
+                            }
+                        },
+                        "DocumentMovePage": {
+                            "onMove": {
+                                "toasts": ["您不能把文件夹{{type}}到它的子文件夹中","移至目录与源目录相同"]
+                            },
+                            "renderBottom": {
+                                "btns": ["上一步","{{type}}到此"]
+                            },
+                            "render": {
+                                "title": "{{type}}文档"
+                            }
+                        }
+                    },
+                    "onShowMore": {
+                        "texts": ["遥控器","取消"]
+                    },
+                    "onShowRemoteControl": {
+                        "title": "遥控器"
+                    },
+                    "renderContent": {
+                        "source": [
+                            "我的文档",
+                            "最新",
+                            "我的收藏",
+                            "我的分享",
+                            "文档标签",
+                            "回收站"
+                        ]
+                    },
+                    "renderHeader": {
+                        "title": "我的文档"
+                    },
+                    "renderDocuments": {
+                        "DocumentListView": {
+                            "onPress": {
+                                "password_modal": {
+                                    "title": "请输入阅读密码",
+                                    "placeholder": "密码"
+                                }
+                            },
+                            "onShowDocumentDesc": {
+                                "title": "文件夹-{{name}}"
+                            },
+                            "onDeleteDocument": {
+                                "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴",
+                                "alert": {
+                                    "title": "请确认",
+                                    "content": "是否确认将文件\"{{name}}\"移动到回收站？",
+                                    "btns": ["取消","确认"]
+                                }
+                            },
+                            "onUpdateDocument": {
+                                "modal": {
+                                    "title": "重命名",
+                                    "placeholder": "请输入名字",
+                                    "toast": ["文档名称不能超过255个字符","文档名称中不能包含\\ : * ? \" < > | 等特殊字符"]
+                                }
+                            },
+                            "onLockDocument": {
+                                "modals": [{
+                                    "title": "阅读密码",
+                                    "placeholder": "密码"
+                                },{
+                                    "title": "取消阅读密码",
+                                    "placeholder": "密码"
+                                }]
+                            },
+                            "onEditQuestion": {
+                                "title": "编辑作业/测练"
+                            },
+                            "onCopyDocument": {
+                                "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴"
+                            },
+                            "onPasteDocument": {
+                                "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴"
+                            },
+                            "renderFilter": {
+                                "placeholder": "搜索关键字",
+                                "selects": ["创建时间升序","创建时间降序","文件名升序","文件名降序","资源类型排序"]
+                            },
+                            "sub_page": {
+                                "DocumentFolderPage": {
+                                    "onPress": {
+                                        "modal": {
+                                            "title": "请输入阅读密码",
+                                            "placeholder": "密码"
+                                        }
+                                    },
+                                    "onShowDocumentDesc": {
+                                        "title": "文件夹-{{name}}",
+                                        "toast": "分享已过期，无法进行预览"
+                                    },
+                                    "onDeleteDocument": {
+                                        "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴",
+                                        "alert": {
+                                            "title": "请确认",
+                                            "content": "是否确认将文件\"{{name}}\"移动到回收站？",
+                                            "btns": ["取消","确认"]
+                                        }
+                                    },
+                                    "onUpdateDocument": {
+                                        "modal": {
+                                            "title": "重命名",
+                                            "placeholder": "请输入名字",
+                                            "toast": ["文档名称不能超过255个字符","文档名称中不能包含\\ : * ? \" < > | 等特殊字符"]
+                                        }
+                                    },
+                                    "onLockDocument": {
+                                        "modals": [{
+                                            "title": "阅读密码",
+                                            "placeholder": "密码"
+                                        },{
+                                            "title": "取消阅读密码",
+                                            "placeholder": "密码"
+                                        }]
+                                    },
+                                    "onCollectDocument": {
+                                        "alert": {
+                                            "title": "确定取消收藏?",
+                                            "content": "点击确定取消收藏，点击取消关闭弹窗。",
+                                            "btns": ["取消","确定"]
+                                        },
+                                        "toast": "分享已过期，无法收藏"
+                                    },
+                                    "onEditQuestion": {
+                                        "title": "编辑作业/测练"
+                                    },
+                                    "onCopyDocument": {
+                                        "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴"
+                                    },
+                                    "onPasteDocument": {
+                                        "toast": "校友的文档已经归档，无法进行删除/新增/文档复制/粘贴"
+                                    },
+                                    "renderFilter": {
+                                        "placeholder": "搜索关键字",
+                                        "selects": ["创建时间升序","创建时间降序","文件名升序","文件名降序","资源类型排序"]
+                                    }
+                                }
+                            }
+                        },
+                        "DocumentNews": {
+                            "onPress": {
+                                "modal": {
+                                    "title": "请输入阅读密码",
+                                    "placeholder": "密码"
+                                }
+                            },
+                            "onLockDocument": {
+                                "modals": [{
+                                    "title": "阅读密码",
+                                    "placeholder": "密码"
+                                },{
+                                    "title": "取消阅读密码",
+                                    "placeholder": "密码"
+                                }]
+                            },
+                            "onShowDocumentDesc": {
+                                "title": "文件夹-{{name}}"
+                            }
+                        },
+                        "DocumentShares": {
+                            "onPress": {
+                                "modal": {
+                                    "title": "请输入阅读密码",
+                                    "placeholder": "密码"
+                                }
+                            },
+                            "onShowDocumentDesc": {
+                                "title": "文件夹-{{name}}",
+                                "toast": "分享已过期，无法进行预览"
+                            },
+                            "onLockDocument": {
+                                "modals": [{
+                                    "title": "阅读密码",
+                                    "placeholder": "密码"
+                                },{
+                                    "title": "取消阅读密码",
+                                    "placeholder": "密码"
+                                }]
+                            },
+                            "onCollectDocument": {
+                                "alert": {
+                                    "title": "确定取消收藏?",
+                                    "content": "点击确定取消收藏，点击取消关闭弹窗。",
+                                    "btns": ["取消","确定"]
+                                },
+                                "toast": "分享已过期，无法收藏"
+                            },
+                            "renderFilter": {
+                                "placeholder": "搜索关键字",
+                                "selects": ["分享时间升序","分享时间降序","文件名升序","文件名降序","资源类型排序"]
+                            }
+                        },
+                        "DocumentCollects": {
+                            "onPress": {
+                                "toast": "分享已过期，无法进行预览"
+                            },
+                            "onSaveTo": {
+                                "toasts": ["校友的文档已经归档，无法进行删除/新增/文档复制/粘贴","分享已过期，无法保存"]
+                            },
+                            "renderFilter": {
+                                "placeholder": "搜索关键字",
+                                "selects": ["收藏时间升序","收藏时间降序","文件名升序","文件名降序","资源类型排序"]
+                            },
+                            "renderContent": {
+                                "DocumentCollectList": {
+                                    "onShowMenu": {
+                                        "options": ["取消收藏","保存到...","取消"]
+                                    },
+                                    "renderItem": {
+                                        "texts": ["永久分享","有效时间: {{num}}天","有效时间: 已过期"]
+                                    }
+                                }
+                            }
+                        },
+                        "ShareDocumentFolderPage": {
+                            "onPress": {
+                                "title": "文件夹-{{name}}"
+                            },
+                            "onCollectDocument": {
+                                "alert": {
+                                    "title": "确定取消收藏?",
+                                    "content": "点击确定取消收藏，点击取消关闭弹窗。",
+                                    "btns": ["取消","确定"]
+                                },
+                                "toast": "分享已过期，无法收藏"
+                            },
+                            "renderContent": {
+                                "ShareDocumentList": {
+                                    "onShowMenu": {
+                                        "options": ["取消收藏","收藏","取消"]
+                                    },
+                                    "getTimeDesc": {
+                                        "texts": ["有效时间: 永久分享","有效时间: {{num}}天"]
+                                    }
+                                }
+                            }
+                        },
+                        "DocumentTags": {
+                            "renderBottom": {
+                                "btn": "+添加标签"
+                            },
+                            "render": {
+                                "CreateTagModal": {
+                                    "onSubmit": {
+                                        "toasts": ["标签名不能为空","标签名不能超过30个字符","标签名不能重复！"]
+                                    },
+                                    "handleOnChange": {
+                                        "toast": "标签名不能超过30个字符"
+                                    },
+                                    "renderContent": {
+                                        "placeholder": "请输入标签名",
+                                        "btn": "完成"
+                                    },
+                                    "render": {
+                                        "title": "添加标签"
+                                    }
+                                }
+                            },
+                            "sub_page": {
+                                "DocumentTagDetailPage": {
+                                    "onShowMenu": {
+                                        "options": ["编辑标签","删除标签","取消"]
+                                    },
+                                    "onUpdateDocumentTag": {
+                                        "modal": {
+                                            "title": "编辑标签",
+                                            "placeholder": "请输入标签名",
+                                            "toast": "标签名称不能超过30个字符"
+                                        }
+                                    },
+                                    "onDeleteDocumentTag": {
+                                        "alert": {
+                                            "title": "提示：",
+                                            "content": "是否确定删除标签-{{name}}",
+                                            "btns": ["取消","确认"]
+                                        }
+                                    },
+                                    "onPress": {
+                                        "modal": {
+                                            "title": "请输入阅读密码",
+                                            "placeholder": "密码"
+                                        }
+                                    },
+                                    "onShowDocumentDesc": {
+                                        "title": "文件夹-{{name}}"
+                                    },
+                                    "onDeleteDocument": {
+                                        "alert": {
+                                            "title": "请确认",
+                                            "content": "是否确认将文件\"{{name}}\"移动到回收站？",
+                                            "btns": ["取消","确认"]
+                                        }
+                                    },
+                                    "onUpdateDocument": {
+                                        "modal": {
+                                            "title": "重命名",
+                                            "placeholder": "请输入名字",
+                                            "toast": ["文档名称不能超过255个字符","文档名称中不能包含\\ : * ? \" < > | 等特殊字符"]
+                                        }
+                                    },
+                                    "onLockDocument": {
+                                        "modals": [{
+                                            "title": "阅读密码",
+                                            "placeholder": "密码"
+                                        },{
+                                            "title": "取消阅读密码",
+                                            "placeholder": "密码"
+                                        }]
+                                    },
+                                    "renderFilter": {
+                                        "placeholder": "搜索关键字",
+                                        "selects": ["创建时间升序","创建时间降序","文件名升序","文件名降序","资源类型排序"]
+                                    }
+                                }
+                            }
+                        },
+                        "DocumentDeletes": {
+                            "onDeleteDocument": {
+                                "texts": ["是否确定将选中资源永久删除？","是否确认将文件\"{{name}}\"永久删除？"],
+                                "alert": {
+                                    "title": "请确认",
+                                    "btns": ["取消","确定"]
+                                }
+                            },
+                            "renderFilter": {
+                                "title": "全选",
+                                "selects": ["删除时间升序","删除时间降序","文件名升序","文件名降序","资源类型排序"]
+                            },
+                            "renderBottom": {
+                                "btns": ["恢复至...","恢复资源","永久删除"]
+                            },
+                            "renderContent": {
+                                "DocumentDeleteList": {
+                                    "renderItem": {
+                                        "text": "删除时间: {{time}}"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "SupervisionSpace": {
+            "onShowSpaces": {
+                "title": "我的小雅空间"
+            },
+            "onShowCourseDetail": {
+                "title": "{{siteName}}-课程建设情况"
+            },
+            "renderContent": {
+                "tabs": [
+                    "未督导（{{total}}）",
+                    "已督导（{{total}}）"
+                ],
+                "SupervisionCourseItem": {
+                    "render": {
+                        "text": "课程建设情况"
+                    }
+                },
+                "SupervisionCourseFilterModal": {
+                    "onDateChange": {
+                        "toasts": ["直播开始时间不能大于直播结束时间!","请先选择直播开始时间!","直播结束时间不能小于直播开始时间!"]
+                    },
+                    "render": {
+                        "title": "督导课程筛选",
+                        "items": [{
+                            "title": "开课学期"
+                        },{
+                            "title": "督导的学院"
+                        },{
+                            "title": "教师姓名",
+                            "placeholder": "请输入"
+                        },{
+                            "title": "课程名称",
+                            "placeholder": "请输入"
+                        },{
+                            "title": "直播开始时间"
+                        },{
+                            "title": "直播结束时间"
+                        },{
+                            "title": "教室编号",
+                            "placeholder": "请输入"
+                        }],
+                        "btns": ["重置","查看{{count}}个课程"]
+                    }
+                }
+            },
+            "renderHeader": {
+                "title": "督导的课程"
+            },
+            "sub_page": {
+                "courseSupervisionBuild": {
+                    "getResourceSiteGeneralData": {
+                        "resourceTypeName": [
+                            "幻灯片资源",
+                            "白板资源",
+                            "其他资源"
+                        ]
+                    },
+                    "renderCourseDetail": {
+                        "items": [
+                            "课程大纲",
+                            "教学计划",
+                            "教师简介",
+                            "考核方式"
+                        ],
+                        "status": {
+                            "true": "已设置",
+                            "false": "未设置"
+                        }
+                    },
+                    "renderResourceDetail": {
+                        "SupervisionResourceGrid": {
+                            "renderHeader": {
+                                "title": "课程资源情况",
+                                "desc": "资源总数："
+                            }
+                        }
+                    },
+                    "renderStaticsDetail": {
+                        "SupervisionStaticsGrid": {
+                            "renderSurveyItem": {
+                                "items": [
+                                    {
+                                        "title": "作业",
+                                        "desc": "布置作业数量"
+                                    },
+                                    {
+                                        "title": "测验",
+                                        "desc": "布置测验数量"
+                                    }
+                                ],
+                                "text1": "提交人次",
+                                "text2": "批阅人次"
+                            },
+                            "renderDiscussItem": {
+                                "items": [
+                                    "论坛主题数",
+                                    "论坛发帖数",
+                                    "论坛回帖数",
+                                    "论坛点赞数"
+                                ],
+                                "text": "论坛"
+                            },
+                            "renderLearnItem": {
+                                "items": [
+                                    "学习总时长",
+                                    "平均有效学习时长",
+                                    "web端学习总时长",
+                                    "移动端学习总时长"
+                                ],
+                                "text1": "学习时长",
+                                "text2": "小时"
+                            },
+                            "renderHeader": {
+                                "title": "课程空间建设情况"
+                            }
+                        }
+                    },
+                    "render": {
+                        "text": "去督导课程"
+                    }
+                }
+            }
+        },
+        "ReviewSpace": {
+            "onShowSpaces": {
+                "title": "我的小雅空间"
+            },
+            "renderContent": {
+                "tabs" : ["课程评审", "历史评审"],
+                "ReviewListView": {
+                    "renderList": {
+                        "tabs": [
+                            "未评审({{total}})",
+                            "已评审({{total}})"
+                        ]
+                    },
+                    "renderItem": {
+                        "ReviewItem": {
+                            "render": {
+                                "text1": "评审课程",
+                                "text2": "课程空间编号：{{name}}",
+                                "text3": "评分：",
+                                "text4": "课程学分：{{name}}",
+                                "text5": "原等级：{{name}}",
+                                "text6": "分组：{{name}}",
+                                "text7": "院系：{{name}}",
+                                "text8": "申报等级：{{name}}",
+                                "text9": "学期：{{name}}",
+                                "text10": "教师姓名：{{name}}"
+                            }
+                        }
+                    },
+                    "renderInfo": {
+                        "ReviewInfo": {
+                            "renderHeaderCard": {
+                                "text1": "评审总课程数",
+                                "text2": "已评审课程数",
+                                "text3": "未评审课程"
+                            },
+                            "renderInfo": {
+                                "text1": "金课评审",
+                                "text2": "目前已完成",
+                                "text3": "个课程"
+                            }
+                        }
+                    }
+                },
+                "ReviewHistoryListView": {
+                    "render": {
+                        "picker": {
+                            "title": "金课评审"
+                        }
+                    }
+                },
+                "ReviewCourseFilterModal": {
+                    "render": {
+                        "title": "评审课程筛选",
+                        "items": [{
+                            "title": "开课学期"
+                        },{
+                            "title": "教师姓名",
+                            "placeholder": "请输入教师姓名"
+                        },{
+                            "title": "课程名称",
+                            "placeholder": "请输入课程名称"
+                        },{
+                            "title": "课程空间编号",
+                            "placeholder": "请输入课程空间编号"
+                        },{
+                            "title": "所属院系"
+                        }],
+                        "btns": ["重置","查看{{count}}个课程"]
+                    }
+                }
+            },
+            "renderHeader": {
+                "title": "金课评审"
+            },
+            "sub_page": {
+                "courseReviewDetail": {
+                    "onToReview": {
+                        "toast": "本活动批次评审阶段已结束",
+                        "title": "{{name}}-评审"
+                    },
+                    "getStepsData": {
+                        "desc": "暂无数据"
+                    },
+                    "renderReviewInfo": {
+                        "text1": "申报等级：",
+                        "text2": "当前状态：{{name}}",
+                        "text3": "初评阶段起止时间：{{time1}} ~ {{time2}}",
+                        "text4": "院系审核意见：{{name}}",
+                        "text5": "评定等级：{{name}}",
+                        "text6": "评定时间：{{name}}",
+                        "empty": "暂无信息"
+                    },
+                    "renderBottom": {
+                        "text": "去评审"
+                    },
+                    "sub_page": {
+                        "reviewCourse": {
+                            "renderContent": {
+                                "tabs": ["评审课程", "评分细则"],
+                                "ReviewCourse": {
+                                    "onSubmitScore": {
+                                        "status": [
+                                            "保存",
+                                            "提交"
+                                        ],
+                                        "toast1": "评审内容{{status}}成功",
+                                        "toast2": "评审内容{{status}}失败"
+                                    },
+                                    "renderCard": {
+                                        "ReviewCourseCard": {
+                                            "desc": "暂无说明",
+                                            "text1": "评分",
+                                            "text2": "评分描述"
+                                        }
+                                    },
+                                    "renderContent": {
+                                        "ReviewCourseGrid": {
+                                            "title": "{{name}}（总分:{{score}}）",
+                                            "text1": "当前评审得分：",
+                                            "text2": "分",
+                                            "text3": "保存",
+                                            "text4": "提交"
+                                        }
+                                    },
+                                    "renderHeader": {
+                                        "title": "当前正在以{{name}}身份参与{{active}}活动打分"
+                                    },
+                                    "render": {
+                                        "ReviewDescModal": {
+                                            "render": {
+                                                "title": "评价描述",
+                                                "placeholder": "请输入评价描述",
+                                                "btn1": "取消",
+                                                "btn2": "确认"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "renderHeader": {
+                                "title": "评审"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

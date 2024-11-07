@@ -1,0 +1,37 @@
+{
+  "index": {
+    "handle_ranks_by_show_type": {
+      "grade_task_rank": {
+        "type": "任务完成",
+        "desc": "任务完成率"
+      },
+      "discussion_rank": {
+        "type": "讨论发帖",
+        "desc": "对讨论的发帖、回复总数进行排序"
+      },
+      "learning_duration_rank": {
+        "type": "学习时长",
+        "desc": "按学生在web端和移动端上的累计学习时长进行排名"
+      },
+      "evaluation_rank": {
+        "type": "课堂表现",
+        "desc": "对学生在课堂中参与互动的情况进行排名"
+      },
+      "register_rank": {
+        "type": "签到",
+        "desc": "按学生的签到次数进行排名"
+      },
+      "grade_rank": {
+        "type": "综合",
+        "desc": "按“总评成绩”中的设置所计算的总分进行排名"
+      }
+    },
+    "render_header": {
+      "span": "排行榜"
+    }
+  },
+  "rank_list": {
+    "empty": "暂无数据",
+    "more": "更多数据请前往web端查看"
+  }
+}

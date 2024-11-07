@@ -1,0 +1,377 @@
+{
+    "onShowMoreMessage": {
+        "toast": "当前网络环境较差，请稍后重试"
+    },
+    "renderHeader": {
+        "title": "消息中心"
+    },
+    "render": {
+        "MsgSettingModal": {
+            "render": {
+                "title": "消息提醒设置",
+                "desc": "*取消勾选后，该类任务不再发送消息提醒",
+                "check": "全选",
+                "items": ["任务消息","课程公告","小组消息","讨论帖消息","答疑消息"]
+            }
+        },
+        "MessageGuideModal": {
+            "renderMoreContent": {
+                "btns": ["跳过", "知道了"]
+            },
+            "renderContent": {
+                "title": ["消息中心更新啦，", "快来看看有哪些变化吧！"],
+                "btns": ["立即查看", "跳过"]
+            }
+        }
+    },
+
+    "sub_page": {
+        "common": {
+            "MsgOperationModal": {
+                "render": {
+                    "title": "列表选项",
+                    "remind": "仅保留七天内的消息",
+                    "status": ["仅看未处理", "仅看未读"],
+                    "btns": ["全部已读","全部清空"],
+                    "btnDesc": "*可将当前栏目内的所有未读消息标记为已读状态（最多100条）"
+                }
+            }
+        },
+        "MessageCoursePage": {
+            "courseFilter": {
+                "default": "全部课程"
+            },
+            "onEnterMsgDetail": {
+                "title": "课程消息详情"
+            },
+            "onDeleteMsg": {
+                "alert": {
+                    "title": "提示",
+                    "content": "是否删除此消息？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onEnterAppraise": {
+                "title": "评价活动"
+            },
+            "onReadAll": {
+                "toast": "暂无{{type}}",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定要将所有{{type}}（最多100条）标记为已读？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onDeleteAll": {
+                "toast": "暂无{{type}}",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定删除所有{{type}}（最多100条）？删除后将无法恢复",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "renderHeader": {
+                "title": "课程消息"
+            },
+            "renderContent": {
+                "MessageList": {
+                    "renderItem": {
+                        "text": "前往评价活动",
+                        "btn": "删除"
+                    },
+                    "renderListEmptyComponent": {
+                        "unread": "未读的",
+                        "title": "暂无{{read}}{{type}}"
+                    }
+                }
+            },
+            "sub_page": {
+                "MessageCourseDetailPage": {
+                    "onDeleteMsg": {
+                        "alert": {
+                            "title": "提示",
+                            "content": "是否删除此消息？",
+                            "btns": ["取消", "确定"]
+                        }
+                    },
+                    "onEnterAppraise": {
+                        "title": "评价活动"
+                    },
+                    "renderContent": {
+                        "btn": "前往评价活动"
+                    },
+                    "renderHeader": {
+                        "btn": "删除"
+                    }
+                }
+            }
+        },
+        "MessagePersonPage": {
+            "onEnterMsgDetail": {
+                "title": "个人消息详情"
+            },
+            "onDeleteMsg": {
+                "alert": {
+                    "title": "提示",
+                    "content": "是否删除此消息？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onReadAll": {
+                "toast": "暂无个人消息",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定要将所有个人消息（最多100条）标记为已读？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onDeleteAll": {
+                "toast": "暂无个人消息",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定删除所有个人消息（最多100条）？删除后将无法恢复",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "renderHeader": {
+                "title": "个人消息"
+            },
+            "renderContent": {
+                "MessageList": {
+                    "renderItem": {
+                        "btn": "删除"
+                    },
+                    "renderListEmptyComponent": {
+                        "unread": "未读的",
+                        "title": "暂无{{read}}个人消息"
+                    }
+                }
+            },
+            "sub_page": {
+                "MessageCourseDetailPage": {
+                    "onDeleteMsg": {
+                        "alert": {
+                            "title": "提示",
+                            "content": "是否删除此消息？",
+                            "btns": ["取消", "确定"]
+                        }
+                    },
+                    "renderHeader": {
+                        "btn": "删除"
+                    }
+                }
+            }
+        },
+        "MessageSystemPage": {
+            "onEnterMsgDetail": {
+                "title": "系统消息详情"
+            },
+            "onDeleteMsg": {
+                "alert": {
+                    "title": "提示",
+                    "content": "是否删除此消息？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onEnterGroup": {
+                "toasts": ["已进入拆分后的新课程","已进入合并后的新课程"]
+            },
+            "onReadAll": {
+                "toast": "暂无系统消息",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定要将所有系统消息（最多100条）标记为已读？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onDeleteAll": {
+                "toast": "暂无系统消息",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定删除所有系统消息（最多100条）？删除后将无法恢复",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "renderHeader": {
+                "title": "系统消息"
+            },
+            "renderContent": {
+                "MessageList": {
+                    "renderItem": {
+                        "btn": "删除"
+                    },
+                    "renderListEmptyComponent": {
+                        "unread": "未读的",
+                        "title": "暂无{{read}}系统消息"
+                    }
+                }
+            },
+            "sub_page": {
+                "MessageCourseDetailPage": {
+                    "onDeleteMsg": {
+                        "alert": {
+                            "title": "提示",
+                            "content": "是否删除此消息？",
+                            "btns": ["取消", "确定"]
+                        }
+                    },
+                    "renderHeader": {
+                        "btn": "删除"
+                    }
+                }
+            }
+        },
+        "MessageTodoPage": {
+            "onEnterMsgDetail": {
+                "title": "待办事项消息详情"
+            },
+            "onEnterMemberAdd": {
+                "title": "添加新成员"
+            },
+            "onAcceptPress": {
+                "title": "选择班级",
+                "toast": "移动端暂不支持处理该消息类型"
+            },
+            "onDeleteAll": {
+                "toast": "暂无待办事项消息",
+                "alert": {
+                    "title": "请确认",
+                    "content": "是否确定删除所有待办事项（最多100条）？删除后将无法恢复",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "onDeleteMsg": {
+                "alert": {
+                    "title": "提示",
+                    "content": "是否删除此消息？",
+                    "btns": ["取消", "确定"]
+                }
+            },
+            "renderHeader": {
+                "title": "待办事项"
+            },
+            "renderContent": {
+                "MessageList": {
+                    "renderItem": {
+                        "btns": ["同意","拒绝","去课程中处理"],
+                        "texts": ["已同意","已拒绝"]
+                    },
+                    "renderListEmptyComponent": {
+                        "unread": "未处理的",
+                        "title": "暂无{{read}}待办事项"
+                    }
+                }
+            },
+            "sub_page": {
+                "MessageCourseDetailPage": {
+                    "onDeleteMsg": {
+                        "alert": {
+                            "title": "提示",
+                            "content": "是否删除此消息？",
+                            "btns": ["取消", "确定"]
+                        }
+                    },
+                    "onAcceptPress": {
+                        "title": "选择班级",
+                        "toast": "移动端暂不支持处理该消息类型"
+                    },
+                    "onEnterMemberAdd": {
+                        "title": "添加新成员"
+                    },
+                    "renderContent": {
+                        "btns": ["同意","拒绝","去课程中处理"]
+                    },
+                    "renderHeader": {
+                        "btn": "删除"
+                    }
+                }
+            }
+        },
+        "ChatC2CPage": {
+            "onEnterChat": {
+                "title": "私信-{{title}}",
+                "toast": "当前网络环境较差，请稍后重试",
+                "toast2": "对方尚未登录系统，无法发起私信"
+            },
+            "renderContent": {
+                "placeholder": "请输入姓名",
+                "MessageListItem": {
+                    "renderItemOperation": {
+                        "title": "删除"
+                    },
+                    "renderMsg": {
+                        "title": "[图片消息]",
+                        "title2": "[表情消息]"
+                    }
+                }
+            },
+            "render": {
+                "title": "私信"
+            },
+            "sub_page": {
+                "ChatC2CRoomPage": {
+                    "onEnterHistory": {
+                        "title": "聊天记录"
+                    },
+                    "renderContent": {
+                        "ChatMessageList": {
+                            "renderItem": {
+                                "text": "消息来自【{{name}}】"
+                            }
+                        }
+                    }
+                },
+                "ChatC2CHistoryPage": {
+                    "getHistoryList": {
+                        "toast": "聊天记录加载失败，请重新尝试"
+                    },
+                    "renderContent": {
+                        "title": "开始时间",
+                        "title1": "截止时间",
+                        "HistoryList": {
+                            "renderItem": {
+                                "text": "消息来自【{{name}}】"
+                            }
+                        }
+                    },
+                    "render": {
+                        "title": "聊天记录"
+                    }
+                }
+            }
+        },
+        "ChatContactPage": {
+            "onRefresh": {
+                "text": "好友"
+            },
+            "renderContent": {
+                "placeholder": "请输入名称"
+            },
+            "render": {
+                "title": "通讯录"
+            },
+            "sub_page": {
+                "ContactMemberPage": {
+                    "onEnterChat": {
+                        "title": "私信-{{title}}",
+                        "toast": "当前网络环境较差，请稍后重试",
+                        "toast2": "对方尚未登录系统，无法发起私信"
+                    },
+                    "renderContent": {
+                        "placeholder": "请输入姓名"
+                    }
+                },
+                "ContactFriendPage": {
+                    "onEnterChat": {
+                        "title": "私信-{{title}}",
+                        "toast": "当前网络环境较差，请稍后重试",
+                        "toast2": "对方尚未登录系统，无法发起私信"
+                    },
+                    "renderContent": {
+                        "placeholder": "请输入姓名"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "teach_design": {
+    "h2": "教学设计"
+  },
+  "mapping": {
+  "unit_step": "教学单元简介",
+  "outline_step": "内容概要",
+  "stu_particular_step": "学习者特征",
+  "teach_Target_Step": "教学目标",
+  "difficult": "教学重难点",
+  "teach_flow_step": "教学活动流程",
+  "evaluate_step": "学习评价"
+},
+  "common": {
+    "flow_list": {
+      "flow_item": {
+        "title": "删除活动"
+      },
+      "item_creator": {
+        "title": "添加新流程",
+        "custom": "添加自定义项",
+        "system": "选择现有活动"
+      },
+      "unit_table": {
+        "td1": "课程单元名称",
+        "td2": "专业",
+        "td3": "教学对象",
+        "td4": "执教者",
+        "td5": "课时",
+        "td6": "所用教材"
+      }
+    }
+  },
+  "container": {
+    "evaluate_description": {
+      "aia_label": "其它评价方式及说明："
+    },
+    "stu_particular_description": {
+      "span": "补充说明："
+    },
+    "unit_description": {
+      "span": "补充说明："
+    }
+  },
+  "utils": {
+    "get_tp_content": {
+      "teach_flow_columns": {
+        "number": "",
+        "title": "教学活动",
+        "time": "时间",
+        "materials": "教学资源",
+        "tools": "教学工具",
+        "description": "活动描述"
+      },
+      "evaluate_columns": {
+        "title": "教学活动",
+        "evaluation_object": "评价主体",
+        "evaluation_way": "评价方式",
+        "evaluation_content": "评价内容",
+        "evaluation_objective": "评价目的",
+        "evaluation_description": "评价描述"
+      }
+    }
+  }
+}
