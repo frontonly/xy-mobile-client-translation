@@ -3,97 +3,110 @@
     "fetch_util": {
       "get_course_teach_data": {
         "classroom": {
-          "title": "开启授课",
-          "tooltip_title": "开启授课的次数,用于授课的资源占备课总资源比例",
-          "unit": "次",
-          "left_content": "已用于授课资源  {{teaching_percent}}%"
+          "title": "Start Teaching",
+          "tooltip_title": "Number of times teaching has started, the proportion of resources used for teaching to total preparation resources",
+          "unit": "times",
+          "left_content": "Resources used for teaching  {{teaching_percent}}%"
         },
         "courseware": {
-          "title": "授课资源",
-          "tooltip_title": "在线授课过程中使用过的课件总和",
-          "unit": "个次",
-          "left_content": "课均使用  {{file_per_course}}个次",
-          "right_content": "最高  {{high_file_in_course}}个次"
+          "title": "Teaching Resources",
+          "tooltip_title": "Total courseware used during online teaching",
+          "unit": "times",
+          "left_content": "Average usage per course  {{file_per_course}} times",
+          "right_content": "Maximum  {{high_file_in_course}} times"
         },
         "interaction": {
-          "title": "课堂互动",
-          "tooltip_title": "显示开始上课后使用的互动活动次数，包括选人（随机选人/选组、指定选人/选组、击鼓传花、随机排位）、抢一抢（抢答/抢任务）、举手",
-          "unit": "次",
-          "left_content": "课均使用  {{interaction_per_course}}次",
-          "right_content": "最高  {{high_interaction}}次"
+          "title": "Classroom Interaction",
+          "tooltip_title": "Shows the number of interactive activities used after the start of class, including selection (random/personal selection, group selection, passing the flower, random ranking), quick response (answer/task), raise hand",
+          "unit": "times",
+          "left_content": "Average usage per course  {{interaction_per_course}} times",
+          "right_content": "Maximum  {{high_interaction}} times"
         },
         "classroom_time_len": {
-          "title": "开启授课时长",
-          "tooltip_title": "在线授课总时长",
-          "left_content": "课均时长  {{value}}/次",
-          "right_content": "最高  {{value}}/次"
+          "title": "Teaching Duration",
+          "tooltip_title": "Total online teaching time",
+          "left_content": "Average duration per course  {{value}}/times",
+          "right_content": "Maximum  {{value}}/times"
         },
         "courseware_distribution": {
-          "title": "课堂活动资源",
-          "tooltip_title": "课堂上使用过的课件资源中，各类资源所占比例",
-          "unit": "个"
+          "title": "Classroom Activity Resources",
+          "tooltip_title": "The proportion of various resources in the courseware used in the classroom",
+          "unit": "items"
         },
         "interaction_distribution": {
-          "title": "课堂互动分布",
-          "tooltip_title": "课堂上发起的互动中，各类互动所占比例",
-          "unit": "个"
+          "title": "Classroom Interaction Distribution",
+          "tooltip_title": "The proportion of various interactions in the interactions initiated in the classroom",
+          "unit": "items"
         },
         "type": [
-          "随机选人",
-          "指定选人",
-          "抢答",
-          "击鼓传花",
-          "随机排位",
-          "抢任务",
-          "举手"
+          "Random Selection",
+          "Specific Selection",
+          "Quick Response",
+          "Pass the Flower",
+          "Random Ranking",
+          "Task Grabbing",
+          "Raise Hand"
         ]
       },
       "get_course_members_data": {
-        "tag": ["教师", "助教", "学生", "访客人数", "访客访问", "课程空间访问"],
-        "unit": ["人", "次", "人次"]
+        "tag": [
+          "Teacher",
+          "Assistant",
+          "Student",
+          "Visitor Count",
+          "Visitor Access",
+          "Course Space Access"
+        ],
+        "unit": ["people", "times", "person-times"]
       },
       "get_subgroup_learn_data": {
-        "tag": ["小组方案", "小组任务", "小组资源", "小组讨论主题", "小组发帖"],
-        "unit": ["个"]
+        "tag": [
+          "Group Scheme",
+          "Group Task",
+          "Group Resource",
+          "Group Discussion Topic",
+          "Group Posting"
+        ],
+        "unit": ["items"]
       },
       "get_course_prepare_data": {
         "resource_distribution": {
-          "title": "课程资源",
-          "tooltip_title": "课程内容中的课件，各种类型资源所占比例",
-          "unit": "个"
+          "title": "Course Resources",
+          "tooltip_title": "The proportion of various types of resources in the course content",
+          "unit": "items"
         },
         "task_distribution": {
-          "title": "课程任务",
-          "tooltip_title": "课程中各类型任务所占比例",
-          "unit": "个"
+          "title": "Course Tasks",
+          "tooltip_title": "The proportion of various types of tasks in the course",
+          "unit": "items"
         }
       }
     },
     "learning_task_helper": {
       "typeMapperArr": [
-        "自主观看",
-        "作业",
-        "课堂练习",
-        "测验",
-        "问卷",
-        "讨论",
-        "互动"
+        "Self-study",
+        "Homework",
+        "Classroom Practice",
+        "Quiz",
+        "Questionnaire",
+        "Discussion",
+        "Interaction"
       ],
-      "map_resource_type_to": "未知"
+      "map_resource_type_to": "Unknown"
     }
   },
   "board_type_bar": {
     "handle_get_source": [
-      "课程成员",
-      "课程备课",
-      "课堂授课",
-      "学生参与",
-      "小组合作学习"
+      "Course Members",
+      "Course Preparation",
+      "Classroom Teaching",
+      "Student Participation",
+      "Group Collaborative Learning"
     ]
   },
   "index": {
     "render_header": {
-      "div": "课程画像"
+      "div": "Course Portrait"
     }
   }
 }

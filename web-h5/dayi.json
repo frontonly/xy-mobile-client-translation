@@ -1,220 +1,218 @@
 {
   "list": {
-    "search_placeholder": "根据教学资源搜索",
+    "search_placeholder": "Search based on teaching resources",
     "select_group": {
-      "label1": "发布时间",
-      "label2": "点赞量",
-      "label3": "回答量",
-      "label4": "全部",
-      "label5": "已解决",
-      "label6": "未解决"
+      "label1": "Publish time",
+      "label2": "Likes",
+      "label3": "Answers",
+      "label4": "All",
+      "label5": "Resolved",
+      "label6": "Unresolved"
     },
     "filter_group": {
-      "text1": "全部提问({{num}})",
-      "text2": "我的提问({{num}})",
-      "text3": "我的回答({{num}})",
-      "text4": "我的关注({{num}})"
+      "text1": "All questions ({{num}})",
+      "text2": "My questions ({{num}})",
+      "text3": "My answers ({{num}})",
+      "text4": "My followings ({{num}})"
     },
     "add_btn": {
-      "Toast1": "课程已结束，您只能查看答疑区内容",
-      "Toast2": "没有相关权限，只能查看答疑区",
-      "text": "提问"
+      "Toast1": "The course has ended, you can only view the Q&A section",
+      "Toast2": "No relevant permissions, can only view the Q&A section",
+      "text": "Ask a question"
     },
     "list_view": {
-      "empty": "暂无数据",
-      "footer": "—— 我是有底线的 ——"
+      "empty": "No data",
+      "footer": "—— End of content ——"
     }
   },
   "qheader": {
-    "cList0": "全部班级",
-    "title": "答疑区"
+    "cList0": "All classes",
+    "title": "Q&A section"
   },
   "qcard": {
     "handle_select": {
-      "toast1": "课程已结束，您只能查看答疑区内容",
-      "toast2": "没有相关权限，只能查看答疑区",
-      "toast3_t": "取消置顶成功",
-      "toast3_f": "置顶成功",
-      "toast4_t": "取消关注成功",
-      "toast4_f": "关注成功",
+      "toast1": "The course has ended, you can only view the Q&A section",
+      "toast2": "No relevant permissions, can only view the Q&A section",
+      "toast3_t": "Successfully cancelled the top",
+      "toast3_f": "Successfully topped",
+      "toast4_t": "Unfollowed successfully",
+      "toast4_f": "Followed successfully",
       "modal_alert": {
-        "title": "请确认",
-        "message": "删除的问题无法找回，是否删除？",
-        "t": "是",
-        "f": "否",
-        "toast": "删除成功！"
+        "title": "Please confirm",
+        "message": "The deleted question cannot be retrieved, delete it?",
+        "t": "Yes",
+        "f": "No",
+        "toast": "Deleted successfully!"
       }
     },
     "row1": {
-      "time": "发布于 {{time}}",
+      "time": "Published at {{time}}",
       "role1": {
-        "item1_t": "取消关注",
-        "item1_f": "关注",
-        "item2": "编辑提问"
+        "item1_t": "Unfollow",
+        "item1_f": "Follow",
+        "item2": "Edit question"
       },
       "role2": {
-        "item1_t": "取消置顶",
-        "item1_f": "设置置顶",
-        "item2_t": "取消关注",
-        "item2_f": "关注",
-        "item3": "编辑提问",
-        "item4": "删除提问"
+        "item1_t": "Cancel top",
+        "item1_f": "Set top",
+        "item2_t": "Unfollow",
+        "item2_f": "Follow",
+        "item3": "Edit question",
+        "item4": "Delete question"
       }
     },
     "row_2": {
-      "is_top": "顶",
-      "is_teacher_partake": "教师参与"
+      "is_top": "Top",
+      "is_teacher_partake": "Teacher participation"
     },
     "row_5": {
-      "toast1": "课程已结束，您只能查看答疑区内容",
-      "toast2": "没有相关权限，只能查看答疑区"
+      "toast1": "The course has ended, you can only view the Q&A section",
+      "toast2": "No relevant permissions, can only view the Q&A section"
     }
   },
   "resourcechoose": {
-    "search_bar": "根据教学资源搜索",
-    "btn_text": "确定"
+    "search_bar": "Search based on teaching resources",
+    "btn_text": "Confirm"
   },
   "acard": {
     "row_1": {
-      "time": "发布于 {{time}}",
-      "toast1": "课程已结束，您只能查看答疑区内容",
-      "toast2": "没有相关权限，只能查看答疑区",
-      "toast3_t": "取消关注成功",
-      "toast3_f": "关注成功",
+      "time": "Published at {{time}}",
+      "toast1": "The course has ended, you can only view the Q&A section",
+      "toast2": "No relevant permissions, can only view the Q&A section",
+      "toast3_t": "Unfollowed successfully",
+      "toast3_f": "Followed successfully",
       "is_my_care": {
-        "t": "取消关注",
-        "f": "关注"
+        "t": "Unfollow",
+        "f": "Follow"
       }
     }
   },
   "aheader": {
     "handle_select": {
-      "toast1": "课程已结束，您只能查看答疑区内容",
-      "toast2": "没有相关权限，只能查看答疑区",
-      "toast3_t": "取消置顶成功",
-      "toast3_f": "置顶成功",
-      "toast4_t": "取消关注成功",
-      "toast4_f": "关注成功",
+      "toast1": "The course has ended, you can only view the Q&A section",
+      "toast2": "No relevant permissions, can only view the Q&A section",
+      "toast3_t": "Successfully cancelled the top",
+      "toast3_f": "Successfully topped",
+      "toast4_t": "Unfollowed successfully",
+      "toast4_f": "Followed successfully",
       "modal_alert": {
-        "title": "请确认",
-        "message": "删除的问题无法找回，是否删除？",
-        "t": "是",
-        "f": "否",
-        "toast": "删除成功！"
+        "title": "Please confirm",
+        "message": "The deleted question cannot be retrieved, delete it?",
+        "t": "Yes",
+        "f": "No",
+        "toast": "Deleted successfully!"
       }
     },
     "role1": {
-      "item": "编辑提问"
+      "item": "Edit question"
     },
     "role2": {
-      "item1_t": "取消置顶",
-      "item1_f": "设置置顶",
-      "item2": "编辑提问",
-      "item3": "删除提问"
+      "item1_t": "Cancel top",
+      "item1_f": "Set top",
+      "item2": "Edit question",
+      "item3": "Delete question"
     }
   },
   "openresource": {
-    "message1": "未找到资源，可能已被删除或未发布",
-    "message2": "视频转码中，可稍后尝试点击进入播放！",
-    "message3": "暂不支持文件预览",
-    "message4_t": "未找到资源，可能已被删除或未发布",
-    "message4_f": "资源已被删除"
+    "message1": "Resource not found, it may have been deleted or unpublished",
+    "message2": "Video is being transcoded, you can try to click in later!",
+    "message3": "File preview is not supported",
+    "message4_t": "Resource not found, it may have been deleted or unpublished",
+    "message4_f": "Resource has been deleted"
   },
   "fetchcourseresources": {
-    "str1": "课程目录>",
-    "str2": "无",
-    "str3": "全部"
+    "str1": "Course directory>",
+    "str2": "None",
+    "str3": "All"
   },
   "details": {
-    "toast1": "没有相关权限，只能查看答疑区",
-    "toast2": "课程已结束，您只能查看答疑区内容",
-    "toast3": "内容不能为空",
-    "toast4": "最多可输入1万字",
-    "toast5": "课程已结束，您只能查看答疑区内容",
-    "toast6": "没有相关权限，只能查看答疑区",
-    "title": "回答 ",
-    "placeholder": "写下您的回答",
-    "btn_text": "发表"
+    "toast1": "Content cannot be empty",
+    "toast2": "You can enter up to 10,000 words",
+    "toast5": "The course has ended, you can only view the Q&A section",
+    "toast6": "No relevant permissions, can only view the Q&A section",
+    "title": "Answer ",
+    "placeholder": "Write your answer",
+    "btn_text": "Post"
   },
   "add": {
     "handle_ok": {
-      "toast1": "课程已结束，您只能查看答疑区内容",
-      "toast2": "请输入标题",
-      "toast3": "请输入内容",
-      "toast4": "最多可输入1万字",
+      "toast1": "The course has ended, you can only view the Q&A section",
+      "toast2": "Please enter the title",
+      "toast3": "Please enter the content",
+      "toast4": "You can enter up to 10,000 words",
       "modal_alert": {
-        "title": "请确认",
-        "message": "是否跳转到答疑区？",
-        "f": "否",
-        "t": "是"
+        "title": "Please confirm",
+        "message": "Redirect to the Q&A section?",
+        "f": "No",
+        "t": "Yes"
       }
     },
-    "header_title": "提问",
-    "position": "位置：第{{position}}题",
+    "header_title": "Ask a question",
+    "position": "Position: Question {{position}}",
     "title": {
-      "text": "提问标题（必填）",
-      "placeholder": "请输入标题"
+      "text": "Question title (required)",
+      "placeholder": "Please enter the title"
     },
     "content": {
-      "text": "提问内容（必填）",
-      "placeholder": "请输入提问内容"
+      "text": "Question content (required)",
+      "placeholder": "Please enter the question content"
     },
-    "search_text": "根据教学资源搜索",
-    "btn_text": "提问"
+    "search_text": "Search based on teaching resources",
+    "btn_text": "Ask a question"
   },
   "r": {
-    "toast1": "内容不能为空",
-    "toast2": "最多可输入1万字",
-    "toast_end": "课程已结束，您只能查看答疑区内容",
-    "toast_role": "没有相关权限，只能查看答疑区",
+    "toast1": "Content cannot be empty",
+    "toast2": "You can enter up to 10,000 words",
+    "toast_end": "The course has ended, you can only view the Q&A section",
+    "toast_role": "No relevant permissions, can only view the Q&A section",
     "modal_alert": {
-      "title": "请确认",
-      "message": "删除的问题无法找回，是否删除？",
-      "f": "否",
-      "t": "是",
-      "toast": "删除成功！"
+      "title": "Please confirm",
+      "message": "The deleted question cannot be retrieved, delete it?",
+      "f": "No",
+      "t": "Yes",
+      "toast": "Deleted successfully!"
     },
     "answer_modal": {
-      "creator_name": "编辑回复 {{creator_name}}",
-      "placeholder": "请输入标题",
-      "btn": "发表"
+      "creator_name": "Edit reply to {{creator_name}}",
+      "placeholder": "Please enter the title",
+      "btn": "Post"
     }
   },
   "comment": {
-    "toast_end": "课程已结束，您只能查看答疑区内容",
-    "toast_role": "没有相关权限，只能查看答疑区",
-    "toast1": "内容不能为空",
-    "toast2": "最多可输入1万字",
-    "toast_is_accept_t": "取消采纳成功！",
-    "toast_is_accept_f": "已采纳此回答！",
-    "is_accept_t": "已采纳",
-    "is_accept_f": "采纳",
-    "zd_t": "收起回复",
-    "zd_f": "展开回复",
-    "zd_more": "更多回复",
+    "toast_end": "The course has ended, you can only view the Q&A section",
+    "toast_role": "No relevant permissions, can only view the Q&A section",
+    "toast1": "Content cannot be empty",
+    "toast2": "You can enter up to 10,000 words",
+    "toast_is_accept_t": "Successfully cancelled acceptance!",
+    "toast_is_accept_f": "This answer has been accepted!",
+    "is_accept_t": "Accepted",
+    "is_accept_f": "Accept",
+    "zd_t": "Collapse replies",
+    "zd_f": "Expand replies",
+    "zd_more": "More replies",
     "modal_alert": {
-      "title": "请确认",
-      "message": "删除的问题无法找回，是否删除？",
-      "f": "否",
-      "t": "是",
-      "toast": "删除成功！"
+      "title": "Please confirm",
+      "message": "The deleted question cannot be retrieved, delete it?",
+      "f": "No",
+      "t": "Yes",
+      "toast": "Deleted successfully!"
     },
     "answer_modal": {
-      "creator_name1": "回复 {{creator_name}}",
-      "creator_name2": "编辑回复 {{creator_name}}",
-      "placeholder": "写下您的回复",
-      "btn": "发表"
+      "creator_name1": "Reply to {{creator_name}}",
+      "creator_name2": "Edit reply to {{creator_name}}",
+      "placeholder": "Write your reply",
+      "btn": "Post"
     }
   },
   "acomment": {
-    "bar": "回答 {{num}}",
+    "bar": "Answer {{num}}",
     "select": {
-      "label1": "发布时间",
-      "label2": "点赞量"
+      "label1": "Publish time",
+      "label2": "Likes"
     },
     "list_view": {
-      "footer": "—— 我是有底线的 ——",
-      "empty": "暂无数据"
+      "footer": "—— End of content ——",
+      "empty": "No data"
     }
   }
 }

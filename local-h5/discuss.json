@@ -1,116 +1,116 @@
 {
   "point_record": {
     "comment_record_list": {
-      "anonymous": "匿名【xxx】",
-      "nickname": "{{nickname}}【匿名】",
+      "anonymous": "Anonymous【xxx】",
+      "nickname": "{{nickname}}【Anonymous】",
       "point_lock": {
-        "span": "***回帖已被屏蔽***",
-        "a": " (点击显示原内容)"
+        "span": "***Post has been blocked***",
+        "a": " (Click to show original content)"
       }
     },
     "main_point_list": {
       "active": {
-        "true": "点赞",
-        "false": "取消点赞"
+        "true": "Like",
+        "false": "Unlike"
       },
-      "info": "讨论已截止，无法{{active}}",
-      "info2": "你没有被分配该任务，无法{{active}}",
-      "info3": "主帖已删除，无法{{active}}"
+      "info": "Discussion has ended, unable to {{active}}",
+      "info2": "You have not been assigned this task, unable to {{active}}",
+      "info3": "Main post has been deleted, unable to {{active}}"
     },
     "point_record": {
       "handle_like_comment": {
         "active": {
-          "true": "点赞",
-          "false": "取消点赞"
+          "true": "Like",
+          "false": "Unlike"
         },
-        "info1": "督导禁止操作",
-        "info2": "访客禁止操作",
-        "info3": "评审员禁止操作",
-        "info4": "课程已经结课，禁止操作",
-        "info5": "讨论已截止，无法{{active}}",
-        "info6": "您已被禁言，无法{{active}}",
-        "info7": "你没有被分配该任务，无法{{active}}",
-        "info8": "回帖已删除，无法{{active}}"
+        "info1": "Supervisor operation forbidden",
+        "info2": "Visitor operation forbidden",
+        "info3": "Reviewer operation forbidden",
+        "info4": "Course has ended, operation forbidden",
+        "info5": "Discussion has ended, unable to {{active}}",
+        "info6": "You have been muted, unable to {{active}}",
+        "info7": "You have not been assigned this task, unable to {{active}}",
+        "info8": "Reply has been deleted, unable to {{active}}"
       },
       "render_point_list": {
-        "main_point": "主帖 ({{pointNum}})",
-        "comment": "回帖 ({{totalNum}})",
-        "aia_sort_box": "按时间排序"
+        "main_point": "Main Post ({{pointNum}})",
+        "comment": "Reply ({{totalNum}})",
+        "aia_sort_box": "Sort by time"
       },
       "aia_point_record": {
-        "title": "{{nickname}}-所有发帖"
+        "title": "{{nickname}}-All Posts"
       }
     }
   },
   "waiting": {
-    "tag_green": "[未开始]",
-    "waiting_des": "开启时间"
+    "tag_green": "[Not Started]",
+    "waiting_des": "Start Time"
   },
   "add_comment_modal": {
-    "placeholder": "请输入...",
-    "apply": "发表",
-    "anonymous_apply": "匿名回复",
-    "remind": "*学生发帖、回帖、回复行为，均算作参与并完成讨论任务",
+    "placeholder": "Please enter...",
+    "apply": "Post",
+    "anonymous_apply": "Reply Anonymously",
+    "remind": "*Student's posts, replies, and responses are all considered participation and completion of the discussion task",
     "handle_apply": {
-      "info1": "内容不能为空",
-      "info2": "内容中含有敏感信息，无法提交。",
+      "info1": "Content cannot be empty",
+      "info2": "Content includes sensitive information and cannot be submitted.",
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       }
     }
   },
   "add_point": {
     "handle_add_point": {
-      "title": "提示",
-      "message": "此帖匿名发表后系统将不允许编辑，是否确定匿名发表？",
-      "ok": "确定",
-      "cancel": "取消"
+      "title": "Tip",
+      "message": "Once this post is published anonymously, the system will not allow edits. Are you sure you want to post anonymously?",
+      "ok": "Confirm",
+      "cancel": "Cancel"
     },
     "handle_submit": {
-      "name": "主帖",
-      "info1": "正文中含有敏感信息，无法提交。",
-      "info2": "标题中含有敏感信息，无法提交。"
+      "name": "Main Post",
+      "info1": "The body includes sensitive information and cannot be submitted.",
+      "info2": "The title includes sensitive information and cannot be submitted."
     },
     "mobile_point": {
       "header": {
-        "send": "发帖"
+        "send": "Post"
       },
       "discuss_desc": {
         "more_desc": {
-          "true": "收起",
-          "false": "查看更多"
+          "true": "Collapse",
+          "false": "Read More"
         }
       },
       "content": {
-        "item_title1": "帖子标题",
+        "item_title1": "Post Title",
         "textarea_item": {
-          "placeholder": "请输入帖子标题",
-          "required_message": "标题不能为空",
-          "info1": "标题不能超过100个字符",
-          "info2": "标题不能包含特殊字符（* \\ / : ? \" < > 等）"
+          "placeholder": "Please enter the post title",
+          "required_message": "Title cannot be empty",
+          "info1": "Title cannot exceed 100 characters",
+          "info2": "Title cannot include special characters (* \\ / : ? \" < > etc.)"
         },
-        "item_title2": "发帖内容",
+        "item_title2": "Post Content",
         "draft_editor": {
-          "required_message": "正文不能为空",
-          "placeholder": "请输入发帖内容"
+          "required_message": "Body cannot be empty",
+          "placeholder": "Please enter the post content"
         },
         "setting": {
           "picker": {
-            "title": "允许回复",
-            "ok": "是",
-            "cancel": "否",
-            "span": "允许回复"
+            "title": "Allow Replies",
+            "ok": "Yes",
+            "cancel": "No",
+            "span": "Allow Replies"
           },
           "anonymous_mode": {
-            "title": "匿名发帖",
-            "ok": "是",
-            "cancel": "否",
-            "span": "匿名发帖"
+            "title": "Post Anonymously",
+            "ok": "Yes",
+            "cancel": "No",
+            "span": "Post Anonymously"
           },
           "remind": {
-            "text1": "*学生发帖、回帖、回复行为，均算作参与并完成讨论任务",
-            "text2": "*本主帖归属{{text}}"
+            "text1": "*Student's posts, replies, and responses are all considered participation and completion of the discussion task",
+            "text2": "*This main post belongs to {{text}}"
           }
         }
       }
@@ -118,587 +118,587 @@
   },
   "comment": {
     "handle_like": {
-      "info": "回帖已被屏蔽"
+      "info": "The reply has been blocked"
     },
     "handle_reply": {
-      "info": "回帖已被屏蔽"
+      "info": "The reply has been blocked"
     },
     "handle_edit_reply": {
-      "info": "回帖已被屏蔽"
+      "info": "The reply has been blocked"
     },
     "locale": {
-      "prev_text": "上一页",
-      "next_text": "下一页"
+      "prev_text": "Previous Page",
+      "next_text": "Next Page"
     },
     "anonymous_mode": {
-      "anonymous": "匿名【xxx】",
-      "nickname": "{{nickname}}【匿名】"
+      "anonymous": "Anonymous【xxx】",
+      "nickname": "{{nickname}}【Anonymous】"
     },
     "show_reply": {
-      "expand": "收起回复",
-      "collapse": "展开回复"
+      "expand": "Collapse Replies",
+      "collapse": "Expand Replies"
     },
     "point_lock": {
-      "span": "***回帖已被屏蔽***",
-      "a": " (点击显示原内容)"
+      "span": "***Reply has been blocked***",
+      "a": " (Click to show original content)"
     },
-    "floor": "{{floor}}楼 "
+    "floor": "{{floor}}th Floor "
   },
   "comment_header": {
     "handle_select": {
-      "info": "课程已经结课，不允许操作",
-      "info2": "主帖已删除，无法操作",
+      "info": "The course has ended, operation is not allowed",
+      "info2": "The main post has been deleted, operation is not allowed",
       "alert": {
-        "title": "提示",
-        "message": "删除后可能会影响任务完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。是否确定删除发帖？",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "Deletion may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. Are you sure you want to delete the post?",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       },
       "alert2": {
-        "title": "提示",
-        "message": "即将把此帖设为无效帖，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。设置后是否展示帖子内容？",
-        "ok1": "展示内容",
-        "ok2": "隐藏内容",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to set this post as invalid, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. After setting, do you want to show the post content?",
+        "ok1": "Show Content",
+        "ok2": "Hide Content",
+        "cancel": "Cancel"
       },
       "alert3": {
-        "title": "提示",
-        "message": "即将把此帖状态恢复为正常，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将恢复至完成。",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to restore this post to normal, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will be restored to complete.",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       }
     },
     "render_header": {
       "is_lock": {
-        "true": "设为无效帖",
-        "false": "设为有效帖"
+        "true": "Set as Invalid Post",
+        "false": "Set as Valid Post"
       },
       "is_top": {
-        "true": "设置置顶",
-        "false": "取消置顶"
+        "true": "Set as Top",
+        "false": "Cancel Top"
       },
       "is_best": {
-        "true": "设置精华",
-        "false": "取消精华"
+        "true": "Set as Best",
+        "false": "Cancel Best"
       },
-      "edit": "编辑帖子",
-      "delete": "删除帖子",
+      "edit": "Edit Post",
+      "delete": "Delete Post",
       "header-content": {
-        "is_best": "精",
-        "is_top": "顶",
-        "status2": "封",
-        "comment2": "禁",
-        "delete": "删"
+        "is_best": "Best",
+        "is_top": "Top",
+        "status2": "Lock",
+        "comment2": "Ban",
+        "delete": "Delete"
       }
     }
   },
   "comment_list": {
     "judge_comment_can_operation": {
-      "info1": "督导禁止操作",
-      "info2": "访客禁止操作",
-      "info3": "评审员禁止操作",
-      "info4": "课程已经结课，不允许操作",
-      "info5": "讨论已截止，不可{{operation}}"
+      "info1": "Supervisor is not allowed to operate",
+      "info2": "Visitor is not allowed to operate",
+      "info3": "Reviewer is not allowed to operate",
+      "info4": "The course has ended, operation is not allowed",
+      "info5": "Discussion has ended, cannot {{operation}}"
     },
     "handle_show_edit_comment": {
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       },
-      "info": "你没有被分配该任务，不能编辑{{isReply}}",
-      "info1": "{{isReply}}已删除，无法编辑{{isReply}}"
+      "info": "You have not been assigned this task, cannot edit {{isReply}}",
+      "info1": "{{isReply}} has been deleted, cannot edit {{isReply}}"
     },
     "handle_show_add_comment": {
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       },
-      "info": "此帖已封，不能{{isReply}}",
-      "info2": "你没有被分配该任务，不能{{isReply}}",
-      "info1": "{{isReply}}已删除，无法{{isReply}}",
-      "info4": "主帖已删除，无法回帖",
-      "info5": "主帖禁止回复，无法回帖",
+      "info": "This post has been blocked, cannot {{isReply}}",
+      "info2": "You have not been assigned this task, cannot {{isReply}}",
+      "info1": "{{isReply}} has been deleted, cannot {{isReply}}",
+      "info4": "Main post has been deleted, cannot reply",
+      "info5": "Main post has disabled replies, cannot reply",
       "title": {
-        "pre": "回复 ",
-        "anonymous": "匿名【xxx】",
-        "nickname": "{{nickname}}【匿名】"
+        "pre": "Reply ",
+        "anonymous": "Anonymous【xxx】",
+        "nickname": "{{nickname}}【Anonymous】"
       }
     },
     "handle_add_comment": {
       "alert": {
-        "title": "提示",
-        "message": "此回复匿名发表后系统将不允许编辑，是否确定匿名发表？",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "Once this reply is published anonymously, the system will not allow edits. Are you sure you want to post anonymously?",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       }
     },
     "handle_like": {
       "active": {
-        "true": "点赞",
-        "false": "取消点赞"
+        "true": "Like",
+        "false": "Cancel Like"
       },
-      "info1": "此帖已封帖，无法{{active}}",
-      "info2": "你没有被分配该任务，无法{{active}}",
-      "info3": "主帖已删除，无法{{active}}"
+      "info1": "This post has been blocked, cannot {{active}}",
+      "info2": "You have not been assigned this task, cannot {{active}}",
+      "info3": "Main post has been deleted, cannot {{active}}"
     },
     "handle_show_visit": {
-      "info": "允许匿名的讨论不支持查看访问记录"
+      "info": "Anonymous discussions do not support viewing visit records"
     },
     "handle_comment_like": {
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       },
       "active": {
-        "true": "点赞",
-        "false": "取消点赞"
+        "true": "Like",
+        "false": "Cancel Like"
       },
-      "operation": "点赞",
-      "info": "你没有被分配该任务，不能点赞",
-      "info1": "{{isReply}}已删除，无法{{active}}"
+      "operation": "Like",
+      "info": "You have not been assigned this task, cannot like",
+      "info1": "{{isReply}} has been deleted, cannot {{active}}"
     },
     "handle_comment_lock": {
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       },
-      "info": "{{isReply}}已删除，无法操作",
+      "info": "{{isReply}} has been deleted, cannot operate",
       "alert": {
-        "title": "提示",
-        "message": "即将把此帖设为无效帖，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。设置后是否展示帖子内容？",
-        "ok1": "展示内容",
-        "ok2": "隐藏内容",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to set this post as invalid, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. After setting, do you want to show the post content?",
+        "ok1": "Show Content",
+        "ok2": "Hide Content",
+        "cancel": "Cancel"
       },
       "alert2": {
-        "title": "提示",
-        "message": "即将把此帖状态恢复为正常，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将恢复至完成。",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to restore this post to normal, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will be restored to complete.",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       }
     },
     "handle_comment_delete": {
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       },
-      "toast": "{{isReply}}已删除，无法操作",
+      "toast": "{{isReply}} has been deleted, cannot operate",
       "alert": {
-        "title": "提示",
-        "message": "删除后可能会影响任务完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。是否确定删除{{isReply}}？",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "Deletion may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. Are you sure you want to delete {{isReply}}?",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       }
     },
     "handle_go_point_record": {
-      "info": "允许匿名的讨论不支持查看发帖汇总"
+      "info": "Anonymous discussions do not support viewing post summary"
     },
     "render_comment": {
-      "comment_end": "—— 我是有底线的 ——",
+      "comment_end": "—— I'm the end line ——",
       "comment_title": {
-        "div1": "回帖 {{length}}",
-        "div2": "回帖时间"
+        "div1": "Reply {{length}}",
+        "div2": "Reply Time"
       }
     }
   },
   "discuss_list": {
     "handle_add_point": {
-      "info": "课程已经结课，不允许操作"
+      "info": "The course has ended, operation is not allowed"
     },
     "handle_like": {
       "active": {
-        "true": "点赞",
-        "false": "取消点赞"
+        "true": "Like",
+        "false": "Cancel Like"
       },
-      "info": "讨论已截止，无法{{active}}",
-      "info2": "你没有被分配该任务，无法{{active}}",
-      "info3": "主帖已删除，无法{{active}}",
-      "info4": "主帖已封帖，无法{{active}}"
+      "info": "Discussion has ended, cannot {{active}}",
+      "info2": "You have not been assigned this task, cannot {{active}}",
+      "info3": "Main post has been deleted, cannot {{active}}",
+      "info4": "Main post has been blocked, cannot {{active}}"
     },
     "handle_go_point_record": {
-      "info": "允许匿名的讨论不支持查看发帖汇总"
+      "info": "Anonymous discussions do not support viewing post summary"
     },
     "render_list": {
-      "empty": "暂未发帖",
-      "list_footer": "—— 我是有底线的 ——"
+      "empty": "No posts yet",
+      "list_footer": "—— I'm the end line ——"
     },
     "render_header": {
       "anonymous_mode": {
-        "true": "匿名发帖",
-        "false": "发帖"
+        "true": "Post Anonymously",
+        "false": "Post"
       }
     },
     "render": {
       "sort": {
-        "label1": "更新时间排序",
-        "label2": "成员名称排序",
-        "label3": "点赞数排序",
-        "label4": "回复数排序"
+        "label1": "Sort by Update Time",
+        "label2": "Sort by Member Name",
+        "label3": "Sort by Number of Likes",
+        "label4": "Sort by Number of Replies"
       },
       "waiting": {
-        "remind": "讨论暂未开启"
+        "remind": "Discussion has not started yet"
       },
       "detail_time": {
-        "pre": "起止时间：",
-        "to": " 至 "
+        "pre": "Start to End Time：",
+        "to": " to "
       },
       "discuss_time": {
-        "span": "讨论已截止"
+        "span": "Discussion has ended"
       },
       "anonymous_mode": {
-        "span": "匿名讨论"
+        "span": "Anonymous Discussion"
       },
       "discuss_desc": {
         "more_desc": {
-          "true": "收起",
-          "false": "查看更多"
+          "true": "Collapse",
+          "false": "Read More"
         }
       },
       "list_operation": {
-        "title": "排序",
-        "statistics": "参与统计"
+        "title": "Sort",
+        "statistics": "Participation Statistics"
       },
       "finish_btn": {
-        "finished": "已完成",
-        "click_me": "点我",
-        "finish_task": "完成任务"
+        "finished": "Completed",
+        "click_me": "Click Me",
+        "finish_task": "Complete Task"
       }
     }
   },
   "improper_modal": {
     "render": {
       "footer": {
-        "btn": "知道了"
+        "btn": "Got it"
       },
       "modal": {
         "is_title": {
-          "true": "标题",
-          "false": "内容"
+          "true": "Title",
+          "false": "Content"
         },
-        "title": "发帖失败",
-        "sub_title": "帖子{{text}}存在敏感词汇，请根据以下提示修改后重新发帖："
+        "title": "Posting Failed",
+        "sub_title": "Your post {{text}} contains sensitive words, please modify it according to the following tips and repost:"
       }
     }
   },
   "edit_comment_modal": {
     "handle_edit": {
-      "info1": "内容不能为空",
-      "info2": "内容中含有敏感信息，无法提交。",
+      "info1": "Content cannot be empty",
+      "info2": "Content contains sensitive information and cannot be submitted.",
       "is_reply": {
-        "true": "回复",
-        "false": "回帖"
+        "true": "Reply",
+        "false": "Post"
       }
     },
     "render": {
       "is_reply": {
-        "true": "编辑回复",
-        "false": "编辑回帖"
+        "true": "Edit Reply",
+        "false": "Edit Post"
       },
       "textarea_item": {
-        "placeholder": "请输入..."
+        "placeholder": "Please enter..."
       },
       "anonymous": {
-        "checkbox": "匿名回复",
-        "div": "发表"
+        "checkbox": "Reply Anonymously",
+        "div": "Post"
       }
     }
   },
   "edit_discuss_modal": {
     "on_date_change": {
-      "info1": "开始时间不能大于截止时间!",
-      "info2": "请先选择开始时间!",
-      "info3": "截止时间不能小于开始时间!",
-      "info4": "截止时间不能小于当前时间!"
+      "info1": "Start time cannot be later than end time!",
+      "info2": "Please select a start time first!",
+      "info3": "End time cannot be earlier than start time!",
+      "info4": "End time cannot be earlier than current time!"
     },
     "on_submit": {
-      "info1": "请输入讨论主题!",
-      "info2": "讨论主题不能超过255个字符",
-      "info3": "讨论主题不能包含特殊字符（* \\ / : ? \" < > 等）",
-      "info4": "讨论描述不能超过255个字符",
-      "info5": "讨论描述不能包含特殊字符（* \\ / : ? \" < > 等）",
-      "info6": "请选择开始时间!",
-      "info7": "请选择结束时间!",
-      "info8": "讨论描述中含有敏感信息，无法提交。",
-      "info9": "讨论主题中含有敏感信息，无法提交。"
+      "info1": "Please enter the discussion topic!",
+      "info2": "Discussion topic cannot exceed 255 characters",
+      "info3": "Discussion topic cannot contain special characters (* \\ / : ? \" < > etc.)",
+      "info4": "Discussion description cannot exceed 255 characters",
+      "info5": "Discussion description cannot contain special characters (* \\ / : ? \" < > etc.)",
+      "info6": "Please select a start time!",
+      "info7": "Please select an end time!",
+      "info8": "The discussion description contains sensitive information and cannot be submitted.",
+      "info9": "The discussion topic contains sensitive information and cannot be submitted."
     },
     "render": {
       "footer": {
-        "cancel": "取消",
-        "ok": "确定"
+        "cancel": "Cancel",
+        "ok": "Confirm"
       },
       "modal": {
-        "title": "编辑讨论"
+        "title": "Edit Discussion"
       },
       "textarea_item1": {
-        "title": "讨论主题:",
-        "placeholder": "请输入讨论主题"
+        "title": "Discussion Topic:",
+        "placeholder": "Please enter the discussion topic"
       },
       "textarea_item2": {
-        "title": "讨论描述:",
-        "placeholder": "请输入讨论描述"
+        "title": "Discussion Description:",
+        "placeholder": "Please enter the discussion description"
       },
       "date_picker1": {
-        "title": "开始时间",
-        "extra": "请选择开始时间",
-        "item": "开始时间:"
+        "title": "Start Time",
+        "extra": "Please select start time",
+        "item": "Start Time:"
       },
       "date_picker2": {
-        "title": "截止时间",
-        "extra": "请选择截止时间",
-        "item": "截止时间:"
+        "title": "End Time",
+        "extra": "Please select end time",
+        "item": "End Time:"
       },
       "picker": {
-        "title": "匿名发帖",
+        "title": "Anonymous Posting",
         "data": {
-          "true": "是",
-          "false": "否"
+          "true": "Yes",
+          "false": "No"
         },
-        "span": "匿名发帖",
+        "span": "Anonymous Posting",
         "anonymous_mode": {
-          "true": "是",
-          "false": "否"
+          "true": "Yes",
+          "false": "No"
         }
       }
     }
   },
   "edit_point": {
     "handle_submit": {
-      "name": "主帖",
-      "info1": "正文中含有敏感信息，无法提交。",
-      "info2": "标题中含有敏感信息，无法提交。"
+      "name": "Main Post",
+      "info1": "The content contains sensitive information and cannot be submitted.",
+      "info2": "The title contains sensitive information and cannot be submitted."
     },
     "render": {
-      "header_right": "修改",
+      "header_right": "Modify",
       "discuss_desc": {
         "more_desc": {
-          "true": "收起",
-          "false": "查看更多"
+          "true": "Collapse",
+          "false": "Read More"
         }
       },
       "content": {
-        "item_title1": "帖子标题",
-        "item_title2": "发帖内容",
+        "item_title1": "Post Title",
+        "item_title2": "Post Content",
         "textarea_item": {
-          "placeholder": "请输入标题",
-          "required_message": "标题不能为空",
-          "info1": "标题不能超过100个字符",
-          "info2": "标题不能包含特殊字符（* \\ / : ? \" < > 等）"
+          "placeholder": "Please enter title",
+          "required_message": "Title cannot be empty",
+          "info1": "Title cannot exceed 100 characters",
+          "info2": "Title cannot contain special characters (* \\ / : ? \" < > etc.)"
         },
         "draft_editor": {
-          "required_message": "正文不能为空",
-          "placeholder": "请输入正文"
+          "required_message": "Content cannot be empty",
+          "placeholder": "Please enter content"
         },
-        "remind": "*学生发帖、回帖、回复行为，均算作参与并完成讨论任务"
+        "remind": "*Student's posting, replying, and responding are considered as participation and completion of the discussion task"
       },
       "setting": {
         "picker": {
-          "title": "允许回复",
-          "ok": "是",
-          "cancel": "否",
-          "span": "允许回复"
+          "title": "Allow Replies",
+          "ok": "Yes",
+          "cancel": "No",
+          "span": "Allow Replies"
         },
         "anonymous_mode": {
-          "title": "匿名发帖",
-          "ok": "是",
-          "cancel": "否",
-          "span": "匿名发帖"
+          "title": "Anonymous Posting",
+          "ok": "Yes",
+          "cancel": "No",
+          "span": "Anonymous Posting"
         }
       }
     }
   },
   "post_detail": {
     "handle_lock": {
-      "info": "主帖已删除，无法操作"
+      "info": "Main post has been deleted, operation is not allowed"
     },
     "render": {
-      "anonymous": "匿名【xxx】",
-      "nickname": "{{nickname}}【匿名】",
-      "point_lock": "***主帖已被屏蔽***",
-      "show_point": " (点击显示原内容)"
+      "anonymous": "Anonymous【xxx】",
+      "nickname": "{{nickname}}【Anonymous】",
+      "point_lock": "***Main post has been blocked***",
+      "show_point": " (Click to show original content)"
     }
   },
   "posts": {
     "handle_show_visit": {
-      "info": "允许匿名的讨论不支持查看访问记录"
+      "info": "Anonymous discussions do not support viewing visit records"
     },
     "handle_like": {
-      "info1": "督导禁止操作",
-      "info2": "访客禁止操作",
-      "info3": "评审员禁止操作",
-      "info4": "课程已经结课，不允许操作"
+      "info1": "Supervisor is not allowed to operate",
+      "info2": "Visitor is not allowed to operate",
+      "info3": "Reviewer is not allowed to operate",
+      "info4": "The course has ended, operation is not allowed"
     },
     "handle_lock": {
-      "info": "主帖已删除，无法操作"
+      "info": "Main post has been deleted, operation is not allowed"
     },
     "handle_select": {
-      "info": "课程已经结课，不允许操作",
-      "info2": "你没有被分配该任务，不能编辑",
-      "info3": "主帖已删除，无法操作",
+      "info": "The course has ended, operation is not allowed",
+      "info2": "You have not been assigned this task, cannot edit",
+      "info3": "Main post has been deleted, operation is not allowed",
       "alert": {
-        "title": "提示",
-        "message": "删除后可能会影响任务完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。是否确定删除发帖？",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "Deletion may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. Are you sure you want to delete the post?",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       },
       "alert2": {
-        "title": "提示",
-        "message": "即将把此帖设为无效帖，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将退回至未完成。设置后是否展示帖子内容？",
-        "ok1": "展示内容",
-        "ok2": "隐藏内容",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to set this post as invalid, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will revert to incomplete. After setting, do you want to show the post content?",
+        "ok1": "Show Content",
+        "ok2": "Hide Content",
+        "cancel": "Cancel"
       },
       "alert3": {
-        "title": "提示",
-        "message": "即将把此帖状态恢复为正常，可能会影响任务的完成状态，如果在当前讨论中没有发表过其他的主帖、回帖、回复，任务状态将恢复至完成。",
-        "ok": "确定",
-        "cancel": "取消"
+        "title": "Tips",
+        "message": "You are about to restore this post to normal status, which may affect the status of task completion. If no other main posts, replies, or responses have been posted in this discussion, the task status will be restored to completed.",
+        "ok": "Confirm",
+        "cancel": "Cancel"
       }
     },
     "render": {
-      "anonymous": "匿名【xxx】",
-      "nickname": "{{nickname}}【匿名】",
-      "publish": "发布于",
+      "anonymous": "Anonymous【xxx】",
+      "nickname": "{{nickname}}【Anonymous】",
+      "publish": "Published at",
       "is_lock": {
-        "true": "设为无效帖",
-        "false": "设为有效帖"
+        "true": "Set as Invalid Post",
+        "false": "Set as Valid Post"
       },
       "is_top": {
-        "true": "设置置顶",
-        "false": "取消置顶"
+        "true": "Set as Top",
+        "false": "Cancel Top"
       },
       "is_best": {
-        "true": "设置精华",
-        "false": "取消精华"
+        "true": "Set as Excellent",
+        "false": "Cancel Excellent"
       },
-      "edit": "编辑帖子",
-      "delete": "删除帖子",
+      "edit": "Edit Post",
+      "delete": "Delete Post",
       "item_2_tag": {
-        "is_best": "精",
-        "is_top": "顶",
-        "status": "封",
-        "comment": "禁",
-        "delete": "删"
+        "is_best": "Excellent",
+        "is_top": "Top",
+        "status": "Blocked",
+        "comment": "Banned",
+        "delete": "Deleted"
       },
-      "point_lock": "***主帖已被屏蔽***",
-      "is_teacher": " (点击显示原内容)"
+      "point_lock": "***Main post has been blocked***",
+      "is_teacher": " (Click to show original content)"
     }
   },
   "post_visit_list": {
     "render_header": {
-      "title": "访问记录（{{total_count}}）"
+      "title": "Visit Records ({{total_count}})"
     },
     "is_loading": {
-      "true": "加载中...",
-      "false": "没有更多了"
+      "true": "Loading...",
+      "false": "No more"
     }
   },
   "reply": {
     "handle_reply": {
-      "info": "回复已被屏蔽"
+      "info": "Reply has been blocked"
     },
     "handle_edit_reply": {
-      "info": "回复已被屏蔽"
+      "info": "Reply has been blocked"
     },
     "handle_like": {
-      "info": "回复已被屏蔽"
+      "info": "Reply has been blocked"
     },
     "anonymous_mode": {
-      "anonymous": "匿名【xxx】",
-      "nickname": "{{nickname}}【匿名】"
+      "anonymous": "Anonymous【xxx】",
+      "nickname": "{{nickname}}【Anonymous】"
     },
     "content": {
       "nickname": {
-        "span": "回复",
-        "anonymous": "匿名【xxx】",
-        "be_replier_nickname": "{{be_replier_nickname}}【匿名】"
+        "span": "Reply",
+        "anonymous": "Anonymous【xxx】",
+        "be_replier_nickname": "{{be_replier_nickname}}【Anonymous】"
       },
-      "point_lock": "***回复已被屏蔽***",
-      "is_teacher": " (点击显示原内容)"
+      "point_lock": "***Reply has been blocked***",
+      "is_teacher": " (Click to show original content)"
     }
   },
   "statistics": {
     "state": {
       "currText": {},
       "curr_text": {
-        "point": "主帖数",
-        "common": "回复数",
-        "reply": "回帖数",
-        "like": "被点赞数",
-        "to_like": "点赞数",
-        "default": "按发帖总数"
+        "point": "Main Posts",
+        "common": "Replies",
+        "reply": "Posts",
+        "like": "Likes Received",
+        "to_like": "Likes Given",
+        "default": "By Total Posts"
       }
     },
     "render_my_count": {
       "my_count": {
-        "div": "我参与的"
+        "div": "My Participation"
       },
       "pic_count_a": {
-        "span": "主帖"
+        "span": "Main Posts"
       },
       "pic_count_b": {
-        "span": "回帖"
+        "span": "Posts"
       },
       "pic_count_c": {
-        "span": "回复"
+        "span": "Replies"
       },
       "pic_count_d": {
-        "span": "点赞"
+        "span": "Likes Given"
       },
       "pic_count_e": {
-        "span": "被点赞"
+        "span": "Likes Received"
       }
     },
     "render_word_could": {
-      "cloud_btn": "生成词云"
+      "cloud_btn": "Generate Word Cloud"
     },
     "render_rank": {
-      "rank": "发帖排行",
-      "total_point": "主帖数",
-      "total_member": "参与人数",
-      "total_comment_reply": "回复数",
-      "total_comment_point": "回帖数"
+      "rank": "Posting Ranking",
+      "total_point": "Main Posts",
+      "total_member": "Participants",
+      "total_comment_reply": "Replies",
+      "total_comment_point": "Posts"
     },
     "render_table": {
       "cell_content": {
-        "point_count": "主帖数",
-        "comment_point_count": "回帖数",
-        "comment_reply_count": "回复数",
-        "liked_count": "被点赞数",
-        "to_like_count": "点赞数"
+        "point_count": "Main Posts",
+        "comment_point_count": "Posts",
+        "comment_reply_count": "Replies",
+        "liked_count": "Likes Received",
+        "to_like_count": "Likes Given"
       }
     },
     "render_sort_btn": {
       "popover": {
         "overlay": {
-          "point": "主帖数",
-          "common": "回复数",
-          "reply": "回帖数",
-          "like": "被点赞数",
-          "to_like": "点赞数"
+          "point": "Main Posts",
+          "common": "Replies",
+          "reply": "Posts",
+          "like": "Likes Received",
+          "to_like": "Likes Given"
         }
       }
     },
     "render": {
       "header": {
-        "span": "参与统计"
+        "span": "Participation Statistics"
       }
     }
   },
   "utils": {
     "get_auto_complete_task_status": {
-      "0": "完成任务",
+      "0": "Task Completed",
       "1": {
-        "is_end": "任务已经截止，无法完成。",
-        "default": "尚未参与本讨论主题的发帖、回帖，去参与吧！"
+        "is_end": "Task has ended and cannot be completed.",
+        "default": "You have not participated in posting or replying to this discussion topic yet, go participate!"
       },
-      "2": "无此任务",
-      "3": "未完成任务",
-      "default": "未完成任务"
+      "2": "No such task",
+      "3": "Task not completed",
+      "default": "Task not completed"
     },
     "judge_point_can_send": {
-      "info1": "{{type}}的时间间隔必须大于{{interval_second}}秒",
-      "info2": "{{type}}内容不能少于{{word_min}}字",
-      "info3": "{{type}}内容不能为空"
+      "info1": "The time interval of {{type}} must be more than {{interval_second}} seconds",
+      "info2": "The content of {{type}} cannot be less than {{word_min}} words",
+      "info3": "The content of {{type}} cannot be empty"
     }
   }
 }

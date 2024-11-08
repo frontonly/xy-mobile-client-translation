@@ -2,39 +2,45 @@
   "utils": {
     "fetch_util": {
       "get_course_members_data": {
-        "tag": ["教师", "助教", "学生", "访客访问", "课程空间访问"],
-        "unit": ["人", "次"]
+        "tag": [
+          "Teacher",
+          "Teaching Assistant",
+          "Student",
+          "Visitor Access",
+          "Course Space Access"
+        ],
+        "unit": ["People", "Times"]
       },
       "get_course_prepare_data": {
         "resource_distribution": {
-          "title": "课程资源分布",
-          "tooltip_title": "课程内容中的课件，各种类型资源所占比例"
+          "title": "Course Resource Distribution",
+          "tooltip_title": "The proportion of various types of resources in the course content"
         },
         "task_distribution": {
-          "title": "课程任务分布",
-          "tooltip_title": "课程中各类型任务所占比例"
+          "title": "Course Task Distribution",
+          "tooltip_title": "The proportion of various types of tasks in the course"
         }
       }
     },
     "learning_task_helper": {
       "typeMapperArr": [
-        "自主观看",
-        "作业",
-        "课堂练习",
-        "测验",
-        "问卷",
-        "讨论",
-        "互动"
+        "Self-study",
+        "Homework",
+        "Classroom Exercise",
+        "Quiz",
+        "Survey",
+        "Discussion",
+        "Interaction"
       ],
-      "map_resource_type_to": "未知"
+      "map_resource_type_to": "Unknown"
     }
   },
   "board_type_bar": {
-    "handle_get_source": ["课程成员", "课程备课"]
+    "handle_get_source": ["Course Members", "Course Preparation"]
   },
   "index": {
     "render_header": {
-      "div": "课程画像"
+      "div": "Course Portrait"
     }
   }
 }

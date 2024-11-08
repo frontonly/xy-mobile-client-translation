@@ -1,30 +1,30 @@
 {
   "type_utils": {
     "get_task_type_desc": {
-      "3": "练习",
-      "2": "作业",
-      "4": "测验",
-      "5": "问卷"
+      "3": "Exercise",
+      "2": "Homework",
+      "4": "Quiz",
+      "5": "Questionnaire"
     },
     "get_answer_type_desc": {
-      "1": "不公布",
-      "2": "提交后公布",
-      "3": "定时公布",
-      "4": "批阅后公布"
+      "1": "Not published",
+      "2": "Published after submission",
+      "3": "Published on schedule",
+      "4": "Published after review"
     },
     "get_assign_with_finish_type_desc": {
-      "1": "个人",
+      "1": "Individual",
       "2": {
-        "true": "{{type}}独立",
-        "false": "{{type}}合作"
+        "true": "{{type}} Independent",
+        "false": "{{type}} Collaborative"
       },
-      "3": "全体"
+      "3": "All"
     },
     "check_mode_meta": {
-      "1": "教师常规批阅",
-      "2": "教师多人批阅",
-      "3": "学生自评",
-      "4": "学生互评"
+      "1": "Teacher's regular review",
+      "2": "Multi-teacher review",
+      "3": "Student self-assessment",
+      "4": "Student peer review"
     }
   }
 }

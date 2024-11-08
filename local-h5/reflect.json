@@ -1,11 +1,11 @@
 {
   "reflect_edit": {
-    "title": "请输入反思标题",
-    "content": "请输入反思内容",
-    "ok": "确定",
-    "info1": "反思标题不能为空",
-    "info2": "反思标题不能超过50字",
-    "info3": "反思标题不能包含特殊字符（* \\ / : ? \" < > 等）",
-    "info4": "反思内容不能超过255字"
+    "title": "Please enter the reflection title",
+    "content": "Please enter the reflection content",
+    "ok": "Confirm",
+    "info1": "Reflection title cannot be empty",
+    "info2": "Reflection title cannot exceed 50 characters",
+    "info3": "Reflection title cannot contain special characters (* \\ / : ? \" < > etc.)",
+    "info4": "Reflection content cannot exceed 255 characters"
   }
 }
