@@ -3,12 +3,12 @@
     "answer_progress": {
       "chart": {
         "tooltip": {
-          "name": "总-{{length}}、参与-{{finish_count}}",
-          "value": "占比 {{finish_progress}}"
+          "name": "Total-{{length}}, Participated-{{finish_count}}",
+          "value": "Proportion {{finish_progress}}"
         },
         "guide": {
           "html": {
-            "header_title": "已参与"
+            "header_title": "Participated"
           }
         }
       }
@@ -18,283 +18,283 @@
     "answer_records": {
       "on_review_record": {
         "modal1": {
-          "title": "提示",
-          "message": "{{nickname}}的答卷已发回，无法进行批阅",
-          "ok": "确定"
+          "title": "Notice",
+          "message": "{{nickname}}'s answer sheet has been sent back, cannot be reviewed",
+          "ok": "Confirm"
         },
         "modal2": {
-          "title": "提示",
-          "message": "{{nickname}}的答卷正在提交中，无法进行批阅，请稍后再尝试",
-          "ok": "确定"
+          "title": "Notice",
+          "message": "{{nickname}}'s answer sheet is being submitted, cannot be reviewed, please try again later",
+          "ok": "Confirm"
         },
         "modal3": {
-          "title": "是否继续批阅或仅浏览学生答卷？",
-          "preview": "浏览",
-          "check": "批阅",
-          "cancel": "取消"
+          "title": "Do you want to continue reviewing or just browse the student's answer sheet?",
+          "preview": "Browse",
+          "check": "Review",
+          "cancel": "Cancel"
         }
       },
       "on_preview_record": {
         "modal": {
-          "title": "提示",
-          "message": "{{nickname}}的答卷已发回，无法进行浏览",
-          "ok": "确定"
+          "title": "Notice",
+          "message": "{{nickname}}'s answer sheet has been sent back, cannot be browsed",
+          "ok": "Confirm"
         }
       },
       "on_share_record": {
         "modal": {
-          "title": "提示",
+          "title": "Notice",
           "message": [
             "",
-            "答卷取消公开生效，除该答卷提交者外的其它学生将不可再查看该答卷",
-            "答卷实名公开生效，学生可在示范答卷展示区查看该答卷",
-            "答卷匿名公开生效，学生可在示范答卷展示区查看该匿名答卷"
+            "The answer sheet cancellation is effective, and other students will not be able to view this answer sheet except for the submitter",
+            "The answer sheet public release is effective, students can view this answer sheet in the demonstration answer sheet display area",
+            "The anonymous answer sheet public release is effective, students can view this anonymous answer sheet in the demonstration answer sheet display area"
           ],
-          "ok": "确定",
-          "cancel": "取消"
+          "ok": "Confirm",
+          "cancel": "Cancel"
         }
       },
       "handle_delete": {
         "modal": {
-          "title": "提示",
-          "message": "是否确定删除该答题记录？删除后无法恢复记录，请谨慎操作！",
-          "ok": "删除",
-          "cancel": "取消"
+          "title": "Notice",
+          "message": "Are you sure you want to delete this answer record? Once deleted, the record cannot be recovered, please operate with caution!",
+          "ok": "Delete",
+          "cancel": "Cancel"
         }
       },
       "handle_batch_mark": {
-        "toast": "批量打分暂不支持，请前往web端访问！"
+        "toast": "Batch scoring is not supported, please visit the web portal!"
       },
       "render_content": {
-        "empty": "暂无数据"
+        "empty": "No data"
       },
       "render_sort": {
         "sort": {
-          "0": "按名称",
-          "1": "按提交时间"
+          "0": "By name",
+          "1": "By submission time"
         },
         "grade_type": {
-          "true": "按得分",
-          "false": "按评级"
+          "true": "By score",
+          "false": "By rating"
         },
         "mark_mode": {
-          "true": "自评",
-          "false": "互评"
+          "true": "Self-assessment",
+          "false": "Peer review"
         },
         "check_bar": {
-          "task_finished": " 人已{{mark_mode_text}}，",
-          "task_not_finished": " 人待{{mark_mode_text}} ",
-          "checked": " 份已批阅，",
-          "need_check_num": " 份待批阅",
-          "go_check": "去批阅"
+          "task_finished": " people have {{mark_mode_text}},",
+          "task_not_finished": " people waiting for {{mark_mode_text}}",
+          "checked": " reviewed,",
+          "need_check_num": " waiting for review",
+          "go_check": "Go review"
         },
         "sort_bar": {
-          "recheck": "查看{{mark_mode_text}}分配结果",
+          "recheck": "View {{mark_mode_text}} distribution results",
           "picker": {
-            "title": "排序"
+            "title": "Sort"
           },
-          "batch_mark": "批量打分"
+          "batch_mark": "Batch scoring"
         },
-        "checkbox": "全部显示",
+        "checkbox": "Show all",
         "search_bar": {
-          "placeholder": "请输入姓名",
-          "cancel_text": "取消"
+          "placeholder": "Enter name",
+          "cancel_text": "Cancel"
         }
       },
       "render_summary_card": {
-        "assign_count": "应参与",
-        "started": "已参与",
-        "started_finished": "已提交 {{started_finished}}",
-        "started_not_finished": "未提交 {{started_not_finished}}",
-        "not_start": "未参与"
+        "assign_count": "Should participate",
+        "started": "Participated",
+        "started_finished": "Submitted {{started_finished}}",
+        "started_not_finished": "Not submitted {{started_not_finished}}",
+        "not_start": "Not participated"
       },
       "render_class_filter": {
         "picker": {
-          "title": "排序"
+          "title": "Sort"
         }
       }
     },
     "mark_distribute": {
       "handle_recheck_again": {
         "modal": {
-          "title": "提示",
-          "message": "重新发起{{mark_mode_text}}会删除全部已有的{{mark_mode_text}}批改记录，且每天只能发起一次，是否确定重新发起？",
-          "ok": "确定",
-          "cancel": "取消"
+          "title": "Notice",
+          "message": "Re-launching {{mark_mode_text}} will delete all existing {{mark_mode_text}} correction records, and can only be launched once a day, are you sure you want to re-launch?",
+          "ok": "Confirm",
+          "cancel": "Cancel"
         },
         "mark_mode": {
-          "true": "自评",
-          "false": "互评"
+          "true": "Self-assessment",
+          "false": "Peer review"
         }
       },
       "renderContent": {
         "mark_mode": {
-          "true": "自评",
-          "false": "互评"
+          "true": "Self-assessment",
+          "false": "Peer review"
         },
         "distribute_bar": {
-          "text": "分配结果：",
+          "text": "Distribution result: ",
           "is_success": {
-            "true": "成功",
-            "false": "失败"
+            "true": "Successful",
+            "false": "Failed"
           },
-          "distribute": "重新分配{{mark_mode_text}}"
+          "distribute": "Redistribute {{mark_mode_text}}"
         },
         "remind_bar": {
-          "remind": "*未分配批阅答卷的学生无法参与{{mark_mode_text}}，使用【重新分配{{mark_mode_text}}】将删除批改记录重新分配答卷。"
+          "remind": "*Students who have not been assigned review papers cannot participate in {{mark_mode_text}}, and using \"Redistribute {{mark_mode_text}}\" will delete the correction record and redistribute the paper."
         }
       },
       "renderHeader": {
-        "title": "分配结果"
+        "title": "Distribution result"
       }
     },
     "records": {
-      "record_status": "批阅状态：",
+      "record_status": "Review status: ",
       "record_time": {
-        "submit_time": "提交时间：{{submit_time}}",
-        "answer_time_text": "答题时长：{{answer_time_text}}"
+        "submit_time": "Submission time: {{submit_time}}",
+        "answer_time_text": "Answer duration: {{answer_time_text}}"
       },
-      "answer_rate": "已答题：{{answer_rate}}",
+      "answer_rate": "Answered: {{answer_rate}}",
       "record_operation": {
-        "checkbox": "公开答卷",
+        "checkbox": "Public answer sheet",
         "can_check": {
-          "true": "批阅",
-          "false": "复核"
+          "true": "Review",
+          "false": "Recheck"
         },
-        "div": "浏览",
-        "can_del_record": "删除"
+        "div": "Browse",
+        "can_del_record": "Delete"
       }
     },
     "utils": {
       "answer_record_status_meta": {
-        "1": "答题中",
-        "2": "已提交",
-        "3": "已删除",
-        "5": "被发回",
-        "6": "提交中"
+        "1": "Answering",
+        "2": "Submitted",
+        "3": "Deleted",
+        "5": "Sent back",
+        "6": "Submitting"
       },
       "answer_record_to_status": {
-        "is_empty": "未参与",
-        "reject_submit": "已补交"
+        "is_empty": "Not participated",
+        "reject_submit": "Resubmitted"
       },
       "get_check_score_text": {
-        "level": "卷面评级：{{level}}",
-        "score": "卷面得分：{{score}}"
+        "level": "Paper rating: {{level}}",
+        "score": "Paper score: {{score}}"
       },
       "get_recheck_end_score_text": {
-        "level": "最终成绩：{{level}}",
-        "end_score": "最终成绩：{{end_score}}"
+        "level": "Final grade: {{level}}",
+        "end_score": "Final grade: {{end_score}}"
       }
     }
   },
   "answer_statistics": {
     "answer_statistics": {
       "handle_get_answers_statistics": {
-        "all": "全部"
+        "all": "All"
       },
       "render_summary_bar": {
-        "answer_student_num": "已参与",
-        "assign_count": "应参与",
-        "ques_total_score": "卷面总分",
-        "sampling_score": "抽题总分",
+        "answer_student_num": "Participated",
+        "assign_count": "Should participate",
+        "ques_total_score": "Total score of the paper",
+        "sampling_score": "Total score of the sampled questions",
         "score_type": {
-          "max_score": "最高分",
-          "min_score": "最低分",
-          "avg": "平均分"
+          "max_score": "Highest score",
+          "min_score": "Lowest score",
+          "avg": "Average score"
         },
         "grade_type": {
-          "max_score": "最高评级",
-          "min_score": "最低评级",
-          "avg": "平均评级"
+          "max_score": "Highest grade",
+          "min_score": "Lowest grade",
+          "avg": "Average grade"
         },
-        "pass_rate": "及格率"
+        "pass_rate": "Pass rate"
       },
       "render_score_detail_table": {
         "tab_pane": {
           "1": {
-            "tab": "成绩概况"
+            "tab": "Score overview"
           },
           "2": {
-            "tab": "成绩详情"
+            "tab": "Score details"
           }
         }
       },
       "render_score_survey_chart": {
-        "chart_title": "整体分析"
+        "chart_title": "Overall analysis"
       },
       "render": {
         "score_percent_chart": {
-          "chart_title": "各题得分率"
+          "chart_title": "Score rate for each question"
         }
       },
       "render_class_filter": {
         "picker": {
-          "title": "排序"
+          "title": "Sort"
         }
       }
     },
     "chart": {
       "create_survey_chart": {
         "isGroupTogether": {
-          "true": "组",
-          "false": "人"
+          "true": "Group",
+          "false": "Individual"
         }
       },
       "create_score_chart": {
         "tooltip": {
-          "name": "得分率 {{rate}}%",
-          "value": "平均得分 {{avg}}"
+          "name": "Score rate {{rate}}%",
+          "value": "Average score {{avg}}"
         }
       }
     },
     "columns": {
       "get_score_survey_columns": {
-        "text": "成绩",
+        "text": "Score",
         "name": {
-          "1": "小组名单",
-          "2": "班级名单",
-          "3": "名单"
+          "1": "Group list",
+          "2": "Class list",
+          "3": "List"
         },
         "number": {
-          "1": "组数",
-          "2": "班数",
-          "3": "人数"
+          "1": "Number of groups",
+          "2": "Number of classes",
+          "3": "Number of individuals"
         },
-        "scale": "比例"
+        "scale": "Scale"
       },
       "get_score_detail_columns": {
         "columns": {
           "1": {
             "title": {
-              "1": "组名",
-              "2": "班名",
-              "3": "姓名"
+              "1": "Group name",
+              "2": "Class name",
+              "3": "Name"
             },
             "filter_dropdown": {
               "input": {
-                "placeholder": "关键字"
+                "placeholder": "Keyword"
               },
-              "button_confirm": "搜索",
-              "button_clear_filters": "重置"
+              "button_confirm": "Search",
+              "button_clear_filters": "Reset"
             }
           },
           "2": {
-            "title": "一卡通号",
+            "title": "Campus card number",
             "filter_dropdown": {
               "input": {
-                "placeholder": "一卡通号"
+                "placeholder": "Campus card number"
               },
-              "button_confirm": "搜索",
-              "button_clear_filters": "重置"
+              "button_confirm": "Search",
+              "button_clear_filters": "Reset"
             }
           },
           "3": {
-            "title": "班级"
+            "title": "Class"
           },
           "4": {
             "title": {
-              "true": "总成绩",
-              "false": "总评级"
+              "true": "Total score",
+              "false": "Total grade"
             }
           }
         }
@@ -302,41 +302,41 @@
     },
     "utils": {
       "get_score_survey_data": {
-        "info": "{{name}} 的答题记录没有纳入统计，其分数为 {{rec_score}}"
+        "info": "{{name}}'s answer record is not included in the statistics, its score is {{rec_score}}"
       }
     }
   },
   "saga": {
     "del_one_answer_record_saga": {
-      "info": "课程问答中的答题记录不能被删除"
+      "info": "Answer records in course Q&A cannot be deleted"
     },
     "get_answer_records_saga": {
       "get_type_by_assign_to_type": {
-        "1": "个人",
-        "2": "小组独立",
-        "3": "小组合作",
-        "4": "班级/小组",
-        "5": "全体"
+        "1": "Individual",
+        "2": "Group independent",
+        "3": "Group cooperation",
+        "4": "Class/Group",
+        "5": "All"
       },
       "to_check_status_str": {
-        "1": "已发回",
-        "2": "学生自评",
-        "3": "学生互评",
-        "4": "教师批阅",
-        "5": "自动批阅",
-        "6": "未批阅"
+        "1": "Sent back",
+        "2": "Student self-assessment",
+        "3": "Student peer review",
+        "4": "Teacher review",
+        "5": "Automatic review",
+        "6": "Not reviewed"
       },
       "get_answer_records": {
-        "label": "全部班级"
+        "label": "All classes"
       }
     },
     "re_distribute_mark_saga": {
       "success": {
-        "text": "重新分配{{mark_mode}}成功",
-        "true": "自评",
-        "false": "互评"
+        "text": "Successfully redistributed {{mark_mode}}",
+        "true": "Self-assessment",
+        "false": "Peer review"
       },
-      "error": "重新分配批阅方案失败"
+      "error": "Failed to redistribute review scheme"
     }
   }
 }

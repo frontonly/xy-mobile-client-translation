@@ -3,134 +3,134 @@
     "common": {
       "question_desc": {
         "panel": {
-          "header": "描述"
+          "header": "Description"
         }
       },
       "task_info": {
         "render_groups": {
           "accordion_header": {
-            "div": "任务分配"
+            "div": "Task Allocation"
           }
         },
         "render_members": {
           "accordion_header": {
-            "div": "任务分配"
+            "div": "Task Allocation"
           }
         },
         "render": {
           "mark_mode": {
-            "true": "自评",
-            "false": "互评",
-            "text": "评阅方式"
+            "true": "Self-evaluation",
+            "false": "Peer-evaluation",
+            "text": "Review Method"
           },
-          "task_type": "任务类型",
-          "start_time": "答题开始",
-          "end_time": "答题结束",
+          "task_type": "Task Type",
+          "start_time": "Start of Answering",
+          "end_time": "End of Answering",
           "task_unfinished_check": {
-            "true": "是",
-            "false": "否",
-            "text": "{{mark_mode_text}}任务纳入考核"
+            "true": "Yes",
+            "false": "No",
+            "text": "{{mark_mode_text}} Task included in assessment"
           },
-          "mark_end_time": "{{mark_mode_text}}截止时间",
-          "mark_count": "互评份数",
+          "mark_end_time": "{{mark_mode_text}} Deadline",
+          "mark_count": "Number of Peer Reviews",
           "publish_record": {
-            "answer_visible": "公布答案",
-            "answer_visible_time": "公布时间"
+            "answer_visible": "Publish Answer",
+            "answer_visible_time": "Publish Time"
           },
-          "repetition_num": "提交次数",
-          "assign_to_type": "任务分配"
+          "repetition_num": "Number of Submissions",
+          "assign_to_type": "Task Allocation"
         }
       }
     },
     "student": {
       "student": {
         "task_time_line": {
-          "is_empty": "未分配",
+          "is_empty": "Not Assigned",
           "task_items": {
-            "span": "答卷{{index}}: ",
+            "span": "Answer Sheet {{index}}: ",
             "check_status": {
-              "true": "已完成",
-              "false": "未完成"
+              "true": "Completed",
+              "false": "Not Completed"
             }
           }
         },
         "paper_score": {
           "paper_score_item": {
-            "span1": "{{text}}（{{count}}题）",
-            "span2": "{{score}}分"
+            "span1": "{{text}} ({{count}} questions)",
+            "span2": "{{score}} points"
           },
           "paper_score_header": {
-            "span1": "卷面总分（{{queCount}}题）",
-            "span2": "{{scoreCount}}分"
+            "span1": "Total Score ({{queCount}} questions)",
+            "span2": "{{scoreCount}} points"
           }
         },
         "handle_restart_make_exam": {
           "alert": {
-            "title": "提示",
-            "message": "重新答题会导致此前已提交的答题任务变成未提交，需要再次提交才可完成答题任务，是否确定重新答题？",
-            "ok": "确定",
-            "cancel": "取消"
+            "title": "Hint",
+            "message": "Re-answering will cause the previously submitted answer task to become unsubmitted, you need to submit again to complete the answer task, are you sure to re-answer?",
+            "ok": "Confirm",
+            "cancel": "Cancel"
           }
         },
         "handle_exam_submitting": {
-          "title": "提示",
-          "message": "答题提交中，系统正在处理中，请稍后再尝试",
-          "ok": "确定"
+          "title": "Hint",
+          "message": "Answer is being submitted, the system is processing, please try again later",
+          "ok": "Confirm"
         },
         "handle_after_make_exam": {
-          "title": "提示",
-          "ok": "确定",
-          "cancel": "取消",
-          "message1": "问答已截止，是否切换为全卷模式进行补交？",
-          "message2": "问答已截止，是否补交？"
+          "title": "Hint",
+          "ok": "Confirm",
+          "cancel": "Cancel",
+          "message1": "The Q&A has ended, do you want to switch to full paper mode for late submission?",
+          "message2": "The Q&A has ended, do you want to submit late?"
         },
         "handle_check_exam": {
-          "info": "没有待批阅的试卷"
+          "info": "No papers awaiting review"
         },
         "render": {
-          "waiting_title": "任务暂未开启",
-          "waiting_des": "开启时间",
+          "waiting_title": "Task Not Yet Started",
+          "waiting_des": "Start Time",
           "exam_info_empty": {
-            "content": "当前{{type}}是逐题互动，仅支持在课堂上参与答题，截止之前无法进入答题页面。"
+            "content": "The current {{type}} is sequential interaction, only supports participating in answering in class, and cannot enter the answering page before the deadline."
           },
           "btn_decorator": {
-            "start_exam": "开始答题",
-            "restart_exam": "重新答题",
-            "submit": "提交中",
-            "retry_self_evaluation": "再次自评",
-            "retry_mutual_evaluation": "再次互评",
-            "info1": "驳回后只能提交一次，不能重新答题",
-            "info2": "由于答卷已被人工批阅，不能重新答题",
-            "info3": "答题已截止",
-            "info4": "答题次数已经用完，不能重新答题",
-            "info5": "答题已截止"
+            "start_exam": "Start Answering",
+            "restart_exam": "Re-answer",
+            "submit": "Submitting",
+            "retry_self_evaluation": "Self-evaluate Again",
+            "retry_mutual_evaluation": "Peer-evaluate Again",
+            "info1": "After rejection, you can only submit once and cannot re-answer",
+            "info2": "Since the answer sheet has been manually reviewed, you cannot re-answer",
+            "info3": "Answering has ended",
+            "info4": "The number of answering times has been used up, you cannot re-answer",
+            "info5": "Answering has ended"
           },
           "return": {
-            "preview_btn": "进入查看"
+            "preview_btn": "Enter to View"
           }
         }
       },
       "student_header": {
         "exam_started": {
-          "info": "答题倒计时"
+          "info": "Answering Countdown"
         },
         "exam_end": {
           "score_info": {
             "type": {
-              "true": "最终成绩",
-              "false": "最终评级"
+              "true": "Final Score",
+              "false": "Final Rating"
             },
-            "value": "分"
+            "value": "Points"
           },
           "actual_info": {
             "text": "{{type}}: {{value}}",
             "type": {
-              "true": "卷面得分",
-              "false": "卷面评级"
+              "true": "Paper Score",
+              "false": "Paper Rating"
             }
           },
           "punishment_info": {
-            "text": "未完成自评/互评扣分: {{value}}"
+            "text": "Points Deducted for Unfinished Self/Peer Evaluation: {{value}}"
           }
         }
       }
@@ -141,60 +141,60 @@
           "remind_decorator": {
             "tea_recheck": {
               "button": {
-                "content": "复核下一份答卷"
+                "content": "Review the Next Answer Sheet"
               }
             },
             "tea_normal": {
               "un_recheck": {
-                "text": "还有{{unRecheck}}份未批阅",
+                "text": "There are {{unRecheck}} sheets not reviewed yet",
                 "button": {
-                  "content": "继续批阅"
+                  "content": "Continue Reviewing"
                 }
               },
-              "text": "批阅已完成",
+              "text": "Review Completed",
               "button": {
-                "content": "去查看"
+                "content": "Go to View"
               }
             },
             "stu_check": {
               "self_evaluation": {
-                "content": "自评任务完成"
+                "content": "Self-evaluation Task Completed"
               },
               "mutual_evaluation": {
                 "un_finished": {
-                  "text": "还有{{un_finished}}份未评阅",
+                  "text": "There are {{un_finished}} sheets not reviewed yet",
                   "button": {
-                    "content": "继续评阅"
+                    "content": "Continue Reviewing"
                   }
                 },
-                "content": "互评任务完成"
+                "content": "Peer-evaluation Task Completed"
               }
             },
             "stu_exam": {
               "self_evaluation": {
-                "span1": "答题截止之后需要参与自评，才能完成任务",
-                "span2": "等待开启自评，{{description}}"
+                "span1": "You need to participate in self-evaluation after the answering deadline to complete the task",
+                "span2": "Waiting for self-evaluation to start, {{description}}"
               },
               "mutual_evaluation": {
-                "span1": "答题截止之后需要参与互评，才能完成任务",
-                "span2": "等待开启互评，{{description}}"
+                "span1": "You need to participate in peer-evaluation after the answering deadline to complete the task",
+                "span2": "Waiting for peer-evaluation to start, {{description}}"
               },
-              "content": "任务完成"
+              "content": "Task Completed"
             },
             "stu_exam_timeout": {
-              "content": "答题时长已用完，答题数据系统已自动保存。是否退出答题。"
+              "content": "The answering time has been used up, and the answering data has been automatically saved by the system. Do you want to exit the answering?"
             }
           },
           "return": {
             "stu_exam_timeout": {
-              "true": "答题结束",
-              "false": "提交成功"
+              "true": "Answering Ended",
+              "false": "Submission Successful"
             },
             "stu_check": {
-              "true": "返回→",
-              "false": "知道了"
+              "true": "Return→",
+              "false": "Got It"
             },
-            "tea": "去批阅列表→"
+            "tea": "Go to Review List→"
           }
         }
       }
@@ -202,31 +202,31 @@
     "teacher": {
       "teacher": {
         "entry": {
-          "record": "整卷批阅",
-          "horizontal_record": "按题批阅",
-          "statistic": "答题统计"
+          "record": "Full Paper Review",
+          "horizontal_record": "Review by Question",
+          "statistic": "Answering Statistics"
         },
         "paper_score": {
           "paper_score_header": {
-            "span1": "卷面总分（{{queCount}}题）",
-            "span2": "{{score}}分"
+            "span1": "Total Score ({{queCount}} questions)",
+            "span2": "{{score}} points"
           },
           "score_item": {
-            "span1": "{{text}}（{{count}}题）",
-            "span2": "{{score}}分"
+            "span1": "{{text}} ({{count}} questions)",
+            "span2": "{{score}} points"
           }
         },
         "handle_show_teacher_summary": {
-          "message1": "任务尚未发布，请先发布",
-          "message2": "卷面总分为0，请先完善卷面"
+          "message1": "The task has not been published yet, please publish first",
+          "message2": "The total score of the paper is 0, please complete the paper first"
         },
         "render": {
           "return": {
             "button": {
-              "content": "试答"
+              "content": "Trial Answer"
             },
             "button1": {
-              "content": "题目预览"
+              "content": "Question Preview"
             }
           }
         }
@@ -235,322 +235,322 @@
   },
   "paper": {
     "question_answer_sheet": {
-      "title": "答题卡",
+      "title": "Answer Card",
       "diagram": {
-        "answer_result": ["答对", "答错", "不完全正确"],
-        "answer_state": ["已做", "未做", "当前"]
+        "answer_result": ["Correct", "Incorrect", "Partially Correct"],
+        "answer_state": ["Done", "Not Done", "Current"]
       }
     },
     "question_bottom_group": {
       "check_bottom_group": {
         "checkLabel": {
-          "true": "卷面得分",
-          "false": "卷面评级"
+          "true": "Paper Score",
+          "false": "Paper Rating"
         },
         "actualLabel": {
-          "true": "最终成绩",
-          "false": "最终评级"
+          "true": "Final Score",
+          "false": "Final Rating"
         },
         "input_group": {
-          "placeholder": "请输入得分"
+          "placeholder": "Please enter the score"
         },
         "grade_type_cn": {
-          "grade_type": ["优", "良", "中", "差"]
+          "grade_type": ["Excellent", "Good", "Average", "Poor"]
         },
         "return": {
-          "click_final_score": "计算总分",
-          "check_count_check_sum": "已批阅：{{checkCount}}/{{checkSum}}",
-          "grade_gauge": "评价量规",
+          "click_final_score": "Calculate Total Score",
+          "check_count_check_sum": "Reviewed: {{checkCount}}/{{checkSum}}",
+          "grade_gauge": "Evaluation Gauge",
           "btn_group": {
-            "pre": "上一题",
-            "next": "下一题",
-            "submit": "提交批阅"
+            "pre": "Previous Question",
+            "next": "Next Question",
+            "submit": "Submit Review"
           },
           "check_remind": {
-            "is_checking": "*本卷批阅已提交，任何修改均即时保存",
-            "is_teacher_recheck": "*当前为复核模式，教师修改题目的得分会覆盖学生的批阅并固化最终成绩",
-            "punishment_Value": "未完成{{mark_mode}}扣分: {{punishmentValue}}",
-            "mark_mode": ["自评", "互评"]
+            "is_checking": "*This paper review has been submitted, any modifications are saved immediately",
+            "is_teacher_recheck": "*Currently in recheck mode, teacher's modifications to the score of the question will override the student's review and solidify the final score",
+            "punishment_Value": "Points deducted for unfinished {{mark_mode}}: {{punishmentValue}}",
+            "mark_mode": ["Self-evaluation", "Peer-evaluation"]
           }
         }
       },
       "make_bottom_group": {
-        "single": "逐题互动",
-        "random1": "*当前答卷题目乱序，每次进入都会重新随机",
-        "random2": "*完成答题后请点击“提交”",
-        "left": "上一题",
-        "right": "下一题",
+        "single": "Sequential Interaction",
+        "random1": "*The current answer sheet is randomly ordered, it will be randomly reordered each time you enter",
+        "random2": "*Please click 'Submit' after finishing answering",
+        "left": "Previous Question",
+        "right": "Next Question",
         "is_after_submit": {
-          "true": "补交",
-          "false": "提交"
+          "true": "Late Submission",
+          "false": "Submit"
         }
       },
       "preview_bottom_group": {
         "check_remind": {
-          "span1": "*逐题模式主要用于教师在课堂上引导并控制学生答题，学生无法在截止前自行切换题目、重新答题，限制学生提前查看到课堂练习内容，因此：",
-          "span2": "不建议在课堂外使用逐题模式！",
-          "span3": "当前答卷题目乱序，每次进入都会重新随机"
+          "span1": "*Sequential mode is mainly used for teachers to guide and control student answering in class. Students cannot switch questions or re-answer on their own before the deadline, and they are restricted from viewing the classroom exercise content in advance, therefore:",
+          "span2": "It is not recommended to use sequential mode outside of class!",
+          "span3": "The current answer sheet is randomly ordered, it will be randomly reordered each time you enter"
         },
-        "collect": "收录",
-        "left": "上一题",
-        "right": "下一题"
+        "collect": "Collect",
+        "left": "Previous Question",
+        "right": "Next Question"
       }
     },
     "question_check_annotations": {
       "render_teacher_comments": {
         "answer_collapse": {
-          "text": "批注",
-          "placeholder": "请输入批注"
+          "text": "Annotation",
+          "placeholder": "Please enter annotation"
         }
       },
       "render": {
-        "title": "批注"
+        "title": "Annotation"
       }
     },
     "question_check_comments": {
       "render_teacher_comments": {
         "checker_comment": {
-          "placeholder": "请输入评语"
+          "placeholder": "Please enter comments"
         }
       },
       "render": {
-        "title": "全卷评语"
+        "title": "Overall Comments"
       }
     },
     "question_gauge_grade": {
       "render": {
-        "title": "Q{{quesIndex}}评价量规",
+        "title": "Q{{quesIndex}} Evaluation Gauge",
         "content": {
-          "span": "评分"
+          "span": "Scoring"
         }
       }
     },
     "questions": {
       "answer_collapse": {
-        "bar_comment": "更多"
+        "bar_comment": "More"
       },
       "answer_correct_collapse": {
-        "collapse_title": "卷面{{text}}"
+        "collapse_title": "Paper {{text}}"
       },
       "checker_collapse": {
-        "check_mode": "评阅方式: {{text}}",
+        "check_mode": "Review Method: {{text}}",
         "ques_score_desc": {
-          "true": "当前复核{{text}}",
-          "false": "当前平均{{text}}"
+          "true": "Current recheck {{text}}",
+          "false": "Current average {{text}}"
         },
-        "check_user_name": " 批阅人：{{check_user_name}}",
-        "span": "卷面{{text}}"
+        "check_user_name": " Reviewer: {{check_user_name}}",
+        "span": "Paper {{text}}"
       },
       "checker_comment": {
         "modal": {
-          "text": "趣味评语"
+          "text": "Fun Comments"
         }
       },
       "correct_collapse": {
         "correct_obj": {
-          "true": "正确",
-          "false": "错误"
+          "true": "Correct",
+          "false": "Incorrect"
         },
-        "empty_value": "未设置",
+        "empty_value": "Not Set",
         "multiple_subject": {
-          "correct_value": "选项{{length}}"
+          "correct_value": "Option {{length}}"
         },
         "gap_subject": {
-          "correct_value": "填空{{index}}:{{answer}}"
+          "correct_value": "Gap Fill {{index}}:{{answer}}"
         },
         "estimate_subject": {
-          "correct_value": "未设置"
+          "correct_value": "Not Set"
         },
         "sort_subject": {
-          "correct_value": "选项{{text}}"
+          "correct_value": "Option {{text}}"
         },
         "match_subject": {
           "view_item": {
-            "label": "选项{{text}}",
-            "children": "匹配项 {{text}}"
+            "label": "Option {{text}}",
+            "children": "Matching Item {{text}}"
           }
         },
         "program_subject": {
-          "language": "编程语言",
-          "correct_value": "未设置答案"
+          "language": "Programming Language",
+          "correct_value": "Answer Not Set"
         }
       },
       "use_case_collapse": {
         "generate_use_case": {
           "show_output": {
-            "default_value": "未知错误"
+            "default_value": "Unknown Error"
           },
-          "example": "测试用例{{index}}",
-          "time": "运行时间：{{time}}ms",
-          "memory": "运行内存：{{memory}}kb",
+          "example": "Test Case {{index}}",
+          "time": "Running Time: {{time}}ms",
+          "memory": "Running Memory: {{memory}}kb",
           "textarea_item": {
-            "1": "输入",
-            "2": "预期输出",
-            "3": "实际输出"
+            "1": "Input",
+            "2": "Expected Output",
+            "3": "Actual Output"
           }
         }
       },
       "questions": {
         "message_type_mapper": {
-          "1": "请选择答案！",
-          "2": "请选择答案！",
-          "4": "请输入答案！",
-          "5": "请选择答案！",
-          "6": "请输入答案！",
-          "7": "请上传附件",
-          "8": "请选择！",
-          "9": "请选择答案！",
-          "10": "请输入程序！",
-          "11": "请选择评价！",
-          "12": "请选择答案！",
-          "13": "请选择答案！"
+          "1": "Please select an answer!",
+          "2": "Please select an answer!",
+          "4": "Please enter an answer!",
+          "5": "Please select an answer!",
+          "6": "Please enter an answer!",
+          "7": "Please upload an attachment",
+          "8": "Please select!",
+          "9": "Please select an answer!",
+          "10": "Please enter a program!",
+          "11": "Please select an evaluation!",
+          "12": "Please select an answer!",
+          "13": "Please select an answer!"
         },
         "handle_submit_paper_modal": {
-          "content": "是否结束作答并提交结果",
-          "ok": "是",
-          "cancel": "否"
+          "content": "Do you want to finish answering and submit the results",
+          "ok": "Yes",
+          "cancel": "No"
         }
       }
     },
     "subject_comp": {
       "attach_subject": {
         "handle_play": {
-          "info": "资源文件已被删除，无法预览"
+          "info": "The resource file has been deleted and cannot be previewed"
         },
         "handle_by_react_native": {
-          "info1": "视频转码中，可稍后尝试点击进入播放！",
-          "info2": "暂不支持此类文件预览"
+          "info1": "The video is being transcoded, you can try to click to play later!",
+          "info2": "Preview of this type of file is not supported"
         },
         "render_file_list": {
-          "show_delete": "资源文件已被删除,不能预览或下载!",
-          "error": "上传失败"
+          "show_delete": "The resource file has been deleted, cannot be previewed or downloaded!",
+          "error": "Upload Failed"
         },
         "render_empty": {
-          "no_file": "未上传附件"
+          "no_file": "No attachment uploaded"
         },
         "render_preview": {
-          "div": "请选择文件上传",
-          "span": "最多支持上传9个文件，单个文件最大限制200M"
+          "div": "Please select a file to upload",
+          "span": "Supports uploading up to 9 files, with a maximum limit of 200M per file"
         },
         "render_disabled_upload": {
           "is_max_upload": {
-            "true": "已经上传满9个文件，不能再继续上传",
-            "false": "正在上传中，请稍后再试"
+            "true": "You have already uploaded 9 files, you cannot continue to upload",
+            "false": "Uploading, please try again later"
           }
         },
         "render_remark": {
           "textarea": {
-            "placeholder": "请输入答题说明或备注，并在上方上传附件"
+            "placeholder": "Please enter answering instructions or remarks, and upload attachments above"
           }
         },
         "render_uploader": {
-          "span1": "上传文件",
-          "span2": "最多支持上传9个文件，单个文件最大限制200M"
+          "span1": "Upload File",
+          "span2": "Supports uploading up to 9 files, with a maximum limit of 200M per file"
         }
       },
       "gap_subject": {
         "textarea_item": {
-          "placeholder": "{{index}}.在此处输入答案",
-          "placeholder2": "{{index}}.未作答"
+          "placeholder": "{{index}}.Enter your answer here",
+          "placeholder2": "{{index}}.Not answered"
         }
       },
       "match_subject": {
         "render": {
-          "tips": "*请选择对应的匹配项",
-          "placeholder": "未作答"
+          "tips": "*Please select the corresponding matching item",
+          "placeholder": "Not answered"
         }
       },
       "multiple_subject": {
-        "index": "其他",
+        "index": "Other",
         "textarea_item": {
-          "placeholder": "请输入其他内容"
+          "placeholder": "Please enter other content"
         }
       },
       "program_subject": {
         "handle_debug": {
-          "info1": "请先作答",
-          "info2": "请输入代码",
-          "debug_info": "运行时间超限"
+          "info1": "Please answer first",
+          "info2": "Please enter the code",
+          "debug_info": "Running time exceeded"
         },
         "handle_case": {
-          "info1": "请先作答",
-          "info2": "请输入代码",
+          "info1": "Please answer first",
+          "info2": "Please enter the code",
           "program_case": {
             "true": {
-              "score_info": "{{got_score}}/{{score}}分"
+              "score_info": "{{got_score}}/{{score}} points"
             },
             "false": {
-              "case_info": "编译运行错误\n",
-              "score_info": "{{got_score}}/{{score}}分"
+              "case_info": "Compilation/Execution Error\n",
+              "score_info": "{{got_score}}/{{score}} points"
             }
           }
         },
         "render": {
           "segment_str": {
-            "run_case": "运行用例",
-            "debug": "运行程序"
+            "run_case": "Run Case",
+            "debug": "Run Program"
           },
           "picker": {
-            "title": "语言选择",
-            "program_type": "编程语言"
+            "title": "Language Selection",
+            "program_type": "Programming Language"
           },
           "program_config": {
-            "span1": "时间限制：{{max_time}}ms",
-            "span2": "内存限制：{{max_memory}}KB"
+            "span1": "Time Limit: {{max_time}}ms",
+            "span2": "Memory Limit: {{max_memory}}KB"
           },
           "segmented_control": {
-            "span1": "“运行用例”验证程序是否通过，所有用例都通过则为通过",
-            "span2": "剩余运行用例次数："
+            "span1": "\"Run Case\" verifies whether the program passes, if all cases pass, then it passes",
+            "span2": "Remaining Run Case Times:"
           },
           "info": {
-            "span1": "“运行程序”提供试运行程序功能，可自行输入参数",
-            "span2": "剩余运行程序次数："
+            "span1": "\"Run Program\" provides a trial run program function, you can enter parameters yourself",
+            "span2": "Remaining Run Program Times:"
           },
           "debug_content": {
             "textarea_item": {
-              "placeholder": "输入参数"
+              "placeholder": "Enter Parameters"
             },
             "debug_info": {
               "textarea_item": {
-                "placeholder": "输出"
+                "placeholder": "Output"
               }
             },
-            "button": "运行",
+            "button": "Run",
             "run_state": [
-              "运行成功",
-              "运行完成：内存超限",
-              "运行完成：时间超限",
-              "运行完成：内存、时间超限",
-              "运行完成：编译/运行错误"
+              "Run Successful",
+              "Run Completed: Memory Exceeded",
+              "Run Completed: Time Exceeded",
+              "Run Completed: Memory and Time Exceeded",
+              "Run Completed: Compilation/Execution Error"
             ],
             "debug_case": {
-              "span1": "通过",
-              "span2": "未通过",
-              "span3": "本次得分 / 总分：{{scoreInfo}}"
+              "span1": "Passed",
+              "span2": "Not Passed",
+              "span3": "This Time Score / Total Score: {{scoreInfo}}"
             }
           }
         }
       },
       "single_subject": {
         "generate_options": {
-          "index": "其他",
+          "index": "Other",
           "textarea_item": {
-            "placeholder": "请输入其他内容"
+            "placeholder": "Please enter other content"
           }
         }
       },
       "subjective_subject": {
         "render": {
           "draft_editor": {
-            "placeholder": "在此处输入答案",
-            "placeholder2": "未作答"
+            "placeholder": "Enter your answer here",
+            "placeholder2": "Not Answered"
           }
         }
       },
       "vote_subject": {
         "generate_options": {
           "textarea_item": {
-            "placeholder": "请输入其他内容"
+            "placeholder": "Please enter other content"
           }
         }
       }
@@ -560,86 +560,91 @@
     "get_course_task_flow_saga": {
       "flow_type": {
         "1": {
-          "tag": "未参与",
-          "description": "起始时间：{{time}}"
+          "tag": "Not Participated",
+          "description": "Start Time: {{time}}"
         },
         "2": {
-          "tag": "未提交",
-          "description": "截止时间：{{time}}"
+          "tag": "Not Submitted",
+          "description": "Deadline: {{time}}"
         },
         "3": {
-          "description": "发回时间：{{time}}"
+          "description": "Return Time: {{time}}"
         },
         "4": {
-          "description": "提交时间：{{time}}"
+          "description": "Submission Time: {{time}}"
         },
         "5": {
-          "tag": "未完成",
-          "description": "截止时间：{{time}}"
+          "tag": "Not Completed",
+          "description": "Deadline: {{time}}"
         },
         "6": {
-          "tag": "未完成",
-          "description": "截止时间：{{time}}"
+          "tag": "Not Completed",
+          "description": "Deadline: {{time}}"
         },
         "8": {
-          "description1": "不公布",
-          "description2": "提交后公布",
-          "description3": "公布时间：",
-          "description4": "批阅后公布"
+          "description1": "Not Published",
+          "description2": "Published After Submission",
+          "description3": "Publication Time: ",
+          "description4": "Published After Review"
         }
       },
       "reject_node": {
-        "title": "发回（第{{reject_times}}次）"
+        "title": "Returned ({{reject_times}} times)"
       }
     },
     "get_mark_record_saga": {
-      "check_user_name": "综合评分"
+      "check_user_name": "Comprehensive Score"
     },
     "reject_answer_record_saga": {
-      "info": "没有需要批改的答卷"
+      "info": "No papers need to be graded"
     },
     "republic_survey_paper_saga": {
-      "info1": "更新成功！已对提交批改过的客观题重新批阅",
-      "info2": "更新成功！修改的题目中包含主观题，请自行决定是否对已批改的主观题手动校正。"
+      "info1": "Update successful! The objective questions that have been submitted for grading have been re-graded",
+      "info2": "Update successful! The modified questions include subjective questions, please decide whether to manually correct the graded subjective questions."
     },
     "setQuestionAnswerSaga": {
-      "info": "答案提交成功"
+      "info": "Answer submitted successfully"
     }
   },
   "utils": {
     "get_check_status_str": {
       "cn": {
-        "0": "未批阅",
-        "1": "已发回",
-        "2": "提交中",
-        "3": "已批阅"
+        "0": "Not Reviewed",
+        "1": "Returned",
+        "2": "Submitting",
+        "3": "Reviewed"
       },
-      "textTemp": ["学生自评", "学生互评", "教师批阅", "自动批阅"]
+      "textTemp": [
+        "Self-evaluation by Students",
+        "Peer Review by Students",
+        "Review by Teacher",
+        "Automatic Review"
+      ]
     },
     "judge_answer_can_exam": {
       "content": {
-        "0": "提交",
-        "1": "提交中",
-        "2": "已提交",
-        "3": "重新答题",
-        "4": "已提交",
-        "5": "已提交",
-        "6": "第{{expr}}次提交",
-        "7": "已提交",
-        "8": "提交",
-        "9": "已截止"
+        "0": "Submit",
+        "1": "Submitting",
+        "2": "Submitted",
+        "3": "Re-answer",
+        "4": "Submitted",
+        "5": "Submitted",
+        "6": "{{expr}}th Submission",
+        "7": "Submitted",
+        "8": "Submit",
+        "9": "Deadline Passed"
       },
       "notice": {
-        "0": "由于答卷已被人工批阅，不能重新答题",
-        "1": "剩余提交次数：{{expr}} ",
-        "2": "*答题次数已经用完，不能重新答题",
-        "3": "剩余提交次数：{{expr}} "
+        "0": "Cannot re-answer as the paper has been manually graded",
+        "1": "Remaining Submission Times: {{expr}} ",
+        "2": "*The number of answering times has been used up, cannot re-answer",
+        "3": "Remaining Submission Times: {{expr}} "
       },
-      "title": "已经提交{{submit_limit}}次，无法继续提交"
+      "title": "Already submitted {{submit_limit}} times, cannot continue to submit"
     },
     "get_check_result_text": {
-      "level": "评级：{{level}}",
-      "score": "评分：{{score}}"
+      "level": "Rating: {{level}}",
+      "score": "Score: {{score}}"
     }
   }
 }

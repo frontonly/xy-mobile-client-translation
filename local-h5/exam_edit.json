@@ -1,454 +1,454 @@
 {
   "header": {
-    "paper_changed": "发布更新"
+    "paper_changed": "Published Update"
   },
   "setting_tab": {
     "handle_on_sort": {
       "modal_alert1": {
-        "message": "任务已发布，不能修改题目顺序",
-        "text": "我知道了"
+        "message": "Task has been published, cannot modify the question order",
+        "text": "I understand"
       },
       "modal_alert2": {
-        "message": "题目均已按题型归类排序，无需整理",
-        "text": "我知道了"
+        "message": "All questions have been sorted by type, no need to organize",
+        "text": "I understand"
       },
       "modal_alert3": {
-        "message": "是否确定将所有题目按题型整理",
-        "f": "取消",
-        "t": "确认"
+        "message": "Are you sure you want to organize all questions by type",
+        "f": "Cancel",
+        "t": "Confirm"
       }
     },
     "render": {
-      "random": "选项随机",
-      "question_random": "题目乱序",
+      "random": "Option Random",
+      "question_random": "Question Shuffle",
       "grade_type": {
-        "t": "分数",
-        "f": "评级",
-        "text": "评分方式"
+        "t": "Score",
+        "f": "Rating",
+        "text": "Scoring Method"
       },
       "question_score_type": {
-        "label1": "宽松计分",
-        "label2": "严格计分",
-        "text": "判分模式",
-        "info": "可以为试卷内的多选题和排序题设定判分模式：\n宽松计分模式：①多选题将根据选中正确选项的数量进行判分。若选中错误选项，得零分。\n②排序题根据排序正确的数量打分，每一项的分值根据题目总分值、排序数量取平均分。\n严格计分模式：只有全部选项正确或排序正确的答案才会得分，出现任何不正确的选项或排序都将导致该题得零分。"
+        "label1": "Loose Scoring",
+        "label2": "Strict Scoring",
+        "text": "Scoring Mode",
+        "info": "You can set the scoring mode for multiple-choice questions and ordering questions in the test paper:\nLoose scoring mode: ① Multiple-choice questions will be scored based on the number of correct options selected. If a wrong option is selected, zero points will be awarded.\n② Ordering questions are scored based on the number of correct orders, and the score of each item is averaged based on the total score of the question and the number of orders.\nStrict scoring mode: Only answers with all options correct or order correct will be scored, any incorrect options or orders will result in zero points for the question."
       }
     }
   },
   "grade_type": {
-    "title1": "评分方式",
-    "title2": "评级方式",
-    "label1": "分数",
-    "label2": "评级",
+    "title1": "Scoring Method",
+    "title2": "Rating Method",
+    "label1": "Score",
+    "label2": "Rating",
     "label3": "ABCDE",
-    "label4": "优良中差",
-    "label5": "优",
-    "label6": "良",
-    "label7": "中",
-    "label8": "差",
-    "label9": "得分率≥",
-    "label10": ">得分率≥",
-    "label11": "评级使用规则提示",
-    "label12": "本卷总分{{total_score}}分，系统将采用此处设置的得分比例与评级进行对应\n              注意此处设置的对应关系适用于整卷及所有试题，试题的分数设置不同可体现其在全卷中的不同比重"
+    "label4": "Excellent, Good, Average, Poor",
+    "label5": "Excellent",
+    "label6": "Good",
+    "label7": "Average",
+    "label8": "Poor",
+    "label9": "Score Rate ≥",
+    "label10": "> Score Rate ≥",
+    "label11": "Rating Use Rule Tips",
+    "label12": "The total score of this volume is {{total_score}} points, and the system will correspond to the score ratio and rating set here\nPlease note that the correspondence set here applies to the whole volume and all questions, and the different score settings of the questions can reflect their different weights in the whole volume"
   },
   "main": {
     "header_title": {
-      "a": "编辑作业/测练",
-      "b": "设置",
-      "c": "预览"
+      "a": "Edit Homework/Exercise",
+      "b": "Settings",
+      "c": "Preview"
     },
     "tabs_title": {
-      "a": "题目",
-      "b": "设置",
-      "c": "预览"
+      "a": "Questions",
+      "b": "Settings",
+      "c": "Preview"
     },
     "modal_alert": {
-      "title": "提示",
-      "message1": "本作业/测练在发布后内容发生了更改,需要更新发布后才可对学生立即生效。如果修改了客观题的答案或分值，在更新发布后还会触发重新自动批阅，是否立即更新发布？",
-      "message2": "提示：检测到修改了题目分值，对于手动批改打分的题目，需要重新复核得分以适配新的分值设置。",
-      "t": "确定",
-      "f": "取消"
+      "title": "Tips",
+      "message1": "The content of this homework/exercise has changed after publication. It needs to be updated after publication to take effect immediately for students. If the answer or score of the objective question is modified, it will also trigger a re-automatic marking after the update is published. Do you want to update it now?",
+      "message2": "Tip: Detected that the question score has been modified, for manually graded questions, you need to re-review the score to adapt to the new score setting.",
+      "t": "Confirm",
+      "f": "Cancel"
     }
   },
   "subject_tab": {
-    "btn_add": "+添加题目",
+    "btn_add": "+Add Question",
     "subject": {
-      "single": "单选题",
-      "multiple": "多选题",
-      "gap": "填空题",
-      "estimate": "判断题",
-      "subjective": "简答题",
-      "attach": "附件题",
-      "vote": "投票题",
-      "group": "题组题",
-      "scale": "量表题"
+      "single": "Single Choice Question",
+      "multiple": "Multiple Choice Question",
+      "gap": "Fill in the Blanks",
+      "estimate": "True or False",
+      "subjective": "Short Answer Question",
+      "attach": "Attachment Question",
+      "vote": "Voting Question",
+      "group": "Group Question",
+      "scale": "Scale Question"
     },
-    "manual": { "placeholder": "添加问答说明" },
+    "manual": { "placeholder": "Add Q&A Explanation" },
     "list": {
       "subject_comp": {
-        "0": "空题",
-        "1": "单选题",
-        "2": "多选题",
-        "4": "填空题",
-        "5": "判断题",
-        "6": "简答题",
-        "7": "附件题",
-        "8": "投票题",
-        "9": "题组题",
-        "10": "程序题",
-        "11": "量表题",
-        "12": "排序题",
-        "13": "匹配题",
-        "changed": "题目被修改，需要更新发布后生效",
-        "score": "（分值：{{score}}）",
-        "edit": "编辑",
-        "copy": "复制",
-        "up": "上移",
-        "down": "下移",
-        "delete": "删除"
+        "0": "Empty Question",
+        "1": "Single Choice Question",
+        "2": "Multiple Choice Question",
+        "4": "Fill in the Blanks",
+        "5": "True or False",
+        "6": "Short Answer Question",
+        "7": "Attachment Question",
+        "8": "Voting Question",
+        "9": "Group Question",
+        "10": "Programming Question",
+        "11": "Scale Question",
+        "12": "Ordering Question",
+        "13": "Matching Question",
+        "changed": "The question has been modified and needs to be updated to take effect",
+        "score": "(Score: {{score}})",
+        "edit": "Edit",
+        "copy": "Copy",
+        "up": "Move Up",
+        "down": "Move Down",
+        "delete": "Delete"
       },
       "single": {
-        "other": "其他"
+        "other": "Other"
       },
       "multiple": {
-        "other": "其他"
+        "other": "Other"
       },
       "gap": {
-        "index": "填空{{index}}：",
-        "placeholder": "请输入"
+        "index": "Blank {{index}}:",
+        "placeholder": "Please enter"
       },
       "estimate": {
-        "info": "（答案）"
+        "info": "(Answer)"
       },
       "subjective": {
-        "placeholder": "请输入"
+        "placeholder": "Please enter"
       },
       "attach": {
-        "info": "每位答题者至多上传9个文件，单个文件最大限制200M"
+        "info": "Each respondent can upload up to 9 files, with a maximum limit of 200M per file"
       },
       "vote": {
-        "other": "其他"
+        "other": "Other"
       },
       "modal_alert1": {
-        "title": "提示",
-        "message": "是否确定删除当前题目？",
-        "t": "确定",
-        "f": "取消"
+        "title": "Tip",
+        "message": "Are you sure to delete the current question?",
+        "t": "Confirm",
+        "f": "Cancel"
       },
       "modal_alert2": {
-        "title": "提示",
-        "message": "移动端暂不支持编辑此题型，如需编辑请使用电脑访问小雅",
-        "t": "知道了"
+        "title": "Tip",
+        "message": "The mobile terminal does not support editing this type of question. If you need to edit, please visit Xiaoya on your computer",
+        "t": "Got it"
       }
     },
     "attribute": {
       "single": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           },
-          "other": "其他",
-          "placeholder": "请输入内容",
-          "add_other": "+添加其他选项",
-          "add_item": "+添加单个选项"
+          "other": "Other",
+          "placeholder": "Please enter the content",
+          "add_other": "+Add Other Options",
+          "add_item": "+Add Single Option"
         },
         "setup": {
-          "title": "设置",
-          "type_change": "切换为多选题",
-          "score": "题目分数",
-          "required": "此题必答",
-          "level": "难度",
+          "title": "Settings",
+          "type_change": "Switch to Multiple Choice Question",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "level": "Difficulty",
           "ai": {
-            "name": "答案解析（教师）",
-            "gen": "智能生成",
-            "info1": "温馨提示",
-            "info2": "大语言模型的回答不一定完全正确，请在参考时保持审慎和批判性思维"
+            "name": "Answer Analysis (Teacher)",
+            "gen": "Intelligent Generation",
+            "info1": "Friendly Reminder",
+            "info2": "The answer from the large language model may not be completely correct, please remain cautious and critical when referring to it."
           }
         },
         "modal_alert1": {
-          "title": "提示",
-          "message": "确认将当前单选题改为多选题？",
-          "t": "确定",
-          "f": "取消"
+          "title": "Reminder",
+          "message": "Are you sure you want to change the current single-choice question to a multiple-choice question?",
+          "t": "Confirm",
+          "f": "Cancel"
         },
         "modal_alert2": {
-          "title": "当前任务已经发布，其评分方式设置为评级，此时不建议修改题目分值",
-          "message": "修改题目分值后，需要重新批阅。如果原批阅的得分没有同步修正，可能会造成评级发生改变。请慎重操作。\\n\" +\n          \"是否仍要修改题目总分？",
-          "t": "确定",
-          "f": "取消"
+          "title": "The current task has been published, and its scoring method is set to grading. It is not recommended to modify the question score at this time.",
+          "message": "After modifying the question score, it needs to be re-graded. If the original grading score is not corrected synchronously, it may cause a change in grading. Please operate carefully. \\n\" +\n          \"Do you still want to modify the total score of the question?",
+          "t": "Confirm",
+          "f": "Cancel"
         }
       },
       "multiple": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           },
-          "other": "其他",
-          "placeholder": "请输入内容",
-          "add_other": "+添加其他选项",
-          "add_item": "+添加单个选项"
+          "other": "Other",
+          "placeholder": "Please enter content",
+          "add_other": "+Add Other Options",
+          "add_item": "+Add Single Option"
         },
         "setup": {
-          "title": "设置",
-          "type_change": "切换为多选题",
-          "score": "题目分数",
-          "required": "此题必答",
-          "level": "难度",
+          "title": "Settings",
+          "type_change": "Switch to Multiple Choice Question",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "level": "Difficulty",
           "max_choice_num": {
-            "name": "最多选择项数",
-            "label": "不限"
+            "name": "Maximum Number of Choices",
+            "label": "Unlimited"
           },
           "ai": {
-            "name": "答案解析（教师）",
-            "gen": "智能生成",
-            "info1": "温馨提示",
-            "info2": "大语言模型的回答不一定完全正确，请在参考时保持审慎和批判性思维"
+            "name": "Answer Analysis (Teacher)",
+            "gen": "Intelligent Generation",
+            "info1": "Friendly Reminder",
+            "info2": "The answer from the large language model may not be completely correct, please remain cautious and critical when referring to it."
           }
         },
         "modal_alert1": {
-          "title": "提示",
-          "message": "确认将当前多选题改为单选题？改变后答案将被取消，须重新设置",
-          "t": "确定",
-          "f": "取消"
+          "title": "Reminder",
+          "message": "Are you sure you want to change the current multiple-choice question to a single-choice question? After changing, the answer will be cancelled and must be reset.",
+          "t": "Confirm",
+          "f": "Cancel"
         }
       },
       "gap": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           },
-          "item_index": "填空{{index}}",
-          "add_item": "+添加单个填空项"
+          "item_index": "Blank {{index}}",
+          "add_item": "+Add Single Blank Item"
         },
         "setup": {
-          "title": "设置",
-          "score": "题目分数",
-          "required": "此题必答",
+          "title": "Settings",
+          "score": "Question Score",
+          "required": "This question is mandatory",
           "item": {
-            "title": "填空{{index}}答案",
-            "toast_t": "需开启【答案支持多个】，具体说明可参考【答案支持多个】后的提示信息",
-            "toast_f": "需关闭【答案支持多个】，关闭后按照输入的答案进行批阅。若正确答案中带;，请使用此模式。",
-            "placeholder_t": "多个答案用\";\"分割",
-            "placeholder_f": "请在此输入正确答案"
+            "title": "Blank {{index}} Answer",
+            "toast_t": "You need to enable [Multiple Answers Supported], for specific instructions, please refer to the prompt information after [Multiple Answers Supported]",
+            "toast_f": "You need to disable [Multiple Answers Supported], after disabling, grading will be based on the inputted answer. If the correct answer contains a semicolon, please use this mode.",
+            "placeholder_t": "Multiple answers are separated by \";\"",
+            "placeholder_f": "Please enter the correct answer here"
           },
           "word_limit": {
-            "title": "字段限制",
-            "extra": "{{word_limit}}字"
+            "title": "Field Limit",
+            "extra": "{{word_limit}} words"
           },
           "auto_check": {
-            "title": "自动批阅"
+            "title": "Automatic Grading"
           },
           "multi_answer": {
-            "title": "答案支持多个",
-            "toast": "开启【答案支持多个】后每一个填空项可以设置多个答案，用\";\"分隔，如：答案一 ; 答案二。自动批改时，填空项将会匹配所对应的多个答案。例如：填空1的答案设置了三条，分别是“武汉”、“武汉市”、“江城”，学生答题时，填写的答案只要是任意其中一条即可判为正确。"
+            "title": "Multiple Answers Supported",
+            "toast": "After enabling [Multiple Answers Supported], each blank item can set multiple answers, separated by \";\", such as: Answer One ; Answer Two. During automatic grading, the blank item will match the corresponding multiple answers. For example, the answer to blank 1 has set three items, which are \"Wuhan\", \"Wuhan City\", and \"Jiangcheng\". When the student answers the question, as long as the written answer is any of the three, it will be judged as correct."
           },
           "automatic_type": {
             "a": {
-              "title": "答案完全匹配",
-              "toast": "学生答案与正确答案设置完全一样，才算正确，如：正确答案：武汉市学生答案：武汉自动批改时，该情况认为答题错误。"
+              "title": "Answer Completely Matches",
+              "toast": "The student's answer and the correct answer set are exactly the same to be correct, such as: Correct Answer: Wuhan City Student's Answer: Wuhan During automatic grading, this situation is considered as answering incorrectly."
             },
             "b": {
-              "title": "答案部分匹配",
-              "toast": "正确答案包含学生答案，即认为正确，如：正确答案：武汉市 学生答案：湖北武汉市 自动批改时，该情况认为答题正确。"
+              "title": "Answer Partially Matches",
+              "toast": "The correct answer contains the student's answer, so it is considered correct, such as: Correct Answer: Wuhan City Student's Answer: Hubei Wuhan City During automatic grading, this situation is considered as answering correctly."
             },
             "c": {
-              "title": "答案有序匹配",
-              "toast": "学生答案与正确答案设置顺序保持一致，才算正确，如：填空1答案：飞流直下三千尺 填空2答案：疑是银河落九天 学生答案1：疑是银河落九天 学生答案2：飞流直下三千尺 自动批改时，该情况认为答题错误。"
+              "title": "Answer Matches in Order",
+              "toast": "The student's answer and the correct answer set are in the same order to be correct, such as: Blank 1 Answer: The river falls three thousand feet Blank 2 Answer: It seems the Milky Way falls for nine days Student's Answer 1: It seems the Milky Way falls for nine days Student's Answer 2: The river falls three thousand feet During automatic grading, this situation is considered as answering incorrectly."
             },
             "d": {
-              "title": "答案无序匹配",
-              "toast": "学生答案与正确答案设置无需按顺序对应，如： 填空1答案：北京 填空2答案：天津 学生答案1：天津 学生答案2：北京 自动批改时，该情况认为答题正确。"
+              "title": "Answer Matches Out of Order",
+              "toast": "The student's answer and the correct answer set do not need to correspond in order, such as: Blank 1 Answer: Beijing Blank 2 Answer: Tianjin Student's Answer 1: Tianjin Student's Answer 2: Beijing During automatic grading, this situation is considered as answering correctly."
             },
             "extra_a": {
-              "t": "答案完全匹配",
-              "f": "答案部分匹配"
+              "t": "Answer Completely Matches",
+              "f": "Answer Partially Matches"
             },
             "extra_b": {
-              "t": "答案有序匹配",
-              "f": "答案无序匹配"
+              "t": "Answer Matches in Order",
+              "f": "Answer Matches Out of Order"
             }
           },
-          "level": "难度",
+          "level": "Difficulty",
           "ai": {
-            "name": "答案解析（教师）",
-            "gen": "智能生成",
-            "info1": "温馨提示",
-            "info2": "大语言模型的回答不一定完全正确，请在参考时保持审慎和批判性思维"
+            "name": "Answer Analysis (Teacher)",
+            "gen": "Intelligent Generation",
+            "info1": "Friendly Reminder",
+            "info2": "The answer from the large language model may not be completely correct, please remain cautious and critical when referring to it."
           }
         }
       },
       "estimate": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           }
         },
         "setup": {
-          "title": "设置",
-          "score": "题目分数",
-          "required": "此题必答",
-          "level": "难度",
+          "title": "Settings",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "level": "Difficulty",
           "ai": {
-            "name": "答案解析（教师）",
-            "gen": "智能生成",
-            "info1": "温馨提示",
-            "info2": "大语言模型的回答不一定完全正确，请在参考时保持审慎和批判性思维"
+            "name": "Answer Analysis (Teacher)",
+            "gen": "Intelligent Generation",
+            "info1": "Friendly Reminder",
+            "info2": "The answer from the large language model may not be completely correct, please remain cautious and critical when referring to it."
           }
         }
       },
       "subjective": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           }
         },
         "setup": {
-          "title": "设置",
-          "score": "题目分数",
-          "required": "此题必答",
-          "level": "难度",
+          "title": "Settings",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "level": "Difficulty",
           "ai": {
-            "name": "答案解析（教师）",
-            "gen": "智能生成",
-            "info1": "温馨提示",
-            "info2": "大语言模型的回答不一定完全正确，请在参考时保持审慎和批判性思维"
+            "name": "Answer Analysis (Teacher)",
+            "gen": "Intelligent Generation",
+            "info1": "Friendly Reminder",
+            "info2": "The answer from the large language model may not be completely correct, please remain cautious and critical when referring to it."
           }
         }
       },
       "attach": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           }
         },
         "setup": {
-          "title": "设置",
-          "score": "题目分数",
-          "required": "此题必答",
-          "level": "难度"
+          "title": "Settings",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "level": "Difficulty"
         },
         "ai": {
-          "name": "答案解析（教师）"
+          "name": "Answer Analysis (Teacher)"
         }
       },
       "vote": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "answer": {
-          "name": "答案",
+          "name": "Answer",
           "itemEmpty": {
-            "a": "【*此题尚未设置选项】",
-            "b": "【*此题正确答案设置未完成，无法自动批改】"
+            "a": "[*This question has not set options]",
+            "b": "[*The correct answer of this question has not been completed, automatic grading is not possible]"
           },
-          "other": "其他",
-          "placeholder": "请输入内容",
-          "add_other": "+添加其他选项",
-          "add_item": "+添加单个选项"
+          "other": "Other",
+          "placeholder": "Please enter content",
+          "add_other": "+Add Other Options",
+          "add_item": "+Add Single Option"
         },
         "setup": {
-          "title": "设置",
-          "level": "难度",
-          "score": "题目分数",
-          "required": "此题必答",
+          "title": "Settings",
+          "level": "Difficulty",
+          "score": "Question Score",
+          "required": "This question is mandatory",
           "type": {
-            "title": "题型",
-            "label1": "单选",
-            "label2": "多选"
+            "title": "Question Type",
+            "label1": "Single Choice",
+            "label2": "Multiple Choice"
           },
           "max_choice_num": {
-            "name": "最多选择项数",
-            "label": "不限"
+            "name": "Maximum Number of Choices",
+            "label": "Unlimited"
           },
           "ai": {
-            "name": "答案解析（教师）"
+            "name": "Answer Analysis (Teacher)"
           }
         }
       },
       "group": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "setup": {
-          "title": "设置",
-          "level": "难度",
-          "score": "题目分数",
-          "add_sub": "+添加小题"
+          "title": "Settings",
+          "level": "Difficulty",
+          "score": "Question Score",
+          "add_sub": "+Add Sub-question"
         }
       },
       "scale": {
         "title": {
-          "name": "题干",
-          "titleEmpty": "【*此题尚未设置题干内容】",
-          "placeholder": "请输入题干"
+          "name": "Stem",
+          "titleEmpty": "[*This question has not set stem content]",
+          "placeholder": "Please enter the stem"
         },
         "setup": {
-          "title": "设置",
-          "level": "难度",
-          "score": "题目分数",
-          "required": "此题必答",
-          "scale_setting": "量级设置",
+          "title": "Settings",
+          "level": "Difficulty",
+          "score": "Question Score",
+          "required": "This question is mandatory",
+          "scale_setting": "Scale Setting",
           "scale_type": {
-            "title": "量化标签",
-            "label1": "满意度",
-            "label2": "认同度",
-            "label3": "重要度",
-            "label4": "自定义"
+            "title": "Quantitative Label",
+            "label1": "Satisfaction",
+            "label2": "Agreement",
+            "label3": "Importance",
+            "label4": "Custom"
           },
           "scale_list": {
-            "title": "量级列表",
-            "placeholder": "可选填"
+            "title": "Scale List",
+            "placeholder": "Optional"
           },
           "show_style": {
-            "title": "显示样式"
+            "title": "Display Style"
           },
           "ai": {
-            "name": "答案解析（教师）"
+            "name": "Answer Analysis (Teacher)"
           }
         }
       }
